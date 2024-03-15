@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "proto1_kicad_art")(type "KiCad")(uri "/home/renze/Documents/Badge.team/WHY2025/test1/why2025/design/proto1_kicad_art")(options "")(descr ""))
+)

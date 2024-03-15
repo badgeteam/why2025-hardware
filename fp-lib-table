@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "proto1_kicad")(type "KiCad")(uri "${KIPRJMOD}/design/proto1_kicad")(options "")(descr ""))
+)
