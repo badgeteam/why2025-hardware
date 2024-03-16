@@ -637,7 +637,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -661,6 +661,24 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage rating",
+          "name": "Voltage rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Minimal voltage rating",
+          "name": "Minimal voltage rating",
           "show": false
         }
       ],
@@ -725,6 +743,10 @@
     [
       "1b21cacd-3ed4-4137-bf19-1f15d3ffa268",
       "Power"
+    ],
+    [
+      "44fda57d-f8c9-4d6b-8127-d170c04d09fe",
+      "Radio"
     ]
   ],
   "text_variables": {}
