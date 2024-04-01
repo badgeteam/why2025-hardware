@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "df375430-6e97-4619-936c-1e30865dee43")
 	(paper "A4")
+	(title_block
+		(date "2024-04-02")
+	)
 	(lib_symbols)
 	(hierarchical_label "HP_R"
 		(shape output)

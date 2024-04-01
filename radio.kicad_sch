@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "ce1e056f-e693-477c-bee0-88c497712905")
 	(paper "A4")
+	(title_block
+		(date "2024-04-02")
+	)
 	(lib_symbols
 		(symbol "power:+3.3V"
 			(power)
