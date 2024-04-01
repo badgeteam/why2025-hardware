@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ch32v003")(type "KiCad")(uri "${KIPRJMOD}/library/ch32v003.kicad_sym")(options "")(descr ""))
+  (lib (name "ch32v203")(type "KiCad")(uri "${KIPRJMOD}/library/ch32v203.kicad_sym")(options "")(descr ""))
+  (lib (name "custom-power")(type "KiCad")(uri "${KIPRJMOD}/library/custom-power.kicad_sym")(options "")(descr ""))
+  (lib (name "esp32-p4")(type "KiCad")(uri "${KIPRJMOD}/library/esp32-p4.kicad_sym")(options "")(descr ""))
+  (lib (name "keyboard")(type "KiCad")(uri "${KIPRJMOD}/library/keyboard.kicad_sym")(options "")(descr ""))
+)
