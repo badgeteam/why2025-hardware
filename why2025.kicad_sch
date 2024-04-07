@@ -12559,14 +12559,14 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
 		(at 82.55 90.17)
-		(size 17.78 15.24)
+		(size 17.78 30.48)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -12586,7 +12586,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 82.55 105.9946 0)
+			(at 82.55 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12675,6 +12675,56 @@
 			)
 			(uuid "a1b9897e-d271-406b-9175-91786ef52f58")
 		)
+		(pin "P4HP_EN" input
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "54812c0c-3db3-4d75-8354-23c656250c77")
+		)
+		(pin "P4HP_FB" output
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a228a8f0-39d7-4e8c-8eb7-4bd4e25817f6")
+		)
+		(pin "KEYBOARD" input
+			(at 100.33 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8209a314-93db-4f39-ac5d-42f21fe0fe92")
+		)
+		(pin "VLED_EN" input
+			(at 100.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1f3b04b8-4e9b-4593-bc2b-8c6544509048")
+		)
+		(pin "DISPLAY" input
+			(at 100.33 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "388dce09-596b-404b-97e2-5436ed7d394c")
+		)
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
@@ -12738,6 +12788,45 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 217.17 73.66)
+		(size 39.37 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "3d60835a-4261-467a-b239-9fb76f6e13a1")
+		(property "Sheetname" "Application processor"
+			(at 217.17 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32p4.kicad_sch"
+			(at 217.17 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
+					(page "2")
 				)
 			)
 		)
