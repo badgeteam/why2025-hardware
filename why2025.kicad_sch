@@ -11834,95 +11834,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Micro_SD_Card")
-		(at 250.19 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e782b9c0-f08f-48e4-8bfe-ef0695fd4dcd")
-		(property "Reference" "J8"
-			(at 250.825 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Micro_SD_Card"
-			(at 250.825 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "library:SD_Card-micro_socket_A"
-			(at 279.4 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micro SD Card Socket"
-			(at 250.19 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "493bd6e1-487d-47df-a43a-51a8b2b246a8")
-		)
-		(pin "8"
-			(uuid "9d35d972-1c7e-4f87-b5f8-160e921c6361")
-		)
-		(pin "1"
-			(uuid "d4c980ad-5268-4d75-ab20-2e98b193af6b")
-		)
-		(pin "2"
-			(uuid "52f897eb-753e-46d3-bd1d-28f0ad606038")
-		)
-		(pin "3"
-			(uuid "de4e29e8-afd4-4f7c-a38f-2522119500c1")
-		)
-		(pin "4"
-			(uuid "3511ca31-81f5-471e-afdf-856d77971b41")
-		)
-		(pin "7"
-			(uuid "91de2fe3-9a82-46b6-9ece-6a4a88a2654a")
-		)
-		(pin "5"
-			(uuid "835d8cdf-fd14-4afd-88a6-7c11f4007119")
-		)
-		(pin "6"
-			(uuid "33abb3d2-cdd5-4e17-a30b-6a064ff9b384")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mch2021-rescue:C-Device")
 		(at 74.93 50.8 270)
 		(unit 1)
@@ -12340,6 +12251,95 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Micro_SD_Card")
+		(at 240.03 39.37 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f95383a6-11ea-4767-a86c-6bf386f5f021")
+		(property "Reference" "J8"
+			(at 239.395 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Micro_SD_Card"
+			(at 239.395 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:SD_Card-micro_socket_A"
+			(at 210.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micro SD Card Socket"
+			(at 240.03 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "a0282817-87d7-43ed-bef3-01566ee84140")
+		)
+		(pin "8"
+			(uuid "b3a37763-8583-4df1-842a-73ec6473805b")
+		)
+		(pin "1"
+			(uuid "909c4a49-13f2-4aa0-a397-e7fe92b759e4")
+		)
+		(pin "2"
+			(uuid "e7515f76-3eb3-4632-939b-a3ad49ebaaa2")
+		)
+		(pin "3"
+			(uuid "12d1d276-76b5-44ee-8dee-2acaaef9fa30")
+		)
+		(pin "4"
+			(uuid "3d195e29-c473-42c9-83c5-d3968b54a2f2")
+		)
+		(pin "7"
+			(uuid "9816844c-a65f-4284-b97c-ad155caf5ffc")
+		)
+		(pin "5"
+			(uuid "b0ac94b5-1a8c-41e3-8980-18811b276493")
+		)
+		(pin "6"
+			(uuid "640def49-4ff2-4954-be5b-b86d010b57ec")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
+					(reference "J8")
 					(unit 1)
 				)
 			)
