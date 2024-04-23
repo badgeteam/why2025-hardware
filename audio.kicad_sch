@@ -8,6 +8,48 @@
 		(date "2024-04-02")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 140.97 82.55) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13232f93-d9de-45cc-b98e-5638566138f5")
+	)
+	(wire
+		(pts
+			(xy 140.97 80.01) (xy 140.97 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84671bba-302c-44c4-843d-691d1bd6e85c")
+	)
+	(wire
+		(pts
+			(xy 143.51 80.01) (xy 140.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf9512e9-b4d4-49dc-b705-31b68a1621ac")
+	)
+	(hierarchical_label "SPEAKER"
+		(shape output)
+		(at 143.51 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0504dd4d-867d-4371-b088-a43b625b7f84")
+	)
 	(hierarchical_label "HP_R"
 		(shape output)
 		(at 143.51 77.47 0)
@@ -19,6 +61,66 @@
 			(justify left)
 		)
 		(uuid "18afbf1a-0ff4-46ec-89d1-e337169edb34")
+	)
+	(hierarchical_label "I2S_MCLK"
+		(shape input)
+		(at 86.36 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "368a03b6-6312-41df-88da-749e6f7340e9")
+	)
+	(hierarchical_label "I2S_LRCK"
+		(shape input)
+		(at 86.36 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "476976b9-78a8-4cae-b788-27d006208fd6")
+	)
+	(hierarchical_label "I2S_SCLK"
+		(shape input)
+		(at 86.36 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "704bb146-299c-4fe1-91f3-1b24bf794b7b")
+	)
+	(hierarchical_label "HP_NC"
+		(shape input)
+		(at 143.51 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "806f33d3-85a5-4c97-bf4f-46dbaa93b1dd")
+	)
+	(hierarchical_label "I2S_DATA"
+		(shape input)
+		(at 86.36 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df80fc2e-2e08-43ee-85e9-8881a4351fed")
 	)
 	(hierarchical_label "HP_L"
 		(shape output)

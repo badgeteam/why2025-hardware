@@ -6165,6 +6165,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 64.77) (xy 48.26 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c80e310-17c7-4a2b-8a22-83c8ca0f9971")
+	)
+	(wire
+		(pts
 			(xy 128.27 135.89) (xy 133.35 135.89)
 		)
 		(stroke
@@ -6955,6 +6965,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 67.31) (xy 49.53 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4afd089-aade-4d00-8f00-6abd88992bda")
+	)
+	(wire
+		(pts
 			(xy 116.84 146.05) (xy 134.62 146.05)
 		)
 		(stroke
@@ -7191,6 +7211,18 @@
 			(justify right)
 		)
 		(uuid "a2a67902-b246-42b1-aea0-2e06179aadd9")
+	)
+	(hierarchical_label "PWR_BTN"
+		(shape output)
+		(at 48.26 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a839b8ca-f897-4082-a97d-53c53d3d5beb")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)

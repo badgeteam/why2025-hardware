@@ -1673,7 +1673,7 @@
 		)
 		(uuid "0a090d30-6315-459b-918c-477aee63e816")
 	)
-	(hierarchical_label "15"
+	(hierarchical_label "GPIO15"
 		(shape bidirectional)
 		(at 229.87 92.71 0)
 		(fields_autoplaced yes)
@@ -1733,7 +1733,7 @@
 		)
 		(uuid "4c830553-15e6-4292-9c89-65d6a11ce95f")
 	)
-	(hierarchical_label "3"
+	(hierarchical_label "GPIO3"
 		(shape bidirectional)
 		(at 69.85 77.47 180)
 		(fields_autoplaced yes)
@@ -1757,8 +1757,8 @@
 		)
 		(uuid "695375a0-28c5-464b-8b76-20881f4f3029")
 	)
-	(hierarchical_label "RX"
-		(shape bidirectional)
+	(hierarchical_label "UART_RX"
+		(shape input)
 		(at 229.87 67.31 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1769,7 +1769,7 @@
 		)
 		(uuid "70362374-e06c-464c-a23d-5f083d34c418")
 	)
-	(hierarchical_label "4"
+	(hierarchical_label "GPIO4"
 		(shape bidirectional)
 		(at 69.85 85.09 180)
 		(fields_autoplaced yes)
@@ -1781,8 +1781,8 @@
 		)
 		(uuid "77f109b8-65d3-4958-9033-f28e4e2417bb")
 	)
-	(hierarchical_label "TX"
-		(shape bidirectional)
+	(hierarchical_label "UART_TX"
+		(shape output)
 		(at 229.87 64.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1817,7 +1817,7 @@
 		)
 		(uuid "aae4fa34-2387-460c-a89b-02df24cdb322")
 	)
-	(hierarchical_label "2"
+	(hierarchical_label "GPIO2"
 		(shape bidirectional)
 		(at 69.85 74.93 180)
 		(fields_autoplaced yes)
@@ -1829,7 +1829,7 @@
 		)
 		(uuid "b11c393b-6b63-4a5f-b46a-e3182a073876")
 	)
-	(hierarchical_label "WAKEUP"
+	(hierarchical_label "INT"
 		(shape output)
 		(at 229.87 85.09 0)
 		(fields_autoplaced yes)
@@ -1877,7 +1877,7 @@
 		)
 		(uuid "c5bb495b-04ac-4a9a-b7fa-a66b2ef78710")
 	)
-	(hierarchical_label "10"
+	(hierarchical_label "GPIO10"
 		(shape bidirectional)
 		(at 229.87 90.17 0)
 		(fields_autoplaced yes)
@@ -1889,7 +1889,7 @@
 		)
 		(uuid "e0526032-6d5f-4708-8d3b-c92012919fcd")
 	)
-	(hierarchical_label "5"
+	(hierarchical_label "GPIO5"
 		(shape bidirectional)
 		(at 69.85 87.63 180)
 		(fields_autoplaced yes)
@@ -1901,7 +1901,7 @@
 		)
 		(uuid "e5e898bd-ecf8-41dd-8168-d20976dca07d")
 	)
-	(hierarchical_label "1"
+	(hierarchical_label "GPIO1"
 		(shape bidirectional)
 		(at 69.85 72.39 180)
 		(fields_autoplaced yes)
@@ -1913,7 +1913,7 @@
 		)
 		(uuid "f6091860-1b5d-4156-83d5-678dfc88cce1")
 	)
-	(hierarchical_label "0"
+	(hierarchical_label "GPIO0"
 		(shape bidirectional)
 		(at 69.85 69.85 180)
 		(fields_autoplaced yes)
