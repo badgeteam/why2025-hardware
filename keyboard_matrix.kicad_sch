@@ -468,6 +468,246 @@
 				)
 			)
 		)
+		(symbol "custom-power:+BL-KB"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BL-KB"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BL-KB\""
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BL-KB_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BL-KB_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "custom-power:-BL-KB"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-BL-KB"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-BL-KB\""
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-BL-KB_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "-BL-KB_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "keyboard:keyboard"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3961,6 +4201,12 @@
 		(uuid "052a45e2-de02-40f2-b10e-609ac770022c")
 	)
 	(junction
+		(at 30.48 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0676bc53-744a-4dd5-88ec-db226800fdfb")
+	)
+	(junction
 		(at 200.66 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4019,6 +4265,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1eab6e64-142e-4c06-8775-1bc324bb2d2e")
+	)
+	(junction
+		(at 30.48 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fe0a3cb-4a0f-452a-955b-25a69756c521")
 	)
 	(junction
 		(at 172.72 50.8)
@@ -4608,10 +4860,6 @@
 		(color 0 0 0 0)
 		(uuid "fe447040-121f-4913-ae37-b585ea80af05")
 	)
-	(no_connect
-		(at 161.29 97.79)
-		(uuid "78896e96-0dc9-408d-9f0d-febd5c332e3a")
-	)
 	(wire
 		(pts
 			(xy 66.04 93.98) (xy 66.04 96.52)
@@ -4771,6 +5019,16 @@
 			(type default)
 		)
 		(uuid "0c301918-897b-49fc-8463-20b59c95cc2d")
+	)
+	(wire
+		(pts
+			(xy 165.1 99.06) (xy 165.1 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c6a82ef-65ec-493e-aae1-6733d78a354e")
 	)
 	(wire
 		(pts
@@ -5584,6 +5842,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 96.52) (xy 161.29 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4625526f-925a-429a-866c-62eb901f884c")
+	)
+	(wire
+		(pts
 			(xy 187.96 63.5) (xy 187.96 66.04)
 		)
 		(stroke
@@ -5684,6 +5952,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 96.52) (xy 161.29 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc3de07-5264-40ca-a930-23ed47c8ebb5")
+	)
+	(wire
+		(pts
 			(xy 203.2 63.5) (xy 218.44 63.5)
 		)
 		(stroke
@@ -5694,33 +5972,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 93.98) (xy 161.29 93.98)
+			(xy 157.48 93.98) (xy 162.56 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "51fd7f9d-654a-43c8-9182-1b391d49e53d")
-	)
-	(wire
-		(pts
-			(xy 165.1 100.33) (xy 165.1 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5397c8ae-d78f-4605-b47f-54123dd6b1c7")
-	)
-	(wire
-		(pts
-			(xy 127 142.24) (xy 127 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53caa02d-8707-4f21-b5d9-4c92ad255be7")
 	)
 	(wire
 		(pts
@@ -5801,6 +6059,16 @@
 			(type default)
 		)
 		(uuid "5b0e5268-5bfc-421d-8a19-e129779731da")
+	)
+	(wire
+		(pts
+			(xy 30.48 184.15) (xy 36.83 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5baca4aa-4926-41de-8ca1-8f5e7f5976b1")
 	)
 	(wire
 		(pts
@@ -6354,7 +6622,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 165.1) (xy 114.3 167.64)
+			(xy 24.13 181.61) (xy 24.13 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6504,7 +6772,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 127) (xy 127 124.46)
+			(xy 36.83 151.13) (xy 36.83 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6844,7 +7112,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 124.46) (xy 114.3 124.46)
+			(xy 161.29 99.06) (xy 165.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9a74cb8-4720-405e-b066-239da2e32e5b")
+	)
+	(wire
+		(pts
+			(xy 36.83 148.59) (xy 30.48 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7284,7 +7562,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 167.64) (xy 127 165.1)
+			(xy 36.83 184.15) (xy 36.83 181.61)
 		)
 		(stroke
 			(width 0)
@@ -7774,7 +8052,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 124.46) (xy 114.3 127)
+			(xy 24.13 148.59) (xy 24.13 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7801,6 +8079,16 @@
 			(type default)
 		)
 		(uuid "ea4a2307-a517-44b5-ab6e-b5e7e77f78df")
+	)
+	(wire
+		(pts
+			(xy 30.48 148.59) (xy 24.13 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaca3c94-5ee9-4371-9804-004c2c976df9")
 	)
 	(wire
 		(pts
@@ -8004,16 +8292,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 93.98) (xy 161.29 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb426ad1-5e05-4362-bb6a-f3a58d3cd6f2")
-	)
-	(wire
-		(pts
 			(xy 34.29 87.63) (xy 36.83 87.63)
 		)
 		(stroke
@@ -8034,7 +8312,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 167.64) (xy 127 167.64)
+			(xy 24.13 184.15) (xy 30.48 184.15)
 		)
 		(stroke
 			(width 0)
@@ -8458,6 +8736,18 @@
 		)
 		(uuid "ae23cd8c-9961-4018-b59a-598faea0c8ac")
 	)
+	(hierarchical_label "EXT_O"
+		(shape output)
+		(at 162.56 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1bba524-765d-4bf6-9014-e87f0f6cea35")
+	)
 	(hierarchical_label "COL1"
 		(shape output)
 		(at 248.92 22.86 180)
@@ -8530,9 +8820,9 @@
 		)
 		(uuid "da6ff404-7fbd-465b-8b84-68444513f7f1")
 	)
-	(hierarchical_label "EXT"
+	(hierarchical_label "EXT_I"
 		(shape input)
-		(at 165.1 100.33 90)
+		(at 162.56 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8661,6 +8951,72 @@
 			(justify right)
 		)
 		(uuid "fa8c32d3-1b7f-486b-bf47-9c6d618ec89a")
+	)
+	(symbol
+		(lib_id "custom-power:-BL-KB")
+		(at 30.48 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0095abee-137f-42d7-b79b-891872b3dae6")
+		(property "Reference" "#PWR0207"
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BL-KB"
+			(at 30.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BL-KB\""
+			(at 30.48 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c66d27a5-3367-44ff-8846-26d02dc85f5a")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/17d99d7a-f62d-4bb1-94fb-986230f9fa4f/73f7af35-4653-4f41-81c8-9d6ccbbde708"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "button_matrix:D_Small")
@@ -10551,7 +10907,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.3 161.29 90)
+		(at 24.13 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10559,7 +10915,7 @@
 		(dnp no)
 		(uuid "43437884-5891-46b4-b0ce-df83d7a5b847")
 		(property "Reference" "D81"
-			(at 120.3325 161.925 90)
+			(at 30.1625 178.435 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10567,7 +10923,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 120.3325 164.465 90)
+			(at 30.1625 180.975 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10575,7 +10931,7 @@
 			)
 		)
 		(property "Footprint" "badgeteam:LTW-010DCG-SR-G"
-			(at 114.3 161.29 0)
+			(at 24.13 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10584,7 +10940,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 161.29 0)
+			(at 24.13 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10593,7 +10949,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.3 161.29 0)
+			(at 24.13 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11511,7 +11867,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 127 138.43 90)
+		(at 36.83 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11519,7 +11875,7 @@
 		(dnp no)
 		(uuid "674ad25e-83f8-46c8-bbed-fb69088c8f85")
 		(property "Reference" "D75"
-			(at 133.0325 139.065 90)
+			(at 42.8625 163.195 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11527,7 +11883,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 133.0325 141.605 90)
+			(at 42.8625 165.735 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11535,7 +11891,7 @@
 			)
 		)
 		(property "Footprint" "badgeteam:LTW-010DCG-SR-G"
-			(at 127 138.43 0)
+			(at 36.83 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11544,7 +11900,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 138.43 0)
+			(at 36.83 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11553,7 +11909,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 127 138.43 0)
+			(at 36.83 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11571,6 +11927,72 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/17d99d7a-f62d-4bb1-94fb-986230f9fa4f/73f7af35-4653-4f41-81c8-9d6ccbbde708"
 					(reference "D75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom-power:+BL-KB")
+		(at 30.48 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "694fe129-c398-49d5-88b0-2615782b0586")
+		(property "Reference" "#PWR028"
+			(at 30.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BL-KB"
+			(at 30.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BL-KB\""
+			(at 30.48 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8528b392-231a-406d-93d7-76fa0b822f7a")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/17d99d7a-f62d-4bb1-94fb-986230f9fa4f/73f7af35-4653-4f41-81c8-9d6ccbbde708"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12193,7 +12615,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 127 161.29 90)
+		(at 36.83 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12201,7 +12623,7 @@
 		(dnp no)
 		(uuid "75a71af9-dd4c-4441-ab2b-5801ce90edb9")
 		(property "Reference" "D73"
-			(at 133.604 161.798 90)
+			(at 43.434 178.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12209,7 +12631,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 133.6675 163.83 90)
+			(at 43.4975 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12217,7 +12639,7 @@
 			)
 		)
 		(property "Footprint" "badgeteam:LTW-010DCG-SR-G"
-			(at 127 161.29 0)
+			(at 36.83 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12226,7 +12648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 161.29 0)
+			(at 36.83 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12235,7 +12657,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 127 161.29 0)
+			(at 36.83 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12260,7 +12682,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.3 153.67 90)
+		(at 24.13 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12268,7 +12690,7 @@
 		(dnp no)
 		(uuid "75fd0fba-15a8-47fe-aa07-b9b0063f943f")
 		(property "Reference" "D80"
-			(at 120.3325 154.305 90)
+			(at 30.1625 170.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12276,7 +12698,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 120.3325 156.845 90)
+			(at 30.1625 173.355 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12284,7 +12706,7 @@
 			)
 		)
 		(property "Footprint" "badgeteam:LTW-010DCG-SR-G"
-			(at 114.3 153.67 0)
+			(at 24.13 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12293,7 +12715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 153.67 0)
+			(at 24.13 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12302,7 +12724,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.3 153.67 0)
+			(at 24.13 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15151,7 +15573,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.3 130.81 90)
+		(at 24.13 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15159,7 +15581,7 @@
 		(dnp no)
 		(uuid "a6757f7d-ea74-4974-a7b3-f5393816a0ad")
 		(property "Reference" "D77"
-			(at 120.3325 131.318 90)
+			(at 30.1625 155.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15167,7 +15589,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 120.396 133.35 90)
+			(at 30.226 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15175,7 +15597,7 @@
 			)
 		)
 		(property "Footprint" "badgeteam:LTW-010DCG-SR-G"
-			(at 114.3 130.81 0)
+			(at 24.13 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15184,7 +15606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 130.81 0)
+			(at 24.13 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15193,7 +15615,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.3 130.81 0)
+			(at 24.13 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16490,74 +16912,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.3 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d5143289-5b79-420a-bd50-4075824ee58d")
-		(property "Reference" "D79"
-			(at 120.3325 146.685 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 120.3325 149.225 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "badgeteam:LTW-010DCG-SR-G"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bf224863-ca96-489e-ac9e-6e37b598da0c")
-		)
-		(pin "1"
-			(uuid "17adfcc1-2d1e-4a94-9c1d-a7cda68d5aba")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183/17d99d7a-f62d-4bb1-94fb-986230f9fa4f/73f7af35-4653-4f41-81c8-9d6ccbbde708"
-					(reference "D79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 127 130.81 90)
+		(at 36.83 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16565,7 +16920,7 @@
 		(dnp no)
 		(uuid "d7001833-ed2b-45af-b10c-fb71e06fb597")
 		(property "Reference" "D76"
-			(at 133.0325 131.445 90)
+			(at 42.8625 155.575 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16573,7 +16928,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 133.0325 133.985 90)
+			(at 42.8625 158.115 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16581,7 +16936,7 @@
 			)
 		)
 		(property "Footprint" "badgeteam:LTW-010DCG-SR-G"
-			(at 127 130.81 0)
+			(at 36.83 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16590,7 +16945,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 130.81 0)
+			(at 36.83 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16599,7 +16954,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 127 130.81 0)
+			(at 36.83 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17960,7 +18315,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 127 153.67 90)
+		(at 36.83 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17968,7 +18323,7 @@
 		(dnp no)
 		(uuid "f76a76e1-58cc-4f1e-924a-f7aabe4e03d5")
 		(property "Reference" "D74"
-			(at 133.0325 154.305 90)
+			(at 42.8625 170.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17976,7 +18331,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 133.0325 156.845 90)
+			(at 42.8625 173.355 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17984,7 +18339,7 @@
 			)
 		)
 		(property "Footprint" "badgeteam:LTW-010DCG-SR-G"
-			(at 127 153.67 0)
+			(at 36.83 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17993,7 +18348,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 153.67 0)
+			(at 36.83 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18002,7 +18357,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 127 153.67 0)
+			(at 36.83 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18027,7 +18382,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.3 138.43 90)
+		(at 24.13 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18035,7 +18390,7 @@
 		(dnp no)
 		(uuid "fc6735c8-623a-41d2-96c3-787389f4022e")
 		(property "Reference" "D78"
-			(at 120.3325 139.065 90)
+			(at 30.1625 163.195 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18043,7 +18398,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 120.3325 141.605 90)
+			(at 30.1625 165.735 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18051,7 +18406,7 @@
 			)
 		)
 		(property "Footprint" "badgeteam:LTW-010DCG-SR-G"
-			(at 114.3 138.43 0)
+			(at 24.13 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18060,7 +18415,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 138.43 0)
+			(at 24.13 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18069,7 +18424,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.3 138.43 0)
+			(at 24.13 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)

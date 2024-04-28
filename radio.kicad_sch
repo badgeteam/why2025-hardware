@@ -1131,6 +1131,12 @@
 		(uuid "a6e0c95b-ac1c-4e63-a00f-790f5c05151e")
 	)
 	(junction
+		(at 158.75 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0e81c29-db63-460c-ab88-b20d2171d043")
+	)
+	(junction
 		(at 212.09 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1151,6 +1157,16 @@
 			(type default)
 		)
 		(uuid "00bfcda2-8cb5-4d2a-86de-abf3b039b924")
+	)
+	(wire
+		(pts
+			(xy 158.75 90.17) (xy 229.87 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d53f1bc-c475-4f74-ba31-540efc8e5391")
 	)
 	(wire
 		(pts
@@ -1231,6 +1247,16 @@
 			(type default)
 		)
 		(uuid "37659b14-1369-409c-bbd3-43b5c5f2316d")
+	)
+	(wire
+		(pts
+			(xy 158.75 119.38) (xy 158.75 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d7415f8-2607-4720-86a6-3b939e255b71")
 	)
 	(wire
 		(pts
@@ -1364,6 +1390,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 90.17) (xy 158.75 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94671799-c97d-4091-947f-93146b326ffb")
+	)
+	(wire
+		(pts
 			(xy 173.99 95.25) (xy 229.87 95.25)
 		)
 		(stroke
@@ -1414,7 +1450,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 90.17) (xy 229.87 90.17)
+			(xy 146.05 90.17) (xy 158.75 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1673,8 +1709,8 @@
 		)
 		(uuid "0a090d30-6315-459b-918c-477aee63e816")
 	)
-	(hierarchical_label "GPIO15"
-		(shape bidirectional)
+	(hierarchical_label "CAMERA"
+		(shape output)
 		(at 229.87 92.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1877,8 +1913,8 @@
 		)
 		(uuid "c5bb495b-04ac-4a9a-b7fa-a66b2ef78710")
 	)
-	(hierarchical_label "GPIO10"
-		(shape bidirectional)
+	(hierarchical_label "LED_DATA"
+		(shape output)
 		(at 229.87 90.17 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1985,6 +2021,71 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols2:GND")
+		(at 158.75 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e3f9114-e52c-4c70-9710-e9fbd2b1de38")
+		(property "Reference" "#PWR027"
+			(at 158.75 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.877 136.4742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d839f3c1-906e-4346-b420-c76ebdac2bc6")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2618,6 +2719,83 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:R")
+		(at 158.75 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "637d888d-f4fe-4b81-bea9-697d15a869d2")
+		(property "Reference" "R26"
+			(at 162.56 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "51k"
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 160.528 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c53e5fc5-88fc-4985-ba1b-856dfb1a4e38")
+		)
+		(pin "2"
+			(uuid "58e5f2dd-798f-42f8-91c3-aadc99c4ae49")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
+					(reference "R26")
 					(unit 1)
 				)
 			)

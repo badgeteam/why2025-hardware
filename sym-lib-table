@@ -6,4 +6,5 @@
   (lib (name "esp32-p4")(type "KiCad")(uri "${KIPRJMOD}/library/esp32-p4.kicad_sym")(options "")(descr ""))
   (lib (name "keyboard")(type "KiCad")(uri "${KIPRJMOD}/library/keyboard.kicad_sym")(options "")(descr ""))
   (lib (name "ap3041")(type "KiCad")(uri "${KIPRJMOD}/library/ap3041.kicad_sym")(options "")(descr ""))
+  (lib (name "DF40C-24DS-0.4V_51_")(type "KiCad")(uri "${KIPRJMOD}/library/DF40C-24DS-0.4V_51_.kicad_sym")(options "")(descr ""))
 )
