@@ -6,11 +6,13 @@
 	(paper "A4")
 	(title_block
 		(title "WHY2025 badge")
-		(date "2024-04-02")
-		(rev "0.1")
+		(date "2024-05-05")
+		(rev "Prototype 1")
 		(company "Badge.Team")
 		(comment 1 "Copyright 2024 Nicolai Electronics")
 		(comment 2 "License: CERN-OHL-P")
+		(comment 3 "PROTOYPE DESIGN UNTESTED")
+		(comment 4 "(Work in progress!)")
 	)
 	(lib_symbols
 		(symbol "Device:LED"
@@ -9055,7 +9057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 115.57 72.39 90)
 			(effects
 				(font
@@ -9101,6 +9103,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 115.57 72.39 0)
 			(effects
 				(font
@@ -9161,7 +9172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 130.81 87.63 90)
 			(effects
 				(font
@@ -9207,6 +9218,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 130.81 87.63 0)
 			(effects
 				(font
@@ -9267,7 +9287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 54.61 87.63 90)
 			(effects
 				(font
@@ -9313,6 +9333,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 54.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 54.61 87.63 0)
 			(effects
 				(font
@@ -9373,7 +9402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 146.05 41.91 90)
 			(effects
 				(font
@@ -9419,6 +9448,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 146.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 146.05 41.91 0)
 			(effects
 				(font
@@ -9479,7 +9517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 207.01 72.39 90)
 			(effects
 				(font
@@ -9525,6 +9563,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 207.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 207.01 72.39 0)
 			(effects
 				(font
@@ -9585,7 +9632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 222.25 87.63 90)
 			(effects
 				(font
@@ -9631,6 +9678,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 222.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 222.25 87.63 0)
 			(effects
 				(font
@@ -9691,7 +9747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 115.57 57.15 90)
 			(effects
 				(font
@@ -9737,6 +9793,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 115.57 57.15 0)
 			(effects
 				(font
@@ -9797,7 +9862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 222.25 26.67 90)
 			(effects
 				(font
@@ -9843,6 +9908,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 222.25 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 222.25 26.67 0)
 			(effects
 				(font
@@ -9903,7 +9977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 100.33 87.63 90)
 			(effects
 				(font
@@ -9949,6 +10023,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 100.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 100.33 87.63 0)
 			(effects
 				(font
@@ -10009,7 +10092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 26.67 90)
 			(effects
 				(font
@@ -10055,6 +10138,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 176.53 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 176.53 26.67 0)
 			(effects
 				(font
@@ -10148,6 +10240,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 274.32 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f635af5-ce98-495b-b348-2a42a27390af")
 		)
@@ -10200,7 +10301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 100.33 41.91 90)
 			(effects
 				(font
@@ -10246,6 +10347,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 100.33 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 100.33 41.91 0)
 			(effects
 				(font
@@ -10306,7 +10416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 69.85 26.67 90)
 			(effects
 				(font
@@ -10352,6 +10462,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 69.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 69.85 26.67 0)
 			(effects
 				(font
@@ -10412,7 +10531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 54.61 57.15 90)
 			(effects
 				(font
@@ -10458,6 +10577,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 54.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 54.61 57.15 0)
 			(effects
 				(font
@@ -10518,7 +10646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 39.37 87.63 90)
 			(effects
 				(font
@@ -10564,6 +10692,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 39.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 39.37 87.63 0)
 			(effects
 				(font
@@ -10624,7 +10761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 161.29 72.39 90)
 			(effects
 				(font
@@ -10670,6 +10807,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 161.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 161.29 72.39 0)
 			(effects
 				(font
@@ -10730,7 +10876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 69.85 72.39 90)
 			(effects
 				(font
@@ -10776,6 +10922,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 69.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 69.85 72.39 0)
 			(effects
 				(font
@@ -10836,7 +10991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 54.61 102.87 90)
 			(effects
 				(font
@@ -10882,6 +11037,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 54.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 54.61 102.87 0)
 			(effects
 				(font
@@ -10939,7 +11103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 24.13 177.8 0)
 			(effects
 				(font
@@ -10949,6 +11113,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 24.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 24.13 177.8 0)
 			(effects
 				(font
@@ -11009,7 +11182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 222.25 57.15 90)
 			(effects
 				(font
@@ -11055,6 +11228,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 222.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 222.25 57.15 0)
 			(effects
 				(font
@@ -11214,6 +11396,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 252.73 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "805b6e16-50cc-4e3b-85fd-0e6d36d39782")
 		)
@@ -11266,7 +11457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 146.05 72.39 90)
 			(effects
 				(font
@@ -11312,6 +11503,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 146.05 72.39 0)
 			(effects
 				(font
@@ -11372,7 +11572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 54.61 72.39 90)
 			(effects
 				(font
@@ -11418,6 +11618,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 54.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 54.61 72.39 0)
 			(effects
 				(font
@@ -11478,7 +11687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 146.05 102.87 90)
 			(effects
 				(font
@@ -11524,6 +11733,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 146.05 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 146.05 102.87 0)
 			(effects
 				(font
@@ -11584,7 +11802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 69.85 41.91 90)
 			(effects
 				(font
@@ -11630,6 +11848,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 69.85 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 69.85 41.91 0)
 			(effects
 				(font
@@ -11690,7 +11917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 85.09 26.67 90)
 			(effects
 				(font
@@ -11736,6 +11963,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 85.09 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 85.09 26.67 0)
 			(effects
 				(font
@@ -11796,7 +12032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 115.57 87.63 90)
 			(effects
 				(font
@@ -11842,6 +12078,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 115.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 115.57 87.63 0)
 			(effects
 				(font
@@ -11899,7 +12144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 36.83 162.56 0)
 			(effects
 				(font
@@ -11909,6 +12154,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 36.83 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 36.83 162.56 0)
 			(effects
 				(font
@@ -12035,7 +12289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 39.37 57.15 90)
 			(effects
 				(font
@@ -12081,6 +12335,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 39.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 39.37 57.15 0)
 			(effects
 				(font
@@ -12141,7 +12404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 85.09 87.63 90)
 			(effects
 				(font
@@ -12187,6 +12450,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 85.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 85.09 87.63 0)
 			(effects
 				(font
@@ -12247,7 +12519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 54.61 41.91 90)
 			(effects
 				(font
@@ -12293,6 +12565,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 54.61 41.91 0)
 			(effects
 				(font
@@ -12353,7 +12634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 130.81 41.91 90)
 			(effects
 				(font
@@ -12399,6 +12680,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 130.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 130.81 41.91 0)
 			(effects
 				(font
@@ -12492,6 +12782,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 274.32 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a18b9f3-a367-4b43-a118-211904b2b27a")
 		)
@@ -12544,7 +12843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 191.77 41.91 90)
 			(effects
 				(font
@@ -12590,6 +12889,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 191.77 41.91 0)
 			(effects
 				(font
@@ -12647,7 +12955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 36.83 177.8 0)
 			(effects
 				(font
@@ -12657,6 +12965,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 36.83 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 36.83 177.8 0)
 			(effects
 				(font
@@ -12714,7 +13031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 24.13 170.18 0)
 			(effects
 				(font
@@ -12724,6 +13041,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 24.13 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 24.13 170.18 0)
 			(effects
 				(font
@@ -12784,7 +13110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 191.77 26.67 90)
 			(effects
 				(font
@@ -12830,6 +13156,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 191.77 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 191.77 26.67 0)
 			(effects
 				(font
@@ -12890,7 +13225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 115.57 102.87 90)
 			(effects
 				(font
@@ -12936,6 +13271,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 115.57 102.87 0)
 			(effects
 				(font
@@ -12996,7 +13340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 54.61 26.67 90)
 			(effects
 				(font
@@ -13042,6 +13386,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 54.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 54.61 26.67 0)
 			(effects
 				(font
@@ -13135,6 +13488,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 252.73 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb3bd170-f510-4b26-b804-74d21a4ce9a3")
 		)
@@ -13187,7 +13549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 85.09 57.15 90)
 			(effects
 				(font
@@ -13233,6 +13595,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 85.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 85.09 57.15 0)
 			(effects
 				(font
@@ -13293,7 +13664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 69.85 87.63 90)
 			(effects
 				(font
@@ -13339,6 +13710,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 69.85 87.63 0)
 			(effects
 				(font
@@ -13399,7 +13779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 39.37 26.67 90)
 			(effects
 				(font
@@ -13445,6 +13825,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 39.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 39.37 26.67 0)
 			(effects
 				(font
@@ -13505,7 +13894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 207.01 87.63 90)
 			(effects
 				(font
@@ -13551,6 +13940,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 207.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 207.01 87.63 0)
 			(effects
 				(font
@@ -13644,6 +14042,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 252.73 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3876e851-c81d-4959-9543-70ae2827f3b2")
 		)
@@ -13696,7 +14103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 130.81 57.15 90)
 			(effects
 				(font
@@ -13742,6 +14149,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 130.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 130.81 57.15 0)
 			(effects
 				(font
@@ -13802,7 +14218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 39.37 102.87 90)
 			(effects
 				(font
@@ -13848,6 +14264,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 39.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 39.37 102.87 0)
 			(effects
 				(font
@@ -13908,7 +14333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 57.15 90)
 			(effects
 				(font
@@ -13954,6 +14379,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 176.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 176.53 57.15 0)
 			(effects
 				(font
@@ -14080,7 +14514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 41.91 90)
 			(effects
 				(font
@@ -14126,6 +14560,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 176.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 176.53 41.91 0)
 			(effects
 				(font
@@ -14196,6 +14639,15 @@
 		)
 		(property "Description" ""
 			(at 43.18 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 40.64 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14675,7 +15127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 100.33 72.39 90)
 			(effects
 				(font
@@ -14721,6 +15173,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 100.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 100.33 72.39 0)
 			(effects
 				(font
@@ -14781,7 +15242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 146.05 87.63 90)
 			(effects
 				(font
@@ -14827,6 +15288,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 146.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 146.05 87.63 0)
 			(effects
 				(font
@@ -14887,7 +15357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 100.33 57.15 90)
 			(effects
 				(font
@@ -14933,6 +15403,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 100.33 57.15 0)
 			(effects
 				(font
@@ -15026,6 +15505,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 252.73 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32b5884b-97c5-4a5a-b3be-a3381a7c249c")
 		)
@@ -15078,7 +15566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 72.39 90)
 			(effects
 				(font
@@ -15124,6 +15612,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 176.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 176.53 72.39 0)
 			(effects
 				(font
@@ -15184,7 +15681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 69.85 102.87 90)
 			(effects
 				(font
@@ -15230,6 +15727,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 69.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 69.85 102.87 0)
 			(effects
 				(font
@@ -15290,7 +15796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 130.81 72.39 90)
 			(effects
 				(font
@@ -15336,6 +15842,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 130.81 72.39 0)
 			(effects
 				(font
@@ -15396,7 +15911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 207.01 57.15 90)
 			(effects
 				(font
@@ -15442,6 +15957,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 207.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 207.01 57.15 0)
 			(effects
 				(font
@@ -15502,7 +16026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 191.77 102.87 90)
 			(effects
 				(font
@@ -15548,6 +16072,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 191.77 102.87 0)
 			(effects
 				(font
@@ -15605,7 +16138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 24.13 154.94 0)
 			(effects
 				(font
@@ -15615,6 +16148,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 24.13 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 24.13 154.94 0)
 			(effects
 				(font
@@ -15675,7 +16217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 222.25 102.87 90)
 			(effects
 				(font
@@ -15721,6 +16263,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 222.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 222.25 102.87 0)
 			(effects
 				(font
@@ -15781,7 +16332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 191.77 72.39 90)
 			(effects
 				(font
@@ -15827,6 +16378,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 191.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 191.77 72.39 0)
 			(effects
 				(font
@@ -15887,7 +16447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 161.29 102.87 90)
 			(effects
 				(font
@@ -15933,6 +16493,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 161.29 102.87 0)
 			(effects
 				(font
@@ -15993,7 +16562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 115.57 41.91 90)
 			(effects
 				(font
@@ -16039,6 +16608,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 115.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 115.57 41.91 0)
 			(effects
 				(font
@@ -16099,7 +16677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 161.29 41.91 90)
 			(effects
 				(font
@@ -16145,6 +16723,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 161.29 41.91 0)
 			(effects
 				(font
@@ -16205,7 +16792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 146.05 57.15 90)
 			(effects
 				(font
@@ -16251,6 +16838,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 146.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 146.05 57.15 0)
 			(effects
 				(font
@@ -16311,7 +16907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 102.87 90)
 			(effects
 				(font
@@ -16357,6 +16953,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 176.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 176.53 102.87 0)
 			(effects
 				(font
@@ -16417,7 +17022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 161.29 57.15 90)
 			(effects
 				(font
@@ -16463,6 +17068,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 161.29 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 161.29 57.15 0)
 			(effects
 				(font
@@ -16523,7 +17137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 207.01 26.67 90)
 			(effects
 				(font
@@ -16569,6 +17183,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 207.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 207.01 26.67 0)
 			(effects
 				(font
@@ -16629,7 +17252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 87.63 90)
 			(effects
 				(font
@@ -16675,6 +17298,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 176.53 87.63 0)
 			(effects
 				(font
@@ -16735,7 +17367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 222.25 72.39 90)
 			(effects
 				(font
@@ -16781,6 +17413,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 222.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 222.25 72.39 0)
 			(effects
 				(font
@@ -16841,7 +17482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 191.77 87.63 90)
 			(effects
 				(font
@@ -16887,6 +17528,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 191.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 191.77 87.63 0)
 			(effects
 				(font
@@ -16944,7 +17594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 36.83 154.94 0)
 			(effects
 				(font
@@ -16954,6 +17604,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 36.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 36.83 154.94 0)
 			(effects
 				(font
@@ -17014,7 +17673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 130.81 102.87 90)
 			(effects
 				(font
@@ -17060,6 +17719,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 130.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 130.81 102.87 0)
 			(effects
 				(font
@@ -17153,6 +17821,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 274.32 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63c502a0-921c-48a6-b336-7f2c0ce26795")
 		)
@@ -17205,7 +17882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 191.77 57.15 90)
 			(effects
 				(font
@@ -17251,6 +17928,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 191.77 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 191.77 57.15 0)
 			(effects
 				(font
@@ -17311,7 +17997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 207.01 41.91 90)
 			(effects
 				(font
@@ -17357,6 +18043,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 207.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 207.01 41.91 0)
 			(effects
 				(font
@@ -17417,7 +18112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 207.01 102.87 90)
 			(effects
 				(font
@@ -17463,6 +18158,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 207.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 207.01 102.87 0)
 			(effects
 				(font
@@ -17523,7 +18227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 222.25 41.91 90)
 			(effects
 				(font
@@ -17569,6 +18273,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 222.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 222.25 41.91 0)
 			(effects
 				(font
@@ -17629,7 +18342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 161.29 87.63 90)
 			(effects
 				(font
@@ -17675,6 +18388,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 161.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 161.29 87.63 0)
 			(effects
 				(font
@@ -17735,7 +18457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 39.37 72.39 90)
 			(effects
 				(font
@@ -17781,6 +18503,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 39.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 39.37 72.39 0)
 			(effects
 				(font
@@ -17841,7 +18572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 85.09 41.91 90)
 			(effects
 				(font
@@ -17887,6 +18618,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 85.09 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 85.09 41.91 0)
 			(effects
 				(font
@@ -17980,6 +18720,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 274.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9fdc320-54cf-47b8-8149-aeff53969ebe")
 		)
@@ -18032,7 +18781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 39.37 41.91 90)
 			(effects
 				(font
@@ -18078,6 +18827,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 39.37 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 39.37 41.91 0)
 			(effects
 				(font
@@ -18138,7 +18896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 85.09 72.39 90)
 			(effects
 				(font
@@ -18184,6 +18942,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 85.09 72.39 0)
 			(effects
 				(font
@@ -18244,7 +19011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 69.85 57.15 90)
 			(effects
 				(font
@@ -18290,6 +19057,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 69.85 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 69.85 57.15 0)
 			(effects
 				(font
@@ -18347,7 +19123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 36.83 170.18 0)
 			(effects
 				(font
@@ -18357,6 +19133,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 36.83 170.18 0)
 			(effects
 				(font
@@ -18414,7 +19199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 24.13 162.56 0)
 			(effects
 				(font
@@ -18424,6 +19209,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 24.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 24.13 162.56 0)
 			(effects
 				(font
@@ -18484,7 +19278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 85.09 102.87 90)
 			(effects
 				(font
@@ -18530,6 +19324,15 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 85.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 85.09 102.87 0)
 			(effects
 				(font

@@ -6,11 +6,13 @@
 	(paper "A4")
 	(title_block
 		(title "WHY2025 badge")
-		(date "2024-04-02")
-		(rev "0.1")
+		(date "2024-05-05")
+		(rev "Prototype 1")
 		(company "Badge.Team")
 		(comment 1 "Copyright 2024 Nicolai Electronics")
 		(comment 2 "License: CERN-OHL-P")
+		(comment 3 "PROTOYPE DESIGN UNTESTED")
+		(comment 4 "(Work in progress!)")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -3652,6 +3654,16 @@
 		)
 		(uuid "dc7f1a4e-cd96-4638-99bf-511b268967c1")
 	)
+	(text "To-do\nMaybe this could be a jumper instead?\nCould be used to unlock developer mode\nfor the co-processor."
+		(exclude_from_sim no)
+		(at 211.836 159.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f34cb695-c2a4-4f55-a53b-de36608c5953")
+	)
 	(global_label "KB_COL3"
 		(shape input)
 		(at 57.15 119.38 180)
@@ -4472,7 +4484,7 @@
 		)
 		(uuid "32c19fe1-9786-4a7a-bdd9-e6d1b15a2dc5")
 	)
-	(hierarchical_label "VLED_EN"
+	(hierarchical_label "AMP_EN"
 		(shape output)
 		(at 57.15 80.01 180)
 		(fields_autoplaced yes)
@@ -4556,8 +4568,8 @@
 		)
 		(uuid "898155b2-9e49-491a-b981-b0b712215a3a")
 	)
-	(hierarchical_label "STAT_LED"
-		(shape output)
+	(hierarchical_label "HP_DET"
+		(shape input)
 		(at 212.09 48.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4652,7 +4664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+		(property "Datasheet" ""
 			(at 191.77 138.43 0)
 			(effects
 				(font
@@ -4671,6 +4683,15 @@
 			)
 		)
 		(property "LCSC" "C307331"
+			(at 191.77 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 191.77 138.43 0)
 			(effects
 				(font
@@ -4974,7 +4995,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4k7"
 			(at 86.36 26.67 0)
 			(effects
 				(font
@@ -5010,6 +5031,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 82.55 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 82.55 27.94 0)
 			(effects
 				(font
@@ -5135,7 +5165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+		(property "Datasheet" ""
 			(at 116.84 138.43 0)
 			(effects
 				(font
@@ -5154,6 +5184,15 @@
 			)
 		)
 		(property "LCSC" "C307331"
+			(at 116.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 116.84 138.43 0)
 			(effects
 				(font
@@ -5305,6 +5344,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 162.56 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d2bdd03-a47d-43f1-bd37-fc230eec140b")
 		)
@@ -5338,7 +5386,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4k7"
 			(at 78.74 26.67 0)
 			(effects
 				(font
@@ -5374,6 +5422,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 74.93 27.94 0)
 			(effects
 				(font
@@ -5510,6 +5567,15 @@
 		)
 		(property "Description" ""
 			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 151.13 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +5838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+		(property "Datasheet" ""
 			(at 106.68 138.43 0)
 			(effects
 				(font
@@ -5791,6 +5857,15 @@
 			)
 		)
 		(property "LCSC" "C307331"
+			(at 106.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 106.68 138.43 0)
 			(effects
 				(font
@@ -5897,7 +5972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "tbd"
+		(property "Value" "22p"
 			(at 89.408 140.716 0)
 			(effects
 				(font
@@ -5915,7 +5990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 88.9 138.43 0)
 			(effects
 				(font
@@ -5925,6 +6000,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 88.9 138.43 0)
 			(effects
 				(font
@@ -5966,7 +6050,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "tbd"
+		(property "Value" "22p"
 			(at 94.488 140.97 0)
 			(effects
 				(font
@@ -5984,7 +6068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 93.98 138.43 0)
 			(effects
 				(font
@@ -5994,6 +6078,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 93.98 138.43 0)
 			(effects
 				(font
@@ -6185,7 +6278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+		(property "Datasheet" ""
 			(at 176.53 138.43 0)
 			(effects
 				(font
@@ -6204,6 +6297,15 @@
 			)
 		)
 		(property "LCSC" "C307331"
+			(at 176.53 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 176.53 138.43 0)
 			(effects
 				(font
@@ -6263,7 +6365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+		(property "Datasheet" ""
 			(at 99.06 138.43 0)
 			(effects
 				(font
@@ -6282,6 +6384,15 @@
 			)
 		)
 		(property "LCSC" "C307331"
+			(at 99.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 99.06 138.43 0)
 			(effects
 				(font
@@ -6350,6 +6461,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 242.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 242.57 160.02 0)
 			(effects
 				(font
@@ -6889,6 +7009,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 201.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "735bf115-1f12-44c7-977a-b396c4096b30")
 		)
@@ -7098,6 +7227,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 59.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75ef4f3d-6bc7-425f-9f00-29a3ee62c02f")
 		)
@@ -7233,6 +7371,15 @@
 			)
 		)
 		(property "LCSC" "C25744"
+			(at 201.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 201.93 138.43 0)
 			(effects
 				(font
@@ -7449,6 +7596,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b65adcb-f589-4c23-9b02-770099adca34")
 		)
@@ -7527,6 +7683,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 91.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "412525da-7c2e-48fe-a124-e61f35670faa")
 		)
@@ -7578,7 +7743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+		(property "Datasheet" ""
 			(at 59.69 138.43 0)
 			(effects
 				(font
@@ -7597,6 +7762,15 @@
 			)
 		)
 		(property "LCSC" "C307331"
+			(at 59.69 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 59.69 138.43 0)
 			(effects
 				(font
@@ -7844,7 +8018,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/17d99d7a-f62d-4bb1-94fb-986230f9fa4f"
-					(page "3")
+					(page "5")
 				)
 			)
 		)

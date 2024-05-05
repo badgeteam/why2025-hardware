@@ -2,21 +2,21 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "headphone_jack"
+	(symbol "PJ-327ST-SMT"
 		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 3.175 9.525 0)
+			(at -4.445 6.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "headphone_jack"
-			(at 2.54 -1.905 0)
+		(property "Value" "PJ-327ST-SMT"
+			(at -7.874 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at -7.62 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -7.62 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -7.62 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,10 +51,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "headphone_jack_0_1"
+		(symbol "PJ-327ST-SMT_0_1"
 			(polyline
 				(pts
-					(xy 2.54 2.54) (xy 4.445 2.54) (xy 4.445 0.635)
+					(xy -5.08 -5.08) (xy 3.175 -5.08) (xy 3.175 -3.175)
 				)
 				(stroke
 					(width 0)
@@ -66,7 +66,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 7.62) (xy 10.795 7.62) (xy 10.795 5.08)
+					(xy -5.08 0) (xy -3.175 0) (xy -3.175 -1.905)
 				)
 				(stroke
 					(width 0)
@@ -78,7 +78,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 5.08 0) (xy 6.35 1.27) (xy 7.62 0)
+					(xy -5.08 5.08) (xy 3.175 5.08) (xy 3.175 2.54)
 				)
 				(stroke
 					(width 0)
@@ -90,7 +90,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 5.08) (xy 6.985 5.08) (xy 8.255 3.81) (xy 9.525 5.08)
+					(xy -5.08 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -102,7 +102,31 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 0.254) (xy 3.937 0.762) (xy 4.953 0.762) (xy 4.445 0.254)
+					(xy -5.08 2.54) (xy -0.635 2.54) (xy 0.635 1.27) (xy 1.905 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -2.286) (xy -3.683 -1.778) (xy -2.667 -1.778) (xy -3.175 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 -3.175) (xy 3.683 -3.683) (xy 2.667 -3.683) (xy 3.175 -3.175)
 				)
 				(stroke
 					(width 0)
@@ -113,10 +137,10 @@
 				)
 			)
 		)
-		(symbol "headphone_jack_1_1"
+		(symbol "PJ-327ST-SMT_1_1"
 			(rectangle
-				(start 2.54 8.255)
-				(end 12.065 -0.635)
+				(start -5.08 5.715)
+				(end 4.445 -6.985)
 				(stroke
 					(width 0)
 					(type default)
@@ -126,8 +150,8 @@
 				)
 			)
 			(rectangle
-				(start 10.414 5.08)
-				(end 11.176 0)
+				(start 2.794 2.54)
+				(end 3.556 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -137,7 +161,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 2.54 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -146,7 +170,7 @@
 						)
 					)
 				)
-				(number "NC"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -155,7 +179,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 5.08 0)
+				(at -7.62 5.08 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -164,7 +188,7 @@
 						)
 					)
 				)
-				(number "R"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -173,7 +197,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 7.62 0)
+				(at -7.62 -5.08 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -182,7 +206,7 @@
 						)
 					)
 				)
-				(number "S"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -191,7 +215,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -200,7 +224,25 @@
 						)
 					)
 				)
-				(number "T"
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
