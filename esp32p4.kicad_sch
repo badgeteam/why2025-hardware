@@ -11348,7 +11348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:esp32p4rev0"
+		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
 			(at 139.7 80.01 0)
 			(effects
 				(font
@@ -11869,7 +11869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:esp32p4rev0"
+		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
 			(at 92.71 176.53 0)
 			(effects
 				(font
@@ -12480,7 +12480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG220J500NT_C1555.pdf"
 			(at 132.08 67.31 0)
 			(effects
 				(font
@@ -12498,7 +12498,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1555"
 			(at 132.08 67.31 0)
 			(effects
 				(font
@@ -12760,7 +12760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:esp32p4rev0"
+		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
 			(at 273.05 85.09 0)
 			(effects
 				(font
@@ -13863,7 +13863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG220J500NT_C1555.pdf"
 			(at 142.24 67.31 0)
 			(effects
 				(font
@@ -13881,7 +13881,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1555"
 			(at 142.24 67.31 0)
 			(effects
 				(font
@@ -14163,7 +14163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:esp32p4rev0"
+		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
 			(at 92.71 102.87 0)
 			(effects
 				(font
@@ -14983,7 +14983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:esp32p4rev0"
+		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
 			(at 236.22 132.08 0)
 			(effects
 				(font
@@ -16035,7 +16035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:esp32p4rev0"
+		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
 			(at 93.98 41.91 0)
 			(effects
 				(font
@@ -16651,7 +16651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
 			(at 274.32 35.56 0)
 			(effects
 				(font
@@ -16661,6 +16661,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 274.32 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 274.32 35.56 0)
 			(effects
 				(font
@@ -17350,7 +17359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG220J500NT_C1555.pdf"
 			(at 266.7 29.21 0)
 			(effects
 				(font
@@ -17360,6 +17369,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 266.7 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1555"
 			(at 266.7 29.21 0)
 			(effects
 				(font
@@ -17907,7 +17925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:esp32p4rev0"
+		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
 			(at 269.24 133.35 0)
 			(effects
 				(font
@@ -18295,7 +18313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:esp32p4rev0"
+		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
 			(at 156.21 16.51 0)
 			(effects
 				(font
@@ -19815,7 +19833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:esp32p4rev0"
+		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
 			(at 167.64 31.75 0)
 			(effects
 				(font
@@ -20752,7 +20770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:esp32p4rev0"
+		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
 			(at 181.61 133.35 0)
 			(effects
 				(font
@@ -21285,7 +21303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:esp32p4rev0"
+		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
 			(at 92.71 137.16 0)
 			(effects
 				(font
@@ -22089,7 +22107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:esp32p4rev0"
+		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
 			(at 154.94 48.26 0)
 			(effects
 				(font

@@ -4438,7 +4438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG220J500NT_C1555.pdf"
 			(at 120.65 120.65 0)
 			(effects
 				(font
@@ -4447,7 +4447,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 120.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1555"
 			(at 120.65 120.65 0)
 			(effects
 				(font
@@ -4891,7 +4900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG220J500NT_C1555.pdf"
 			(at 115.57 120.65 0)
 			(effects
 				(font
@@ -4900,7 +4909,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 115.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1555"
 			(at 115.57 120.65 0)
 			(effects
 				(font
@@ -5168,7 +5186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_TDK-C3216X5R1V226MTJ00E_C342620.pdf"
 			(at 88.9 99.06 0)
 			(effects
 				(font
@@ -5178,6 +5196,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 88.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C342620"
 			(at 88.9 99.06 0)
 			(effects
 				(font
@@ -6035,7 +6062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_TDK-C3216X5R1V226MTJ00E_C342620.pdf"
 			(at 88.9 91.44 0)
 			(effects
 				(font
@@ -6045,6 +6072,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C342620"
 			(at 88.9 91.44 0)
 			(effects
 				(font

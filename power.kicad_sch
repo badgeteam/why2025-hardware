@@ -7500,7 +7500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
 			(at 97.79 40.64 0)
 			(effects
 				(font
@@ -7510,6 +7510,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 97.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 97.79 40.64 0)
 			(effects
 				(font
@@ -7924,7 +7933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-CC0402JRNPO9BN121_C106996.pdf"
 			(at 196.85 38.1 0)
 			(effects
 				(font
@@ -7934,6 +7943,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 196.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106996"
 			(at 196.85 38.1 0)
 			(effects
 				(font
@@ -8640,7 +8658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810261513_Samsung-Electro-Mechanics-CL10A475KA8NQNC_C69335.pdf"
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -8650,6 +8668,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 105.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C69335"
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -9245,7 +9272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
 			(at 85.09 146.05 0)
 			(effects
 				(font
@@ -9255,6 +9282,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 85.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 85.09 146.05 0)
 			(effects
 				(font
@@ -10683,7 +10719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
 			(at 219.71 44.45 0)
 			(effects
 				(font
@@ -10693,6 +10729,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 219.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 219.71 44.45 0)
 			(effects
 				(font
@@ -11025,7 +11070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
 			(at 204.47 44.45 0)
 			(effects
 				(font
@@ -11035,6 +11080,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 204.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 204.47 44.45 0)
 			(effects
 				(font
@@ -13284,7 +13338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
 			(at 212.09 44.45 0)
 			(effects
 				(font
@@ -13294,6 +13348,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 212.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 212.09 44.45 0)
 			(effects
 				(font
@@ -13694,7 +13757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
 			(at 269.24 41.91 0)
 			(effects
 				(font
@@ -13704,6 +13767,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 269.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 269.24 41.91 0)
 			(effects
 				(font
@@ -13763,7 +13835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
 			(at 115.57 55.88 0)
 			(effects
 				(font
@@ -13773,6 +13845,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 115.57 55.88 0)
 			(effects
 				(font
@@ -13902,7 +13983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
 			(at 104.14 40.64 0)
 			(effects
 				(font
@@ -13912,6 +13993,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 104.14 40.64 0)
 			(effects
 				(font
@@ -14180,7 +14270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
 			(at 128.27 152.4 0)
 			(effects
 				(font
@@ -14198,7 +14288,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C13585"
 			(at 128.27 152.4 0)
 			(effects
 				(font
@@ -14390,7 +14480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912210906_YAGEO-AC0603KRX7R0BB473_C469624.pdf"
 			(at 85.09 40.64 0)
 			(effects
 				(font
@@ -14400,6 +14490,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 85.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C469624"
 			(at 85.09 40.64 0)
 			(effects
 				(font
@@ -15218,7 +15317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
 			(at 218.44 151.13 0)
 			(effects
 				(font
@@ -15236,7 +15335,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C13585"
 			(at 218.44 151.13 0)
 			(effects
 				(font

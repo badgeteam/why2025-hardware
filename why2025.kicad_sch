@@ -12185,7 +12185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "-"
 			(at 60.96 187.96 0)
 			(effects
 				(font
@@ -13243,7 +13243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "-"
 			(at 68.58 187.96 0)
 			(effects
 				(font
@@ -13515,7 +13515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "-"
 			(at 45.72 187.96 0)
 			(effects
 				(font
@@ -14136,7 +14136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
 			(at 74.93 40.64 0)
 			(effects
 				(font
@@ -14154,7 +14154,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C13585"
 			(at 74.93 40.64 0)
 			(effects
 				(font
@@ -14420,7 +14420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "library:PJ-327ST-SMT"
 			(at 265.43 66.04 0)
 			(effects
 				(font
@@ -14847,7 +14847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "-"
 			(at 53.34 187.96 0)
 			(effects
 				(font
@@ -15052,7 +15052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2306091018_HCTL-PM254-2-18-S-8-5_C3975163.pdf"
 			(at 257.81 138.43 0)
 			(effects
 				(font
@@ -15062,6 +15062,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 257.81 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3975163"
 			(at 257.81 138.43 0)
 			(effects
 				(font
@@ -15549,7 +15558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2201121730_DEALON-DW254W-22-16-85_C2936005.pdf"
 			(at 107.95 163.83 0)
 			(effects
 				(font
@@ -15559,6 +15568,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 107.95 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2936005"
 			(at 107.95 163.83 0)
 			(effects
 				(font
@@ -15808,7 +15826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 24.13 189.23 0)
 			(effects
 				(font
@@ -15818,6 +15836,15 @@
 			)
 		)
 		(property "Description" "Housing"
+			(at 22.86 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 22.86 190.5 0)
 			(effects
 				(font
@@ -16027,7 +16054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "-"
 			(at 76.2 187.96 0)
 			(effects
 				(font
@@ -16460,7 +16487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "-"
 			(at 38.1 187.96 0)
 			(effects
 				(font
@@ -17008,7 +17035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CL05B104KB54PNC"
+		(property "Description" ""
 			(at 74.93 50.8 0)
 			(effects
 				(font
