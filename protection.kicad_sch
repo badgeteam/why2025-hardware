@@ -1913,7 +1913,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 78.74) (xy 163.83 81.28)
+			(xy 163.83 78.74) (xy 163.83 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1923,7 +1923,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 101.6) (xy 214.63 110.49)
+			(xy 214.63 102.87) (xy 214.63 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1933,7 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 92.71) (xy 118.11 93.98)
+			(xy 118.11 92.71) (xy 118.11 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1973,7 +1973,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 92.71) (xy 163.83 93.98)
+			(xy 163.83 92.71) (xy 163.83 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2083,7 +2083,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 88.9) (xy 163.83 92.71)
+			(xy 163.83 90.17) (xy 163.83 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2093,7 +2093,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 78.74) (xy 214.63 81.28)
+			(xy 214.63 78.74) (xy 214.63 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2113,7 +2113,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 92.71) (xy 214.63 93.98)
+			(xy 214.63 92.71) (xy 214.63 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2133,7 +2133,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 88.9) (xy 214.63 92.71)
+			(xy 214.63 90.17) (xy 214.63 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2213,7 +2213,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 101.6) (xy 118.11 110.49)
+			(xy 118.11 102.87) (xy 118.11 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2243,7 +2243,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 78.74) (xy 68.58 81.28)
+			(xy 68.58 78.74) (xy 68.58 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2273,7 +2273,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 88.9) (xy 68.58 92.71)
+			(xy 68.58 90.17) (xy 68.58 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2493,7 +2493,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 101.6) (xy 163.83 110.49)
+			(xy 163.83 102.87) (xy 163.83 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2533,7 +2533,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 88.9) (xy 118.11 92.71)
+			(xy 118.11 90.17) (xy 118.11 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2583,7 +2583,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 78.74) (xy 118.11 81.28)
+			(xy 118.11 78.74) (xy 118.11 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2603,7 +2603,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 101.6) (xy 68.58 110.49)
+			(xy 68.58 102.87) (xy 68.58 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2673,7 +2673,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 92.71) (xy 68.58 93.98)
+			(xy 68.58 92.71) (xy 68.58 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2771,7 +2771,7 @@
 		)
 		(uuid "ff639428-87ff-4514-ae70-ad16761fbe5b")
 	)
-	(text_box "The protection for the software programmable LDO outputs of the ESP32P4. \nWe want to limit the LDO voltages to U_nom +0.3V. If that occurs, the ESP32P4 !RESET/ PU signal\nwill become low.\n\nThis circuit uses a LM339 quad comparator with a reference voltage of 1.0 V. The circuit uses a\nthreshold at +0.2V above nominal. The LM339 has open collector outputs, so we can combine them.\n \nAll resistors have 1% tolerance"
+	(text_box "The protection for the software programmable LDO outputs of the ESP32P4. \nWe want to limit the LDO voltages to U_nom +0.3V. If that occurs, the ESP32P4 !RESET/ PU signal\nwill become low.\n\nThis circuit uses a LM339 quad comparator with a reference voltage of 1.0 V. The circuit uses a\nthreshold at +0.2V above nominal. They are configured as an inverting comparator with hysteresis.\nThe LM339 has open collector outputs, so we can combine them.\n \nAll resistors have 1% tolerance"
 		(exclude_from_sim no)
 		(at 49.53 139.7 0)
 		(size 105.41 22.86)
@@ -2855,7 +2855,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 85.09 180)
+		(at 214.63 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2863,7 +2863,7 @@
 		(dnp no)
 		(uuid "00286efc-bc8a-49e8-a237-39581c572dd1")
 		(property "Reference" "R80"
-			(at 217.17 83.8199 0)
+			(at 217.17 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +2872,7 @@
 			)
 		)
 		(property "Value" "866"
-			(at 217.17 86.3599 0)
+			(at 217.17 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +2881,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 216.408 85.09 90)
+			(at 216.408 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +2890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 85.09 0)
+			(at 214.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,7 +2899,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 85.09 0)
+			(at 214.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2908,7 +2908,7 @@
 			)
 		)
 		(property "mpn" ""
-			(at 214.63 85.09 0)
+			(at 214.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +2999,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 163.83 85.09 180)
+		(at 163.83 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3007,7 +3007,7 @@
 		(dnp no)
 		(uuid "06f41206-a57b-40a8-b0cc-01120f632e52")
 		(property "Reference" "R84"
-			(at 166.37 83.8199 0)
+			(at 166.37 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +3016,7 @@
 			)
 		)
 		(property "Value" "3k9"
-			(at 166.37 86.3599 0)
+			(at 166.37 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,7 +3025,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 165.608 85.09 90)
+			(at 165.608 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +3034,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
-			(at 163.83 85.09 0)
+			(at 163.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3043,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 85.09 0)
+			(at 163.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +3052,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 163.83 85.09 0)
+			(at 163.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3061,7 @@
 			)
 		)
 		(property "mpn" ""
-			(at 163.83 85.09 0)
+			(at 163.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3747,7 +3747,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 85.09 180)
+		(at 68.58 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3755,7 +3755,7 @@
 		(dnp no)
 		(uuid "37a1e715-c20b-4669-9975-77e7ed80b40b")
 		(property "Reference" "R95"
-			(at 71.12 83.8199 0)
+			(at 71.12 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3764,7 +3764,7 @@
 			)
 		)
 		(property "Value" "3.9k"
-			(at 71.12 86.3599 0)
+			(at 71.12 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,7 +3773,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 70.358 85.09 90)
+			(at 70.358 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,7 +3782,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
-			(at 68.58 85.09 0)
+			(at 68.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,7 +3791,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.58 85.09 0)
+			(at 68.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,7 +3800,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 68.58 85.09 0)
+			(at 68.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,7 +3809,7 @@
 			)
 		)
 		(property "mpn" ""
-			(at 68.58 85.09 0)
+			(at 68.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4591,7 +4591,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 97.79 180)
+		(at 118.11 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4599,7 +4599,7 @@
 		(dnp no)
 		(uuid "6bc1b837-39fb-4bff-9821-053b1e2b42b7")
 		(property "Reference" "R93"
-			(at 120.65 96.5199 0)
+			(at 120.65 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,7 +4608,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 120.65 99.0599 0)
+			(at 120.65 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4617,7 +4617,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 119.888 97.79 90)
+			(at 119.888 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4626,7 +4626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 97.79 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,7 +4635,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 118.11 97.79 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4644,7 +4644,7 @@
 			)
 		)
 		(property "mpn" ""
-			(at 118.11 97.79 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +5735,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 97.79 180)
+		(at 214.63 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5743,7 +5743,7 @@
 		(dnp no)
 		(uuid "b5c43ab4-85a1-45a1-8604-26765643b7f5")
 		(property "Reference" "R83"
-			(at 217.17 96.5199 0)
+			(at 217.17 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,7 +5752,7 @@
 			)
 		)
 		(property "Value" "4k70"
-			(at 217.17 99.0599 0)
+			(at 217.17 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5761,7 +5761,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 216.408 97.79 90)
+			(at 216.408 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,7 +5770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 97.79 0)
+			(at 214.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5779,7 +5779,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 97.79 0)
+			(at 214.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,7 +5788,7 @@
 			)
 		)
 		(property "mpn" ""
-			(at 214.63 97.79 0)
+			(at 214.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5813,7 +5813,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 97.79 180)
+		(at 68.58 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5821,7 +5821,7 @@
 		(dnp no)
 		(uuid "bad2dec0-c342-4e89-8f93-128442bfb35e")
 		(property "Reference" "R96"
-			(at 71.12 96.5199 0)
+			(at 71.12 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +5830,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 71.12 99.0599 0)
+			(at 71.12 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +5839,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 70.358 97.79 90)
+			(at 70.358 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,7 +5848,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
-			(at 68.58 97.79 0)
+			(at 68.58 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +5857,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.58 97.79 0)
+			(at 68.58 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +5866,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 68.58 97.79 0)
+			(at 68.58 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +5875,7 @@
 			)
 		)
 		(property "mpn" ""
-			(at 68.58 97.79 0)
+			(at 68.58 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6207,7 +6207,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 163.83 97.79 180)
+		(at 163.83 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6215,7 +6215,7 @@
 		(dnp no)
 		(uuid "d707ba51-24fb-4430-ba88-2cd9255b497e")
 		(property "Reference" "R85"
-			(at 166.37 96.5199 0)
+			(at 166.37 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6224,7 +6224,7 @@
 			)
 		)
 		(property "Value" "4k70"
-			(at 166.37 99.0599 0)
+			(at 166.37 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6233,7 +6233,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 165.608 97.79 90)
+			(at 165.608 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6242,7 +6242,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
-			(at 163.83 97.79 0)
+			(at 163.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6251,7 +6251,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 97.79 0)
+			(at 163.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +6260,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 163.83 97.79 0)
+			(at 163.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6269,7 @@
 			)
 		)
 		(property "mpn" ""
-			(at 163.83 97.79 0)
+			(at 163.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6371,7 +6371,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 85.09 180)
+		(at 118.11 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6379,7 +6379,7 @@
 		(dnp no)
 		(uuid "dd84f5a4-fff4-4202-bcab-d8d56c999f26")
 		(property "Reference" "R88"
-			(at 120.65 83.8199 0)
+			(at 120.65 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,7 +6388,7 @@
 			)
 		)
 		(property "Value" "7k5"
-			(at 120.65 86.3599 0)
+			(at 120.65 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6397,7 +6397,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 119.888 85.09 90)
+			(at 119.888 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6406,7 +6406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 85.09 0)
+			(at 118.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6415,7 +6415,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 118.11 85.09 0)
+			(at 118.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,7 +6424,7 @@
 			)
 		)
 		(property "mpn" ""
-			(at 118.11 85.09 0)
+			(at 118.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
