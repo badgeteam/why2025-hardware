@@ -25896,6 +25896,12 @@
 		(uuid "357dbbee-d728-4483-9074-462f291a17f6")
 	)
 	(junction
+		(at 41.91 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35d4991e-63f9-4287-9c5c-38d772632b04")
+	)
+	(junction
 		(at 119.38 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25962,6 +25968,12 @@
 		(uuid "5ecfa49f-60e7-4380-9541-16ec033fd35a")
 	)
 	(junction
+		(at 41.91 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "652015e8-1b46-4468-bd8a-a42969caa1f3")
+	)
+	(junction
 		(at 130.81 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -26008,6 +26020,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "897d0c6c-ee22-4938-bdf3-e0ace1abdaf0")
+	)
+	(junction
+		(at 66.04 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a2c99ac-dd00-4f71-bb54-bf2a75306d0b")
 	)
 	(junction
 		(at 50.8 168.91)
@@ -26064,6 +26082,18 @@
 		(uuid "a0b830ec-0040-47fe-9401-23f1a48d5409")
 	)
 	(junction
+		(at 119.38 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2b353bf-b2a7-4c0a-abca-19761b96d7df")
+	)
+	(junction
+		(at 36.83 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2d34f1b-7cd7-4bef-ad72-934fb99919f9")
+	)
+	(junction
 		(at 260.35 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -26098,12 +26128,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aad31477-aa3c-4300-ab60-18cead42194c")
-	)
-	(junction
-		(at 66.04 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b323c35d-f626-4202-9715-d358c5147567")
 	)
 	(junction
 		(at 156.21 120.65)
@@ -26224,6 +26248,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f41c6fec-ebfb-40ed-9753-834f5d6f90a1")
+	)
+	(junction
+		(at 36.83 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa3ca1d0-24ac-4f75-b38e-8b87b9781751")
 	)
 	(junction
 		(at 255.27 36.83)
@@ -26993,7 +27023,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 123.19) (xy 68.58 123.19)
+			(xy 66.04 120.65) (xy 68.58 120.65)
 		)
 		(stroke
 			(width 0)
@@ -27020,6 +27050,16 @@
 			(type default)
 		)
 		(uuid "46c00356-0dc3-4427-b63d-88bb8a3868d5")
+	)
+	(wire
+		(pts
+			(xy 36.83 157.48) (xy 82.55 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47654b6b-8814-440a-9740-b419763fb682")
 	)
 	(wire
 		(pts
@@ -27230,6 +27270,16 @@
 			(type default)
 		)
 		(uuid "58846d67-7524-46f7-8fbb-0eec07fc7e2a")
+	)
+	(wire
+		(pts
+			(xy 119.38 48.26) (xy 119.38 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c6fbda-b86e-423c-8db3-e9a958794d7c")
 	)
 	(wire
 		(pts
@@ -27643,7 +27693,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 123.19) (xy 66.04 123.19)
+			(xy 34.29 120.65) (xy 36.83 120.65)
 		)
 		(stroke
 			(width 0)
@@ -27710,6 +27760,16 @@
 			(type default)
 		)
 		(uuid "8a4dfcce-e62c-456e-a1fc-7037f9841529")
+	)
+	(wire
+		(pts
+			(xy 36.83 120.65) (xy 41.91 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8abf55f6-49b4-4f66-866c-54a3f768ae88")
 	)
 	(wire
 		(pts
@@ -27813,6 +27873,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 128.27) (xy 41.91 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b60ae8b-5c8e-4a9c-b6e9-feaab38fc7ec")
+	)
+	(wire
+		(pts
 			(xy 236.22 83.82) (xy 260.35 83.82)
 		)
 		(stroke
@@ -27873,7 +27943,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 157.48) (xy 82.55 157.48)
+			(xy 26.67 157.48) (xy 36.83 157.48)
 		)
 		(stroke
 			(width 0)
@@ -27960,6 +28030,16 @@
 			(type default)
 		)
 		(uuid "a23dcd22-bcb5-4b2b-abdc-0a9a21356c11")
+	)
+	(wire
+		(pts
+			(xy 41.91 120.65) (xy 66.04 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a295e8c4-4c20-4b32-90c7-9b2b69b2ea46")
 	)
 	(wire
 		(pts
@@ -28303,6 +28383,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 48.26) (xy 119.38 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb8bd6a1-8101-4e9f-a14a-37f8919ca6c1")
+	)
+	(wire
+		(pts
 			(xy 260.35 36.83) (xy 260.35 33.02)
 		)
 		(stroke
@@ -28333,7 +28423,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 53.34) (xy 119.38 39.37)
+			(xy 119.38 53.34) (xy 119.38 48.26)
 		)
 		(stroke
 			(width 0)
@@ -28593,16 +28683,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 123.19) (xy 66.04 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d59ba8b1-1ec9-4182-be5c-14b40e134e1c")
-	)
-	(wire
-		(pts
 			(xy 236.22 96.52) (xy 260.35 96.52)
 		)
 		(stroke
@@ -28620,6 +28700,16 @@
 			(type default)
 		)
 		(uuid "d62ac12a-3d3a-4600-a990-ad397459acfb")
+	)
+	(wire
+		(pts
+			(xy 36.83 128.27) (xy 36.83 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79d4bc4-6297-45fb-ad77-e3beae4c1b22")
 	)
 	(wire
 		(pts
@@ -28650,6 +28740,16 @@
 			(type default)
 		)
 		(uuid "dae6960d-dc2a-4d80-b60c-9563b7998e44")
+	)
+	(wire
+		(pts
+			(xy 41.91 160.02) (xy 82.55 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db417217-3e81-488d-b089-9725a8fa24e7")
 	)
 	(wire
 		(pts
@@ -28750,6 +28850,16 @@
 			(type default)
 		)
 		(uuid "e275aeab-dd43-454f-aa9e-c955acb98c92")
+	)
+	(wire
+		(pts
+			(xy 66.04 120.65) (xy 66.04 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3305b66-6496-4ed8-8a9b-f5fcfa13a90e")
 	)
 	(wire
 		(pts
@@ -28893,7 +29003,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 160.02) (xy 82.55 160.02)
+			(xy 26.67 160.02) (xy 41.91 160.02)
 		)
 		(stroke
 			(width 0)
@@ -29005,6 +29115,28 @@
 		)
 		(uuid ee908f55-cfda-4811-8f78-4efa892a5c4f)
 	)
+	(text "Boot: high = normal, low = download"
+		(exclude_from_sim no)
+		(at 82.55 156.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c7e2c79-3039-4753-a30a-7e57409de509")
+	)
+	(text "Must be high for SPI download mode"
+		(exclude_from_sim no)
+		(at 82.55 164.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42c73e27-8283-4a28-979c-537876bba5ab")
+	)
 	(text "Will be connected\nwhen production\nchip is available"
 		(exclude_from_sim no)
 		(at 17.018 50.292 90)
@@ -29024,6 +29156,28 @@
 			)
 		)
 		(uuid "b9b95f18-3acc-4c0b-a5a9-317f3e42edd5")
+	)
+	(text "Must be low for SPI download mode"
+		(exclude_from_sim no)
+		(at 82.55 161.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de95a491-5a4b-42f2-ab84-9c48060cc71b")
+	)
+	(text "Download boot: high = joint, low = SPI"
+		(exclude_from_sim no)
+		(at 82.55 159.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea212886-0aba-4318-b5be-07af86e14b53")
 	)
 	(hierarchical_label "C6_D0"
 		(shape bidirectional)
@@ -29204,6 +29358,18 @@
 			(justify right)
 		)
 		(uuid "336702d0-1b8a-49db-9140-b78b21c35d76")
+	)
+	(hierarchical_label "~{RESET}"
+		(shape input)
+		(at 114.3 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3800dd1b-7a1a-478a-b842-0660e223b293")
 	)
 	(hierarchical_label "CSI_CLK_P"
 		(shape input)
@@ -30165,6 +30331,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C137971"
+			(at 260.35 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "708af403-239d-40bf-8623-f2e0bd61ab31")
 		)
@@ -30458,72 +30633,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ac8663d-c0bb-4db0-9a08-44b4fab5f524")
-		(property "Reference" "#PWR0183"
-			(at 82.55 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d11d6598-1175-4483-b7c1-245a6018bc6a")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183/3d60835a-4261-467a-b239-9fb76f6e13a1"
-					(reference "#PWR0183")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 123.19 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30721,7 +30830,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 125.73 180)
+		(at 124.46 125.73 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30729,7 +30839,7 @@
 		(dnp no)
 		(uuid "13c9b539-2f9b-4f16-8ccb-5023c3012198")
 		(property "Reference" "R59"
-			(at 121.158 124.714 0)
+			(at 127.762 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30737,7 +30847,7 @@
 			)
 		)
 		(property "Value" "51k"
-			(at 121.158 127 0)
+			(at 127.762 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30745,7 +30855,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 126.238 125.73 90)
+			(at 122.682 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30864,7 +30974,7 @@
 		(dnp no)
 		(uuid "142c0172-3314-4349-b5d0-5c75926e6b98")
 		(property "Reference" "U8"
-			(at 135.128 87.884 0)
+			(at 139.192 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30879,6 +30989,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
@@ -31243,23 +31354,23 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 125.73 180)
+		(at 41.91 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1593374d-d1fe-47d4-9dc0-b33998c9fdcb")
-		(property "Reference" "R58"
-			(at 127.508 124.714 0)
+		(uuid "15234625-dc63-4133-be90-126ef2bfa4e5")
+		(property "Reference" "R42"
+			(at 44.196 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "51k"
-			(at 127.508 127 0)
+		(property "Value" "4k7"
+			(at 41.91 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31267,7 +31378,84 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 132.588 125.73 90)
+			(at 43.688 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2ce3668-2e94-497e-b0ed-cf7866e6f9ab")
+		)
+		(pin "2"
+			(uuid "1cbe184e-625b-4f09-bdaa-c623b2afc826")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/3d60835a-4261-467a-b239-9fb76f6e13a1"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 130.81 125.73 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1593374d-d1fe-47d4-9dc0-b33998c9fdcb")
+		(property "Reference" "R58"
+			(at 134.112 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "51k"
+			(at 134.112 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 129.032 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31383,10 +31571,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1938cd24-a455-40bc-bc55-e7a8e96332d7")
 		(property "Reference" "U8"
-			(at 93.98 184.7849 0)
+			(at 84.836 196.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31401,6 +31588,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
@@ -31980,7 +32168,6 @@
 	(symbol
 		(lib_id "symbols:C")
 		(at 132.08 67.31 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31988,7 +32175,7 @@
 		(dnp no)
 		(uuid "212de33a-cb90-4558-8387-e03d1b0725b4")
 		(property "Reference" "C47"
-			(at 129.159 66.1416 0)
+			(at 135.001 66.1416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31997,7 +32184,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 129.159 68.453 0)
+			(at 135.001 68.453 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32006,7 +32193,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 131.1148 71.12 0)
+			(at 133.0452 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32123,72 +32310,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 15.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "254a3ef9-302a-49d7-b4a8-a9611f45200c")
-		(property "Reference" "#PWR0180"
-			(at 95.25 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b77cd67-aaea-48c1-a373-f97b6f06f146")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183/3d60835a-4261-467a-b239-9fb76f6e13a1"
-					(reference "#PWR0180")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbols:C")
 		(at 135.89 38.1 0)
 		(unit 1)
@@ -32275,10 +32396,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2694d3ed-6293-4577-85f7-aa309c961871")
 		(property "Reference" "U8"
-			(at 274.32 93.3449 0)
+			(at 262.636 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32293,6 +32413,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
@@ -33231,7 +33352,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 125.73 180)
+		(at 143.51 125.73 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33239,7 +33361,7 @@
 		(dnp no)
 		(uuid "3e4b6f56-3b7a-4651-92af-9cd6cae719db")
 		(property "Reference" "R56"
-			(at 140.208 124.714 0)
+			(at 146.812 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33247,7 +33369,7 @@
 			)
 		)
 		(property "Value" "51k"
-			(at 140.208 127 0)
+			(at 146.812 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33255,7 +33377,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 145.288 125.73 90)
+			(at 141.732 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33298,7 +33420,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 63.5 123.19 90)
+		(at 34.29 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33306,7 +33428,7 @@
 		(dnp no)
 		(uuid "46a43b4d-b147-4547-b683-f2d6af4a72ad")
 		(property "Reference" "#PWR0182"
-			(at 67.31 123.19 0)
+			(at 38.1 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33315,7 +33437,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 57.658 123.19 90)
+			(at 28.448 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33323,7 +33445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 123.19 0)
+			(at 34.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33332,7 +33454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 123.19 0)
+			(at 34.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33341,7 +33463,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 63.5 123.19 0)
+			(at 34.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33364,7 +33486,6 @@
 	(symbol
 		(lib_id "symbols:C")
 		(at 142.24 67.31 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33372,7 +33493,7 @@
 		(dnp no)
 		(uuid "495c93a6-d6dd-458b-91c6-144553d0fc51")
 		(property "Reference" "C48"
-			(at 139.319 66.1416 0)
+			(at 145.161 66.1416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33381,7 +33502,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 139.319 68.453 0)
+			(at 145.161 68.453 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33390,7 +33511,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 141.2748 71.12 0)
+			(at 143.2052 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33679,10 +33800,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5ac27338-6362-4252-897c-4e3cf748c6bb")
 		(property "Reference" "U8"
-			(at 93.98 111.1249 0)
+			(at 85.09 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33697,6 +33817,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
@@ -34475,6 +34596,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C137971"
+			(at 260.35 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8876f6d3-2925-4dcb-8b0a-15654a6399df")
 		)
@@ -34499,10 +34629,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6ff0b422-b08c-443e-9eaf-107f53c15bb0")
 		(property "Reference" "U8"
-			(at 237.49 140.3349 0)
+			(at 227.076 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34517,6 +34646,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
@@ -35233,7 +35363,7 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
-		(at 72.39 123.19 90)
+		(at 72.39 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35241,7 +35371,7 @@
 		(dnp no)
 		(uuid "7bf9e228-7a21-43b2-9591-d926eac5030d")
 		(property "Reference" "C56"
-			(at 71.12 124.206 90)
+			(at 71.12 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35250,7 +35380,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 71.12 121.92 90)
+			(at 71.12 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35259,7 +35389,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 76.2 122.2248 0)
+			(at 76.2 119.6848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35268,7 +35398,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
-			(at 72.39 123.19 0)
+			(at 72.39 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35277,7 +35407,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 123.19 0)
+			(at 72.39 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35286,7 +35416,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 72.39 123.19 0)
+			(at 72.39 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35553,7 +35683,7 @@
 		(dnp no)
 		(uuid "82aaf453-eee6-424c-8767-4d098d2983a4")
 		(property "Reference" "U8"
-			(at 97.028 49.53 0)
+			(at 86.36 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35562,7 +35692,7 @@
 			)
 		)
 		(property "Value" "ESP32P4-REV0"
-			(at 97.028 52.07 0)
+			(at 97.79 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35997,6 +36127,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 88.9 15.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83db2bb7-c6a6-426d-89e8-56428d71e7f8")
+		(property "Reference" "#PWR0122"
+			(at 88.9 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.868 19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69f7daeb-a897-4fd0-821a-639f293ac6e6")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/3d60835a-4261-467a-b239-9fb76f6e13a1"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:C")
 		(at 203.2 102.87 0)
 		(unit 1)
@@ -36308,16 +36504,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 168.91 90)
+		(at 77.47 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8e672ab0-692e-4492-8071-b51615d464bf")
 		(property "Reference" "#PWR0184"
-			(at 83.82 168.91 0)
+			(at 77.47 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36326,12 +36521,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 168.9099 90)
+			(at 75.438 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -36583,7 +36778,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 156.21 125.73 180)
+		(at 156.21 125.73 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36591,7 +36787,7 @@
 		(dnp no)
 		(uuid "92db0757-fde0-47e8-995f-9ae7b4007696")
 		(property "Reference" "R54"
-			(at 152.908 124.714 0)
+			(at 159.512 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36599,7 +36795,7 @@
 			)
 		)
 		(property "Value" "51k"
-			(at 152.908 127 0)
+			(at 159.512 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36607,7 +36803,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 157.988 125.73 90)
+			(at 154.432 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37136,7 +37332,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 137.16 125.73 180)
+		(at 137.16 125.73 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37144,7 +37341,7 @@
 		(dnp no)
 		(uuid "a25f670c-38c1-4a2c-b776-b749db0de1ab")
 		(property "Reference" "R57"
-			(at 133.858 124.714 0)
+			(at 140.462 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37152,7 +37349,7 @@
 			)
 		)
 		(property "Value" "51k"
-			(at 133.858 127 0)
+			(at 140.462 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37160,7 +37357,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 138.938 125.73 90)
+			(at 135.382 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37444,7 +37641,7 @@
 		(dnp no)
 		(uuid "a8376ed9-24c5-4b0e-b11a-f0f989053b6d")
 		(property "Reference" "U8"
-			(at 270.51 141.6049 0)
+			(at 262.89 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37459,6 +37656,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
@@ -37824,16 +38022,15 @@
 	(symbol
 		(lib_name "ESP32-P4_5")
 		(lib_id "esp32-p4:ESP32-P4")
-		(at 153.67 25.4 0)
+		(at 154.94 25.4 0)
 		(unit 12)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "addd12ee-aa7c-4b8d-b0f8-f004c5736707")
 		(property "Reference" "U8"
-			(at 157.48 24.7649 0)
+			(at 152.4 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37842,16 +38039,17 @@
 			)
 		)
 		(property "Value" "ESP32P4-REV0"
-			(at 157.48 26.67 0)
+			(at 158.75 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
-			(at 156.21 16.51 0)
+			(at 157.48 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37860,7 +38058,7 @@
 			)
 		)
 		(property "Datasheet" "-"
-			(at 156.21 16.51 0)
+			(at 157.48 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37869,7 +38067,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 16.51 0)
+			(at 157.48 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37878,7 +38076,7 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 153.67 25.4 0)
+			(at 154.94 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38363,10 +38561,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b754d4a3-ec83-4f02-981f-a89338ad2e88")
 		(property "Reference" "U13"
-			(at 200.66 142.2399 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38375,7 +38572,7 @@
 			)
 		)
 		(property "Value" "W25Q128JVS"
-			(at 200.66 144.7799 0)
+			(at 200.66 153.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38447,6 +38644,82 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/3d60835a-4261-467a-b239-9fb76f6e13a1"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7806fa4-cb7f-4c83-8194-cc7d5ef3c89a")
+		(property "Reference" "R45"
+			(at 39.116 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 36.83 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 38.608 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+			(at 36.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 36.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "236a5bc7-ee21-4987-8219-605d8e2810b7")
+		)
+		(pin "2"
+			(uuid "34dd1614-0d27-40bc-8c05-ee7b96b3793c")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/3d60835a-4261-467a-b239-9fb76f6e13a1"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -39354,7 +39627,7 @@
 		(dnp no)
 		(uuid "d3d6493d-b1c8-487b-8a5b-c2dfdf979bab")
 		(property "Reference" "U8"
-			(at 166.37 40.0049 0)
+			(at 165.862 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39363,12 +39636,13 @@
 			)
 		)
 		(property "Value" "ESP32P4-REV0"
-			(at 166.37 41.91 0)
+			(at 177.546 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
@@ -39883,7 +40157,7 @@
 		(dnp no)
 		(uuid "d8e14e49-c9ef-40f9-8a58-3c533710e164")
 		(property "Reference" "R44"
-			(at 251.968 119.126 0)
+			(at 251.206 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39891,7 +40165,7 @@
 			)
 		)
 		(property "Value" "4k02"
-			(at 251.968 116.84 0)
+			(at 251.714 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39907,7 +40181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010000_UNI-ROYAL-Uniroyal-Elec-0402WGF4021TCE_C43251.pdf"
 			(at 247.65 118.11 0)
 			(effects
 				(font
@@ -39917,6 +40191,14 @@
 			)
 		)
 		(property "Description" "1%"
+			(at 250.952 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C43251"
 			(at 247.65 118.11 0)
 			(effects
 				(font
@@ -40015,7 +40297,7 @@
 		(dnp no)
 		(uuid "e0accd62-20c6-466a-8cf2-4b0406546570")
 		(property "Reference" "R52"
-			(at 243.078 119.126 0)
+			(at 242.062 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40023,7 +40305,7 @@
 			)
 		)
 		(property "Value" "4k02"
-			(at 243.078 116.84 0)
+			(at 242.57 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40039,7 +40321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010000_UNI-ROYAL-Uniroyal-Elec-0402WGF4021TCE_C43251.pdf"
 			(at 238.76 118.11 0)
 			(effects
 				(font
@@ -40049,6 +40331,14 @@
 			)
 		)
 		(property "Description" "1%"
+			(at 241.554 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C43251"
 			(at 238.76 118.11 0)
 			(effects
 				(font
@@ -40289,10 +40579,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ec355777-47df-4fc4-a1e9-7c265510ee6d")
 		(property "Reference" "U8"
-			(at 182.88 141.6049 0)
+			(at 173.736 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40301,12 +40590,13 @@
 			)
 		)
 		(property "Value" "ESP32P4-REV0"
-			(at 182.88 143.51 0)
+			(at 185.42 156.972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
@@ -40738,7 +41028,6 @@
 	(symbol
 		(lib_id "symbols:C")
 		(at 109.22 67.31 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40746,7 +41035,7 @@
 		(dnp no)
 		(uuid "f0ec1431-55aa-4b6a-8a1e-93288b05d541")
 		(property "Reference" "C46"
-			(at 106.299 66.1416 0)
+			(at 112.141 66.1416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40755,7 +41044,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 106.299 68.453 0)
+			(at 112.141 68.453 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40764,7 +41053,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 108.2548 71.12 0)
+			(at 110.1852 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40823,10 +41112,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f15abe06-4f8a-4e98-8cb1-60da64279229")
 		(property "Reference" "U8"
-			(at 93.98 145.4149 0)
+			(at 85.09 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40841,6 +41129,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
@@ -41205,7 +41494,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 125.73 180)
+		(at 149.86 125.73 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41213,7 +41503,7 @@
 		(dnp no)
 		(uuid "f33d488f-9242-47c1-87a5-b15fba559fb0")
 		(property "Reference" "R55"
-			(at 146.558 124.714 0)
+			(at 153.162 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41221,7 +41511,7 @@
 			)
 		)
 		(property "Value" "51k"
-			(at 146.558 127 0)
+			(at 153.162 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41229,7 +41519,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 151.638 125.73 90)
+			(at 148.082 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41491,6 +41781,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 76.2 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8f7791e-02c9-4704-a4a7-76668b737492")
+		(property "Reference" "#PWR0120"
+			(at 76.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.168 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f9c9b0b-8f90-4226-a424-7672fab9deca")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/3d60835a-4261-467a-b239-9fb76f6e13a1"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 27.94 15.24 90)
 		(unit 1)
@@ -41631,7 +41987,7 @@
 		(dnp no)
 		(uuid "ff92c7b0-dbdd-4521-a619-500bf75a598c")
 		(property "Reference" "U8"
-			(at 156.21 56.5149 0)
+			(at 147.066 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41646,6 +42002,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "library:QFN-104_EP_10x10_Pitch0.35mm-ESP32-P4-REV0"
