@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "WHY2025 badge")
-		(date "2024-05-05")
+		(date "2024-05-10")
 		(rev "Prototype 1")
 		(company "Badge.Team")
 		(comment 1 "Copyright 2024 Nicolai Electronics")
@@ -8117,6 +8117,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 97.79) (xy 187.96 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c17ee6-1a76-40e6-ae6f-2621b12190c9")
+	)
+	(wire
+		(pts
 			(xy 242.57 95.25) (xy 242.57 92.71)
 		)
 		(stroke
@@ -8834,6 +8844,16 @@
 			(type default)
 		)
 		(uuid "61bb44d2-483a-4668-b609-b763a4aa97ef")
+	)
+	(wire
+		(pts
+			(xy 80.01 110.49) (xy 82.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d62b06-ba2e-4ee8-b833-eb0b39086beb")
 	)
 	(wire
 		(pts
@@ -10227,16 +10247,6 @@
 		)
 		(uuid b61b9f12-b197-4073-8202-f6b9da74fef5)
 	)
-	(text "On the final badge\nthese JTAG pins\ncan be used as normal\nGPIO. This connector\nwill thus be backwards\ncompatible to SAO while\nalso exposing power and\ndata for addressable LEDs,\n5 extra GPIO pins (1 + JTAG)\nand access to the raw VSYS\nvoltage rail."
-		(exclude_from_sim no)
-		(at 144.018 169.164 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4082d03b-2ff3-4142-872f-be7f275fe9a6")
-	)
 	(text "SAO"
 		(exclude_from_sim no)
 		(at 91.948 173.99 90)
@@ -10644,7 +10654,7 @@
 	)
 	(global_label "MTCK"
 		(shape input)
-		(at 115.57 161.29 0)
+		(at 115.57 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10654,7 +10664,7 @@
 		)
 		(uuid "2e86a264-f61f-4118-b961-ee11b4284101")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.9251 161.29 0)
+			(at 121.9251 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10776,7 +10786,7 @@
 	)
 	(global_label "MTDO"
 		(shape output)
-		(at 115.57 158.75 0)
+		(at 115.57 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10786,7 +10796,7 @@
 		)
 		(uuid "4607a9bc-6db6-4ae7-9c3d-cb4eab3e05d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.9735 158.75 0)
+			(at 121.9735 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11590,7 +11600,7 @@
 	)
 	(global_label "MTDI"
 		(shape input)
-		(at 115.57 156.21 0)
+		(at 115.57 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11600,7 +11610,7 @@
 		)
 		(uuid "c6dc10a9-78e1-4e24-ae55-e4800650b4fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.3929 156.21 0)
+			(at 121.3929 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11667,6 +11677,28 @@
 		(uuid "cd1c1f0a-976a-4fd0-bf55-655fb3a4bbdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.0649 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{RESET}"
+		(shape output)
+		(at 80.01 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "d4680dd0-5b05-4008-a208-f07701ecca80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.026 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12050,6 +12082,28 @@
 			)
 		)
 	)
+	(global_label "~{RESET}"
+		(shape input)
+		(at 185.42 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "f55e7253-ab37-4256-b6fa-f31a784c1c59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.436 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EXT_INT"
 		(shape input)
 		(at 226.06 158.75 0)
@@ -12174,6 +12228,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
@@ -13232,6 +13287,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
@@ -13504,6 +13560,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
@@ -14836,6 +14893,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
@@ -16043,6 +16101,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
@@ -16476,6 +16535,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
@@ -17567,16 +17627,6 @@
 			)
 			(uuid "5709247e-c9f1-41ea-a1ac-12ab34e6c4c6")
 		)
-		(pin "ALARM" output
-			(at 139.7 100.33 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "87818120-1cc1-4169-bc95-356760f87a15")
-		)
 		(pin "C6_EN" output
 			(at 166.37 110.49 0)
 			(effects
@@ -17646,6 +17696,16 @@
 				(justify right)
 			)
 			(uuid "85b0c143-3b3d-479f-b49b-a0bc53c9cb1a")
+		)
+		(pin "POWER_ON" bidirectional
+			(at 139.7 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3a73594f-86ed-488d-8f86-8555742a6f67")
 		)
 		(instances
 			(project "why2025"
@@ -17746,16 +17806,6 @@
 			)
 			(uuid "88d3c8b7-7372-4eca-994d-80197212e6c8")
 		)
-		(pin "PWR_ON" input
-			(at 100.33 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1f5a0808-e24d-49e0-83ce-1499f9b1179f")
-		)
 		(pin "KEYBOARD" input
 			(at 100.33 107.95 0)
 			(effects
@@ -17785,6 +17835,26 @@
 				(justify right)
 			)
 			(uuid "1b3da3e9-0ea0-45e7-9e01-52b6dec452a7")
+		)
+		(pin "PWR_ON" bidirectional
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9a8f5b23-463e-4e1e-b603-e2c4e82541fb")
+		)
+		(pin "PG" output
+			(at 82.55 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3d8c645c-bc9f-4b2e-b033-4eb865b0a939")
 		)
 		(instances
 			(project "why2025"
@@ -18674,6 +18744,16 @@
 			)
 			(uuid "ae9b1e82-fc40-4ad6-876f-0150fa939d06")
 		)
+		(pin "~{RESET}" input
+			(at 187.96 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "10e711fb-a041-4d4c-aa77-bd4282fc6798")
+		)
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
@@ -18833,26 +18913,6 @@
 			)
 			(uuid "eb64ccd2-3323-4af4-b95d-4375230c92b8")
 		)
-		(pin "GPIO1" bidirectional
-			(at 139.7 130.81 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ee0942e8-f672-48dd-9a98-f2c23443fcd7")
-		)
-		(pin "GPIO0" bidirectional
-			(at 139.7 128.27 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "260e2cfc-7742-4e64-a981-60168f5f9b93")
-		)
 		(pin "INT" output
 			(at 166.37 123.19 0)
 			(effects
@@ -18913,7 +18973,27 @@
 			)
 			(uuid "1671071d-203f-4dc9-92a5-0dcbff80dacc")
 		)
-		(pin "GPIO3" bidirectional
+		(pin "UNUSED1" bidirectional
+			(at 139.7 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "597b80ad-dea9-4bc5-b19a-1f28c541b643")
+		)
+		(pin "UNUSED0" bidirectional
+			(at 139.7 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "81697d3b-08f4-47c5-864a-7a33a9a17fce")
+		)
+		(pin "UNUSED3" bidirectional
 			(at 139.7 135.89 180)
 			(effects
 				(font
@@ -18921,9 +19001,9 @@
 				)
 				(justify left)
 			)
-			(uuid "2684dd6b-fb6e-44d3-95fd-9a17b5e887ad")
+			(uuid "738d6fdd-ece5-4490-b518-a3bacdd68fe2")
 		)
-		(pin "GPIO2" bidirectional
+		(pin "UNUSED2" bidirectional
 			(at 139.7 133.35 180)
 			(effects
 				(font
@@ -18931,7 +19011,7 @@
 				)
 				(justify left)
 			)
-			(uuid "e65c0251-cc18-43ef-9f71-19cd5d0e98c1")
+			(uuid "13aa24f0-1a14-4ef1-8077-5b558218e363")
 		)
 		(instances
 			(project "why2025"
