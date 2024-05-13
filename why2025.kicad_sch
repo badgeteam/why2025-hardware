@@ -15607,7 +15607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Horizontal"
+		(property "Footprint" "library:SAMTEC-SMH-108-02-X-D"
 			(at 107.95 163.83 0)
 			(effects
 				(font
@@ -15616,7 +15616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2201121730_DEALON-DW254W-22-16-85_C2936005.pdf"
+		(property "Datasheet" ""
 			(at 107.95 163.83 0)
 			(effects
 				(font
@@ -15625,7 +15625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "SMH-108-02-G-D"
 			(at 107.95 163.83 0)
 			(effects
 				(font
@@ -15634,7 +15634,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2936005"
+		(property "LCSC" ""
 			(at 107.95 163.83 0)
 			(effects
 				(font
