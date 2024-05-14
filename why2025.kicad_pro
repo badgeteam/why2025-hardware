@@ -500,6 +500,23 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.127,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.09,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 0, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 10
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.0895,
         "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
@@ -544,7 +561,7 @@
         "pattern": "/DSI*"
       },
       {
-        "netclass": "DSI differential pair",
+        "netclass": "GND",
         "pattern": "*GND*"
       },
       {
