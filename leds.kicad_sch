@@ -416,7 +416,7 @@
 				)
 			)
 		)
-		(symbol "custom-power:VLED"
+		(symbol "custom-power:VOTG"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -433,7 +433,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VLED"
+			(property "Value" "VOTG"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -459,7 +459,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VLED\""
+			(property "Description" "Power symbol creates a global label with name \"VOTG\""
 				(at 0 -1.778 0)
 				(effects
 					(font
@@ -477,7 +477,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VLED_0_1"
+			(symbol "VOTG_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -515,7 +515,7 @@
 					)
 				)
 			)
-			(symbol "VLED_1_1"
+			(symbol "VOTG_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -705,6 +705,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 74.93) (xy 142.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7779c0eb-e6e8-4404-aa66-05fa3c775d68")
+	)
+	(wire
+		(pts
 			(xy 168.91 87.63) (xy 172.72 87.63)
 		)
 		(stroke
@@ -762,16 +772,6 @@
 			(type default)
 		)
 		(uuid "b6234522-6efa-4500-8bb6-a16b0ab0f62f")
-	)
-	(wire
-		(pts
-			(xy 142.24 74.93) (xy 142.24 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd343922-5c07-40a7-b248-f210e23fb8d3")
 	)
 	(wire
 		(pts
@@ -868,82 +868,15 @@
 		(uuid "6ad58985-d9b7-482d-af3c-b5f3dc7a7fa4")
 	)
 	(symbol
-		(lib_id "custom-power:VLED")
-		(at 180.34 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0dc4b06f-f138-4764-8bbb-79c363d37e0d")
-		(property "Reference" "#PWR0249"
-			(at 180.34 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VLED"
-			(at 180.34 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VLED\""
-			(at 180.34 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45bace84-2743-4836-86f3-162360961c59")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
-					(reference "#PWR0249")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom-power:VLED")
+		(lib_id "custom-power:VOTG")
 		(at 161.29 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15ba0486-6583-42b2-87bd-98feab4b30e2")
-		(property "Reference" "#PWR0248"
+		(uuid "236c9504-1d4b-4baa-b8ef-0217ba47fab1")
+		(property "Reference" "#PWR0121"
 			(at 161.29 78.74 0)
 			(effects
 				(font
@@ -952,8 +885,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VLED"
-			(at 161.29 69.85 0)
+		(property "Value" "VOTG"
+			(at 161.29 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -978,7 +911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VLED\""
+		(property "Description" "Power symbol creates a global label with name \"VOTG\""
 			(at 161.29 76.708 0)
 			(effects
 				(font
@@ -988,12 +921,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c0d22ec-04d9-41aa-b988-fb1bccd9026c")
+			(uuid "dae9d936-4b1d-4e73-9612-ab02b0fdb388")
 		)
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
-					(reference "#PWR0248")
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom-power:VOTG")
+		(at 142.24 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a021963-0734-4262-8c9b-e240ca34f478")
+		(property "Reference" "#PWR0107"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VOTG"
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VOTG\""
+			(at 142.24 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d60c5c7-e3a5-46b1-8e9d-c950ffe1fc29")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -1513,17 +1511,16 @@
 		)
 	)
 	(symbol
-		(lib_id "custom-power:VLED")
-		(at 142.24 74.93 0)
+		(lib_id "custom-power:VOTG")
+		(at 180.34 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b511a5b-1d7b-47c1-9181-6c5c08f03727")
-		(property "Reference" "#PWR0244"
-			(at 142.24 78.74 0)
+		(uuid "6e3986b0-8fa1-4b73-bff3-8edcc27c1c79")
+		(property "Reference" "#PWR0123"
+			(at 180.34 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,8 +1528,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VLED"
-			(at 142.24 69.85 0)
+		(property "Value" "VOTG"
+			(at 180.34 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +1537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 74.93 0)
+			(at 180.34 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +1546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 74.93 0)
+			(at 180.34 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,8 +1554,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VLED\""
-			(at 142.24 76.708 0)
+		(property "Description" "Power symbol creates a global label with name \"VOTG\""
+			(at 180.34 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,12 +1564,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "1697b097-aa00-406f-9421-f3a8623bbad8")
+			(uuid "aea79e78-22d6-477e-b2a0-8d02058809e4")
 		)
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
-					(reference "#PWR0244")
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom-power:VOTG")
+		(at 218.44 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73ed0638-09fe-4aec-a81a-633222adab3b")
+		(property "Reference" "#PWR0127"
+			(at 218.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VOTG"
+			(at 218.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VOTG\""
+			(at 218.44 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b81f0d7-be82-4121-802e-bf817a94d7ee")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -1639,72 +1701,6 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
 					(reference "#PWR0238")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom-power:VLED")
-		(at 199.39 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92a85795-a864-4a45-87a9-41b250bd455d")
-		(property "Reference" "#PWR0205"
-			(at 199.39 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VLED"
-			(at 199.39 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VLED\""
-			(at 199.39 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9f394a8-4d11-45b5-9150-a12ed68125fe")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
-					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -1793,72 +1789,6 @@
 		)
 	)
 	(symbol
-		(lib_id "custom-power:VLED")
-		(at 106.68 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0783baa-c44f-48b0-a4f6-78ba8db26dca")
-		(property "Reference" "#PWR095"
-			(at 106.68 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VLED"
-			(at 106.68 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VLED\""
-			(at 106.68 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9788b2a-f700-45b8-a5a2-6bfbc2f81e7a")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
-					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "button_matrix:SK6805-EC20")
 		(at 180.34 87.63 0)
 		(unit 1)
@@ -1941,17 +1871,16 @@
 		)
 	)
 	(symbol
-		(lib_id "custom-power:VLED")
-		(at 218.44 74.93 0)
+		(lib_id "custom-power:VOTG")
+		(at 106.68 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba341fea-2ff9-4f4a-b929-8a128887d1ae")
-		(property "Reference" "#PWR0234"
-			(at 218.44 78.74 0)
+		(uuid "bd03aa81-b008-405e-9b1c-e7bd5111e6e2")
+		(property "Reference" "#PWR095"
+			(at 106.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,8 +1888,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VLED"
-			(at 218.44 69.85 0)
+		(property "Value" "VOTG"
+			(at 106.68 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +1897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 74.93 0)
+			(at 106.68 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,7 +1906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 74.93 0)
+			(at 106.68 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,8 +1914,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VLED\""
-			(at 218.44 76.708 0)
+		(property "Description" "Power symbol creates a global label with name \"VOTG\""
+			(at 106.68 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1995,12 +1924,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "11d21729-5e03-41af-938d-e877dedaf4d1")
+			(uuid "f8831327-64e8-4a7d-8a5d-18002dc47f94")
 		)
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
-					(reference "#PWR0234")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -2133,6 +2062,71 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
 					(reference "#PWR0239")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom-power:VOTG")
+		(at 199.39 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7782a22-0aef-493c-9ed5-eb34648cd1b5")
+		(property "Reference" "#PWR0124"
+			(at 199.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VOTG"
+			(at 199.39 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VOTG\""
+			(at 199.39 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f6733cd-be47-4c39-b993-c2d582782fc5")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
