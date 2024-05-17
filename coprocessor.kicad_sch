@@ -4428,7 +4428,7 @@
 		)
 		(uuid "1c3b0c41-baa5-4707-b2ef-0fda58ec0152")
 	)
-	(hierarchical_label "USB_1_N"
+	(hierarchical_label "CH32_USB1_N"
 		(shape bidirectional)
 		(at 210.82 80.01 0)
 		(fields_autoplaced yes)
@@ -4596,7 +4596,7 @@
 		)
 		(uuid "cfd538c5-4a72-449c-b947-d01264ce8fae")
 	)
-	(hierarchical_label "USB_1_P"
+	(hierarchical_label "CH32_USB1_P"
 		(shape bidirectional)
 		(at 210.82 77.47 0)
 		(fields_autoplaced yes)

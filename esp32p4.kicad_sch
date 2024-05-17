@@ -29411,7 +29411,7 @@
 	)
 	(hierarchical_label "C6_D0"
 		(shape bidirectional)
-		(at 27.94 69.85 180)
+		(at 27.94 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -29423,7 +29423,7 @@
 	)
 	(hierarchical_label "C6_D1"
 		(shape bidirectional)
-		(at 27.94 72.39 180)
+		(at 27.94 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -29435,7 +29435,7 @@
 	)
 	(hierarchical_label "C6_CLK"
 		(shape output)
-		(at 26.67 109.22 180)
+		(at 27.94 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -29663,7 +29663,7 @@
 	)
 	(hierarchical_label "C6_CMD"
 		(shape output)
-		(at 26.67 111.76 180)
+		(at 27.94 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -29951,7 +29951,7 @@
 	)
 	(hierarchical_label "C6_D3"
 		(shape bidirectional)
-		(at 27.94 77.47 180)
+		(at 26.67 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -30057,7 +30057,7 @@
 		)
 		(uuid "aa36aa06-ff50-460f-b04d-b45b4af472e3")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "USB2_P"
 		(shape bidirectional)
 		(at 255.27 144.78 180)
 		(fields_autoplaced yes)
@@ -30095,7 +30095,7 @@
 	)
 	(hierarchical_label "C6_D2"
 		(shape bidirectional)
-		(at 27.94 74.93 180)
+		(at 26.67 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -30225,7 +30225,7 @@
 		)
 		(uuid "f3d3b4c3-b2d6-4b69-a309-1a91a0e6ff7f")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB2_N"
 		(shape bidirectional)
 		(at 255.27 142.24 180)
 		(fields_autoplaced yes)
@@ -32316,6 +32316,7 @@
 	(symbol
 		(lib_id "Device:Crystal_GND24_Small")
 		(at 120.65 59.69 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32323,7 +32324,7 @@
 		(dnp no)
 		(uuid "1f6b79ca-3de8-4e03-9576-eab8e5901d99")
 		(property "Reference" "Y3"
-			(at 114.3 58.166 90)
+			(at 114.3 61.214 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32331,7 +32332,7 @@
 			)
 		)
 		(property "Value" "40MHz"
-			(at 114.3 60.198 90)
+			(at 114.3 59.182 90)
 			(effects
 				(font
 					(size 1.27 1.27)
