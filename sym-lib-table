@@ -11,4 +11,5 @@
   (lib (name "pj327st-smt")(type "KiCad")(uri "${KIPRJMOD}/library/pj327st-smt.kicad_sym")(options "")(descr ""))
   (lib (name "LH397K-IC01")(type "KiCad")(uri "${KIPRJMOD}/library/LH397K-IC01.kicad_sym")(options "")(descr ""))
   (lib (name "sdcard")(type "KiCad")(uri "${KIPRJMOD}/library/sdcard.kicad_sym")(options "")(descr ""))
+  (lib (name "pushbutton_gnd")(type "KiCad")(uri "${KIPRJMOD}/library/pushbutton_gnd.kicad_sym")(options "")(descr ""))
 )
