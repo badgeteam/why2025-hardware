@@ -2756,16 +2756,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 52.07) (xy 34.29 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "690d4773-36ad-4311-a20c-43205bcbeb06")
-	)
-	(wire
-		(pts
 			(xy 64.77 74.93) (xy 63.5 74.93)
 		)
 		(stroke
@@ -3226,7 +3216,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 52.07) (xy 24.13 52.07)
+			(xy 24.13 52.07) (xy 36.83 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4801,82 +4791,6 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/26e0a3c5-321c-4e16-844f-a29ed28cc9bc"
 					(reference "#PWR0222")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 30.48 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6184ff42-1377-4447-90be-a3b52eb30c2c")
-		(property "Reference" "R73"
-			(at 30.48 49.784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 30.48 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 30.48 53.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17168"
-			(at 30.48 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9a3416ca-c521-499b-bbbd-a877a16b4544")
-		)
-		(pin "1"
-			(uuid "f3a82542-703f-44bf-80d2-1138af193d42")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183/26e0a3c5-321c-4e16-844f-a29ed28cc9bc"
-					(reference "R73")
 					(unit 1)
 				)
 			)
