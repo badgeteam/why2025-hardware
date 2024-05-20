@@ -5109,7 +5109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 92.71 98.0948 0)
 			(effects
 				(font
@@ -5118,7 +5118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_TDK-C3216X5R1V226MTJ00E_C342620.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.html"
 			(at 88.9 99.06 0)
 			(effects
 				(font
@@ -5136,7 +5136,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C342620"
+		(property "LCSC" "C45783"
 			(at 88.9 99.06 0)
 			(effects
 				(font
@@ -5994,7 +5994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 92.71 90.4748 0)
 			(effects
 				(font
@@ -6003,7 +6003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_TDK-C3216X5R1V226MTJ00E_C342620.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.html"
 			(at 88.9 91.44 0)
 			(effects
 				(font
@@ -6021,7 +6021,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C342620"
+		(property "LCSC" "C45783"
 			(at 88.9 91.44 0)
 			(effects
 				(font
@@ -7267,7 +7267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 256.54 107.95 0)
 			(effects
 				(font
@@ -7343,7 +7343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 266.7 107.95 0)
 			(effects
 				(font

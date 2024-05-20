@@ -10373,7 +10373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 274.32 35.56 0)
 			(effects
 				(font
@@ -11302,7 +11302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 252.73 29.21 0)
 			(effects
 				(font
@@ -12310,7 +12310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 274.32 16.51 0)
 			(effects
 				(font
@@ -12854,7 +12854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 252.73 22.86 0)
 			(effects
 				(font
@@ -13325,7 +13325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 252.73 35.56 0)
 			(effects
 				(font
@@ -14518,7 +14518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 252.73 16.51 0)
 			(effects
 				(font
@@ -16156,7 +16156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 274.32 22.86 0)
 			(effects
 				(font
@@ -16862,7 +16862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 274.32 29.21 0)
 			(effects
 				(font

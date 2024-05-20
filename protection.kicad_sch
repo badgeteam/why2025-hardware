@@ -4239,7 +4239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1%"
+		(property "Description" ""
 			(at 233.68 73.914 90)
 			(effects
 				(font
@@ -4547,7 +4547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1%"
+		(property "Description" ""
 			(at 128.524 102.616 0)
 			(effects
 				(font
@@ -5690,7 +5690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1%"
+		(property "Description" ""
 			(at 225.044 102.362 0)
 			(effects
 				(font
@@ -5767,7 +5767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1%"
+		(property "Description" ""
 			(at 78.994 102.362 0)
 			(effects
 				(font
@@ -5842,7 +5842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1%"
+		(property "Description" ""
 			(at 180.34 74.168 90)
 			(effects
 				(font
@@ -6061,7 +6061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1%"
+		(property "Description" ""
 			(at 134.62 74.168 90)
 			(effects
 				(font
@@ -6138,7 +6138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1%"
+		(property "Description" ""
 			(at 174.498 102.616 0)
 			(effects
 				(font
@@ -6213,7 +6213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1%"
+		(property "Description" ""
 			(at 87.63 74.168 90)
 			(effects
 				(font
