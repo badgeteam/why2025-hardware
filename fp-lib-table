@@ -3,4 +3,5 @@
   (lib (name "library")(type "KiCad")(uri "${KIPRJMOD}/library")(options "")(descr ""))
   (lib (name "adamgreig")(type "KiCad")(uri "${KIPRJMOD}/library/adamgreig")(options "")(descr ""))
   (lib (name "proto1_kicad")(type "KiCad")(uri "${KIPRJMOD}/design/proto1_kicad")(options "")(descr ""))
+  (lib (name "speaker")(type "KiCad")(uri "${KIPRJMOD}/design/speaker")(options "")(descr ""))
 )
