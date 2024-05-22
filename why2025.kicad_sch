@@ -7659,6 +7659,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 69.85) (xy 168.91 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125157ac-2c26-41b5-8f02-2d0835dc3516")
+	)
+	(wire
+		(pts
 			(xy 132.08 59.69) (xy 132.08 123.19)
 		)
 		(stroke
@@ -9719,6 +9729,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 45.72) (xy 237.49 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4270f3-77bb-4345-8979-0a288d313dfe")
+	)
+	(wire
+		(pts
 			(xy 49.53 46.99) (xy 52.07 46.99)
 		)
 		(stroke
@@ -10978,6 +10998,28 @@
 			)
 		)
 	)
+	(global_label "SD_DET"
+		(shape output)
+		(at 232.41 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "77dcc077-6d8f-44cb-bcc8-3fb74071cb57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.5551 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "E8"
 		(shape bidirectional)
 		(at 252.73 143.51 180)
@@ -12030,6 +12072,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_DET"
+		(shape input)
+		(at 168.91 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "fb135493-dc6f-4bfd-be40-df22352e029c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.7649 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -18096,6 +18160,16 @@
 				(justify left)
 			)
 			(uuid "aa8b18b5-ef06-478d-a880-cfd850defa41")
+		)
+		(pin "SD_DET" input
+			(at 166.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d0114d72-c563-4fef-8dff-3366d61d19c8")
 		)
 		(instances
 			(project "why2025"
