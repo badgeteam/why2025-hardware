@@ -16869,7 +16869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/FFC-FPC-Connectors_HRS-Hirose-FH12-22S-0-5SH-55_C597981.html"
 			(at 251.46 87.63 0)
 			(effects
 				(font
@@ -16878,7 +16878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x22, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "RPI camera"
 			(at 251.46 87.63 0)
 			(effects
 				(font
@@ -17629,7 +17629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Tactile-Switches_XKB-Connection-TC-1101V-C-A-W_C318992.html"
 			(at 25.4 165.1 0)
 			(effects
 				(font
@@ -17638,7 +17638,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power switch"
+		(property "Description" "Boot button"
+			(at 20.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318992"
 			(at 20.32 165.1 0)
 			(effects
 				(font

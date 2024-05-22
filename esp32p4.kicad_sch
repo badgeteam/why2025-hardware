@@ -30303,7 +30303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-07499KL_C137971.html"
 			(at 260.35 41.91 0)
 			(effects
 				(font
@@ -30787,7 +30787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5102TCE_C25794.html"
 			(at 124.46 125.73 0)
 			(effects
 				(font
@@ -30797,6 +30797,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25794"
 			(at 124.46 125.73 0)
 			(effects
 				(font
@@ -31387,7 +31396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5102TCE_C25794.html"
 			(at 130.81 125.73 0)
 			(effects
 				(font
@@ -31397,6 +31406,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 130.81 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25794"
 			(at 130.81 125.73 0)
 			(effects
 				(font
@@ -33308,7 +33326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5102TCE_C25794.html"
 			(at 143.51 125.73 0)
 			(effects
 				(font
@@ -33318,6 +33336,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25794"
 			(at 143.51 125.73 0)
 			(effects
 				(font
@@ -34283,7 +34310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-07499KL_C137971.html"
 			(at 260.35 29.21 0)
 			(effects
 				(font
@@ -36580,7 +36607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5102TCE_C25794.html"
 			(at 156.21 125.73 0)
 			(effects
 				(font
@@ -36590,6 +36617,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 156.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25794"
 			(at 156.21 125.73 0)
 			(effects
 				(font
@@ -36828,7 +36864,7 @@
 		(at 266.7 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "9a1abaa7-719c-4873-91cb-5769d7772be0")
@@ -37134,7 +37170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5102TCE_C25794.html"
 			(at 137.16 125.73 0)
 			(effects
 				(font
@@ -37144,6 +37180,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25794"
 			(at 137.16 125.73 0)
 			(effects
 				(font
@@ -41219,7 +41264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5102TCE_C25794.html"
 			(at 149.86 125.73 0)
 			(effects
 				(font
@@ -41229,6 +41274,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 149.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25794"
 			(at 149.86 125.73 0)
 			(effects
 				(font

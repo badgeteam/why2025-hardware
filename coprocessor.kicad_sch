@@ -4893,7 +4893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 199.39 58.42 0)
 			(effects
 				(font
@@ -5233,7 +5233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 25.4 124.46 0)
 			(effects
 				(font
@@ -5573,7 +5573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 44.45 137.16 0)
 			(effects
 				(font
@@ -5704,7 +5704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 25.4 137.16 0)
 			(effects
 				(font
@@ -6270,7 +6270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 44.45 124.46 0)
 			(effects
 				(font
@@ -6701,7 +6701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Tactile-Switches_XKB-Connection-TC-1101V-C-A-W_C318992.html"
 			(at 245.11 154.94 0)
 			(effects
 				(font
@@ -6710,7 +6710,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power switch"
+		(property "Description" "User button"
+			(at 245.11 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318992"
 			(at 245.11 160.02 0)
 			(effects
 				(font
@@ -7406,7 +7415,7 @@
 		(at 201.93 27.94 90)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7869,7 +7878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 209.55 74.93 0)
 			(effects
 				(font
@@ -8002,7 +8011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 43.18 87.63 0)
 			(effects
 				(font

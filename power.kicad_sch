@@ -12560,7 +12560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Tactile-Switches_XKB-Connection-TC-1101V-C-A-W_C318992.html"
 			(at 60.96 80.01 0)
 			(effects
 				(font
@@ -12569,8 +12569,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power switch"
+		(property "Description" "Power button"
 			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318992"
+			(at 55.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13274,7 +13283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF4532TCE_C26980.html"
 			(at 190.5 38.1 0)
 			(effects
 				(font
@@ -13284,6 +13293,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 190.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C26980"
 			(at 190.5 38.1 0)
 			(effects
 				(font
@@ -13472,7 +13490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF2201TCE_C25879.html"
 			(at 20.32 40.64 0)
 			(effects
 				(font
@@ -13482,6 +13500,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 20.32 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25879"
 			(at 20.32 40.64 0)
 			(effects
 				(font

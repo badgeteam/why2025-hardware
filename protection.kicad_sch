@@ -3256,7 +3256,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2192fe30-4816-400e-8bab-2ccf2822bba9")
@@ -3749,7 +3749,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.9k"
+		(property "Value" "3k9"
 			(at 77.47 87.6299 0)
 			(effects
 				(font
@@ -4547,7 +4547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
 			(at 128.524 102.616 0)
 			(effects
 				(font
@@ -4763,7 +4763,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7d099abd-5114-4763-a723-226273d9eacd")
@@ -4921,7 +4921,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "86a8fdfb-e36b-4d60-80b7-970f015992f7")
@@ -5690,7 +5690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
 			(at 225.044 102.362 0)
 			(effects
 				(font
@@ -5767,7 +5767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
 			(at 78.994 102.362 0)
 			(effects
 				(font
@@ -5880,7 +5880,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c7cec56b-2e5b-4f89-88eb-1264e70621d1")
@@ -6138,7 +6138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
 			(at 174.498 102.616 0)
 			(effects
 				(font
