@@ -833,16 +833,6 @@
 		)
 		(uuid "feb9ec32-0b19-4055-abe7-720af6451ed4")
 	)
-	(text "To-do\n\nThe idea is to have these LEDs act as status indicators, behind symbols cut out of the frontpanel PCB\nThe exact amount is to be discussed, for now I've added 3."
-		(exclude_from_sim no)
-		(at 143.51 114.046 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "af89f4c3-d424-4f0b-8172-ce55aa9f333f")
-	)
 	(hierarchical_label "DIN"
 		(shape input)
 		(at 96.52 87.63 180)

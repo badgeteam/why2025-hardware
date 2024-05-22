@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|-10321320|31668674|84bb6a13-3449-481c-b4be-e110f4e0ebac|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|44132111|59614288|181669a6-699d-4483-a029-58dfbd2b9282|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -617,8 +620,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "fabrication/gerbers",
+      "pos_files": "fabrication",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
