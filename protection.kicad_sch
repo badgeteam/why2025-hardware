@@ -6,12 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "WHY2025 badge")
-		(date "2024-05-10")
+		(date "2024-05-22")
 		(rev "Prototype 1")
 		(company "Badge.Team")
 		(comment 1 "Copyright 2024 Nicolai Electronics")
 		(comment 2 "License: CERN-OHL-P")
-		(comment 3 "PROTOYPE DESIGN UNTESTED")
+		(comment 3 "Untested prototype design")
 		(comment 4 "(Work in progress!)")
 	)
 	(lib_symbols
@@ -1676,12 +1676,6 @@
 		(uuid "0442ea61-743b-4d7f-8e56-46015dc9bcdb")
 	)
 	(junction
-		(at 40.64 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37211eb9-1d9e-40b0-8e29-6b9b30dc3774")
-	)
-	(junction
 		(at 173.99 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1796,6 +1790,12 @@
 		(uuid "d9adb89e-2a6f-4a7d-a3d2-ddcc900804be")
 	)
 	(junction
+		(at 64.77 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "def13fa8-5baa-43b7-93d6-59a1770b7fd6")
+	)
+	(junction
 		(at 93.98 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1903,16 +1903,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 90.17) (xy 40.64 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "193aa322-3235-4e0c-9213-4edd991d1e66")
-	)
-	(wire
-		(pts
 			(xy 52.07 95.25) (xy 52.07 92.71)
 		)
 		(stroke
@@ -1920,16 +1910,6 @@
 			(type default)
 		)
 		(uuid "1a126fc1-bc1f-479b-beb6-f126286ed678")
-	)
-	(wire
-		(pts
-			(xy 52.07 92.71) (xy 40.64 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f86925f-fe60-4b79-a4a2-40627cb75e54")
 	)
 	(wire
 		(pts
@@ -2133,16 +2113,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 92.71) (xy 40.64 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4759e966-aa9f-4168-999e-a2cf4819a55d")
-	)
-	(wire
-		(pts
 			(xy 93.98 102.87) (xy 93.98 110.49)
 		)
 		(stroke
@@ -2210,6 +2180,16 @@
 			(type default)
 		)
 		(uuid "52da3682-1f70-4ba8-a41c-18c6283bef11")
+	)
+	(wire
+		(pts
+			(xy 64.77 92.71) (xy 64.77 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5325997b-b89d-44f6-b75a-39492fb7685e")
 	)
 	(wire
 		(pts
@@ -2443,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 102.87) (xy 40.64 110.49)
+			(xy 64.77 102.87) (xy 64.77 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2792,7 +2772,7 @@
 	)
 	(text "1v ref."
 		(exclude_from_sim no)
-		(at 48.514 87.122 0)
+		(at 64.262 91.694 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3080,7 +3060,7 @@
 				)
 			)
 		)
-		(property "Value" "LM339"
+		(property "Value" "LM339DR"
 			(at 250.19 82.55 0)
 			(effects
 				(font
@@ -3097,7 +3077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2311161808_IDCHIP-LM339S_C19193841.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Comparators_Texas-Instruments-LM339DR_C7948.html"
 			(at 251.46 85.09 0)
 			(effects
 				(font
@@ -3348,7 +3328,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 138.049 100.203 0)
 			(effects
 				(font
@@ -3366,7 +3346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_PSA-Prosperity-Dielectrics-FN15F103Z500PNG_C565544.html"
 			(at 140.97 99.06 0)
 			(effects
 				(font
@@ -3384,7 +3364,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C565544"
 			(at 140.97 99.06 0)
 			(effects
 				(font
@@ -3493,7 +3473,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 91.059 100.203 0)
 			(effects
 				(font
@@ -3511,7 +3491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_PSA-Prosperity-Dielectrics-FN15F103Z500PNG_C565544.html"
 			(at 93.98 99.06 0)
 			(effects
 				(font
@@ -3529,7 +3509,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C565544"
 			(at 93.98 99.06 0)
 			(effects
 				(font
@@ -3570,7 +3550,7 @@
 				)
 			)
 		)
-		(property "Value" "LM339"
+		(property "Value" "LM339DR"
 			(at 196.85 82.55 0)
 			(effects
 				(font
@@ -3587,7 +3567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2311161808_IDCHIP-LM339S_C19193841.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Comparators_Texas-Instruments-LM339DR_C7948.html"
 			(at 198.12 85.09 0)
 			(effects
 				(font
@@ -3827,7 +3807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM339"
+		(property "Value" "LM339DR"
 			(at 27.94 96.5199 0)
 			(effects
 				(font
@@ -3845,7 +3825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2311161808_IDCHIP-LM339S_C19193841.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Comparators_Texas-Instruments-LM339DR_C7948.html"
 			(at 30.48 90.17 0)
 			(effects
 				(font
@@ -4239,7 +4219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
 			(at 233.68 73.914 90)
 			(effects
 				(font
@@ -4273,7 +4253,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 40.64 90.17 0)
+		(at 52.07 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4281,7 +4261,7 @@
 		(dnp no)
 		(uuid "5e4147eb-198e-4c39-ab58-0e723aa61fc7")
 		(property "Reference" "TP7"
-			(at 39.37 85.852 0)
+			(at 43.434 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4270,7 @@
 			)
 		)
 		(property "Value" "PRR"
-			(at 39.37 88.392 0)
+			(at 43.434 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +4279,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 45.72 90.17 0)
+			(at 52.07 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4288,7 @@
 			)
 		)
 		(property "Datasheet" "-"
-			(at 45.72 90.17 0)
+			(at 52.07 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4297,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 40.64 90.17 0)
+			(at 52.07 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,7 +4306,7 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 40.64 90.17 0)
+			(at 52.07 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,7 +4422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 237.109 100.203 0)
 			(effects
 				(font
@@ -4460,7 +4440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_PSA-Prosperity-Dielectrics-FN15F103Z500PNG_C565544.html"
 			(at 240.03 99.06 0)
 			(effects
 				(font
@@ -4478,7 +4458,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C565544"
 			(at 240.03 99.06 0)
 			(effects
 				(font
@@ -4662,7 +4642,7 @@
 				)
 			)
 		)
-		(property "Value" "LM339"
+		(property "Value" "LM339DR"
 			(at 104.14 82.55 0)
 			(effects
 				(font
@@ -4679,7 +4659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2311161808_IDCHIP-LM339S_C19193841.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Comparators_Texas-Instruments-LM339DR_C7948.html"
 			(at 105.41 85.09 0)
 			(effects
 				(font
@@ -4855,7 +4835,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 183.769 100.203 0)
 			(effects
 				(font
@@ -4873,7 +4853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_PSA-Prosperity-Dielectrics-FN15F103Z500PNG_C565544.html"
 			(at 186.69 99.06 0)
 			(effects
 				(font
@@ -4891,7 +4871,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C565544"
 			(at 186.69 99.06 0)
 			(effects
 				(font
@@ -5127,7 +5107,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 110.49 0)
+		(at 64.77 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5136,7 +5116,7 @@
 		(fields_autoplaced yes)
 		(uuid "90785507-2751-4372-9d4b-0cdcc0aefef4")
 		(property "Reference" "#PWR0257"
-			(at 40.64 116.84 0)
+			(at 64.77 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +5125,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 115.57 0)
+			(at 64.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 110.49 0)
+			(at 64.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 110.49 0)
+			(at 64.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5151,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 110.49 0)
+			(at 64.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,7 +5188,7 @@
 				)
 			)
 		)
-		(property "Value" "LM339"
+		(property "Value" "LM339DR"
 			(at 151.13 82.55 0)
 			(effects
 				(font
@@ -5225,7 +5205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2311161808_IDCHIP-LM339S_C19193841.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Comparators_Texas-Instruments-LM339DR_C7948.html"
 			(at 152.4 85.09 0)
 			(effects
 				(font
@@ -5569,7 +5549,7 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
-		(at 40.64 99.06 0)
+		(at 64.77 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5577,7 +5557,7 @@
 		(dnp no)
 		(uuid "b2afe247-8ce2-4e07-a3f4-b201e725b10e")
 		(property "Reference" "C73"
-			(at 43.561 97.8916 0)
+			(at 67.691 97.8916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5586,7 +5566,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 43.561 100.203 0)
+			(at 67.691 100.203 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5595,7 +5575,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 41.6052 102.87 0)
+			(at 65.7352 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +5584,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
-			(at 40.64 99.06 0)
+			(at 64.77 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,7 +5593,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 99.06 0)
+			(at 64.77 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +5602,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 40.64 99.06 0)
+			(at 64.77 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,7 +5822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
 			(at 180.34 74.168 90)
 			(effects
 				(font
@@ -6061,7 +6041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
 			(at 134.62 74.168 90)
 			(effects
 				(font

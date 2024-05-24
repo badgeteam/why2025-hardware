@@ -6,12 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "WHY2025 badge")
-		(date "2024-05-10")
+		(date "2024-05-22")
 		(rev "Prototype 1")
 		(company "Badge.Team")
 		(comment 1 "Copyright 2024 Nicolai Electronics")
 		(comment 2 "License: CERN-OHL-P")
-		(comment 3 "PROTOYPE DESIGN UNTESTED")
+		(comment 3 "Untested prototype design")
 		(comment 4 "(Work in progress!)")
 	)
 	(lib_symbols
@@ -1640,7 +1640,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:MCP1700x-250xxTT"
+		(symbol "Regulator_Linear:MCP1700x-280xxMB"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1655,7 +1655,7 @@
 					)
 				)
 			)
-			(property "Value" "MCP1700x-250xxTT"
+			(property "Value" "MCP1700x-280xxMB"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -1664,8 +1664,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 5.715 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1674,7 +1674,7 @@
 				)
 			)
 			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf"
-				(at 0 0 0)
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1682,7 +1682,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "250mA Low Quiscent Current LDO, 2.5V output, SOT-23"
+			(property "Description" "250mA Low Quiscent Current LDO, 2.8V output, SOT-89"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1700,7 +1700,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "SOT?89*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1709,10 +1709,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCP1700x-250xxTT_0_1"
+			(symbol "MCP1700x-280xxMB_0_1"
 				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1722,7 +1722,7 @@
 					)
 				)
 			)
-			(symbol "MCP1700x-250xxTT_1_1"
+			(symbol "MCP1700x-280xxMB_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -1741,10 +1741,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 0 180)
+				(pin power_in line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "VO"
+					(name "VI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1759,10 +1759,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -7.62 0 0)
+				(pin power_out line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "VI"
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12237,7 +12237,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:MCP1700x-250xxTT")
+		(lib_id "Regulator_Linear:MCP1700x-280xxMB")
 		(at 259.08 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12253,7 +12253,7 @@
 				)
 			)
 		)
-		(property "Value" "DS8561-25S3"
+		(property "Value" "LR8341A-M25"
 			(at 259.08 32.512 0)
 			(effects
 				(font
@@ -12261,8 +12261,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 259.08 29.845 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 259.08 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12270,7 +12270,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305121703_DSTECH-DS8561-25S3_C5795630.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_LR-LR8341A-M25_C5205210.html"
+			(at 259.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 259.08 35.56 0)
 			(effects
 				(font
@@ -12279,16 +12288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.5v LDO"
-			(at 259.08 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5795630"
+		(property "LCSC" "C5205210"
 			(at 259.08 35.56 0)
 			(effects
 				(font

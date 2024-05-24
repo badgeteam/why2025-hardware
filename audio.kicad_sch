@@ -6,12 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "WHY2025 badge")
-		(date "2024-05-10")
+		(date "2024-05-22")
 		(rev "Prototype 1")
 		(company "Badge.Team")
 		(comment 1 "Copyright 2024 Nicolai Electronics")
 		(comment 2 "License: CERN-OHL-P")
-		(comment 3 "PROTOYPE DESIGN UNTESTED")
+		(comment 3 "Untested prototype design")
 		(comment 4 "(Work in progress!)")
 	)
 	(lib_symbols

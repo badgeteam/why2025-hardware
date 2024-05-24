@@ -58,10 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_over_copper|-10321320|31668674|84bb6a13-3449-481c-b4be-e110f4e0ebac|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|44132111|59614288|181669a6-699d-4483-a029-58dfbd2b9282|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -133,7 +130,7 @@
         "min_track_width": 0.09,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.25,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -704,7 +701,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
