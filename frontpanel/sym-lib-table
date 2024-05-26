@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "pushbutton_gnd")(type "KiCad")(uri "${KIPRJMOD}/shoulderbutton/pushbutton_gnd.kicad_sym")(options "")(descr ""))
   (lib (name "SW-SMD_K1-1539SA-01")(type "KiCad")(uri "${KIPRJMOD}/analog_joystick/SW-SMD_K1-1539SA-01.kicad_sym")(options "")(descr ""))
+  (lib (name "LM66100DCKR")(type "KiCad")(uri "${KIPRJMOD}/ideal_diode/LM66100DCKR.kicad_sym")(options "")(descr ""))
 )

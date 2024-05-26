@@ -5,4 +5,7 @@
   (lib (name "shoulderbutton")(type "KiCad")(uri "${KIPRJMOD}/shoulderbutton")(options "")(descr ""))
   (lib (name "analog_joystick")(type "KiCad")(uri "${KIPRJMOD}/analog_joystick")(options "")(descr ""))
   (lib (name "design")(type "KiCad")(uri "${KIPRJMOD}/design")(options "")(descr ""))
+  (lib (name "ideal_diode")(type "KiCad")(uri "${KIPRJMOD}/ideal_diode")(options "")(descr ""))
+  (lib (name "mountinghole")(type "KiCad")(uri "${KIPRJMOD}/mountinghole")(options "")(descr ""))
+  (lib (name "stamp")(type "KiCad")(uri "${KIPRJMOD}/stamp")(options "")(descr ""))
 )

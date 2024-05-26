@@ -7078,7 +7078,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107372"
+		(property "LCSC" "C5199872"
 			(at 166.37 152.4 0)
 			(effects
 				(font
@@ -10404,7 +10404,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107372"
+		(property "LCSC" "C5199872"
 			(at 91.44 31.75 0)
 			(effects
 				(font
@@ -11206,7 +11206,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107372"
+		(property "LCSC" "C5199872"
 			(at 53.34 31.75 0)
 			(effects
 				(font
@@ -11688,7 +11688,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107372"
+		(property "LCSC" "C5199872"
 			(at 256.54 151.13 0)
 			(effects
 				(font
