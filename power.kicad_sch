@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "WHY2025 badge")
-		(date "2024-05-22")
-		(rev "Prototype 1")
+		(date "2024-06-21")
+		(rev "Prototype 2")
 		(company "Badge.Team")
 		(comment 1 "Copyright 2024 Nicolai Electronics")
 		(comment 2 "License: CERN-OHL-P")
@@ -4796,6 +4796,18 @@
 		(color 0 0 0 0)
 		(uuid "fe39be17-2fce-423a-8ef1-ba96d7bf4253")
 	)
+	(no_connect
+		(at 62.23 39.37)
+		(uuid "1f58a52c-6398-4c00-9576-6360f2f8f596")
+	)
+	(no_connect
+		(at 62.23 36.83)
+		(uuid "bb42a70b-3f5e-495e-9dc4-eb97ed0d15c8")
+	)
+	(no_connect
+		(at 82.55 59.69)
+		(uuid "c1f053ec-15e6-46c7-9f9d-8657c5dd85c2")
+	)
 	(wire
 		(pts
 			(xy 134.62 44.45) (xy 137.16 44.45)
@@ -6433,18 +6445,6 @@
 		)
 		(uuid "6bd06593-33ef-45c5-a474-10f6793eb05b")
 	)
-	(hierarchical_label "D+"
-		(shape bidirectional)
-		(at 62.23 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "88c9b7d4-7193-4626-9893-b88bd5cab645")
-	)
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 62.23 57.15 180)
@@ -6492,30 +6492,6 @@
 			(justify left)
 		)
 		(uuid "d48169e1-4c8a-4f6d-a8b6-918694aeebbe")
-	)
-	(hierarchical_label "D-"
-		(shape bidirectional)
-		(at 62.23 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "df17d4b3-9213-4825-aa52-eff50675c5d6")
-	)
-	(hierarchical_label "~{DSEL}"
-		(shape output)
-		(at 82.55 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e8e8df82-a8d9-4fbe-b14a-ce63f978fad8")
 	)
 	(symbol
 		(lib_id "Device:C")
