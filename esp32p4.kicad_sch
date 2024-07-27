@@ -22156,231 +22156,6 @@
 				)
 			)
 		)
-		(symbol "Memory_Flash:W25Q128JVS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -8.89 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "W25Q128JVS"
-				(at 7.62 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flash memory SPI QPI DTR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*5.23x5.23mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "W25Q128JVS_0_1"
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "W25Q128JVS_1_1"
-				(pin input line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "DO(IO1)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "DI(IO0)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "IO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Regulator_Switching:TLV62569DBV"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -25325,6 +25100,231 @@
 				)
 			)
 		)
+		(symbol "flashchip:flashchip_for_p4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "flashchip_for_p4"
+				(at 7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+				(at -0.762 -28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+				(at 2.032 -24.384 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+				(at 0 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flash memory SPI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*5.23x5.23mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "flashchip_for_p4_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "flashchip_for_p4_1_1"
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "DO(IO1)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "DI(IO0)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "IO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "mch2021-rescue:C-Device"
 			(pin_numbers hide)
 			(pin_names
@@ -26713,6 +26713,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 146.05) (xy 231.14 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f69c6f-38b9-4555-8600-fc4447c2ea93")
+	)
+	(wire
+		(pts
 			(xy 27.94 187.96) (xy 82.55 187.96)
 		)
 		(stroke
@@ -26790,16 +26800,6 @@
 			(type default)
 		)
 		(uuid "208f502f-430a-4f2e-a814-027793ab8ec4")
-	)
-	(wire
-		(pts
-			(xy 219.71 143.51) (xy 231.14 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21210750-1e00-402d-bf82-f1af5e400551")
 	)
 	(wire
 		(pts
@@ -26970,16 +26970,6 @@
 			(type default)
 		)
 		(uuid "32adaac9-f12d-4862-a238-057efd283d8f")
-	)
-	(wire
-		(pts
-			(xy 219.71 148.59) (xy 231.14 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "335ba954-cb68-4365-82d1-a7521d55a04d")
 	)
 	(wire
 		(pts
@@ -27693,16 +27683,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 146.05) (xy 231.14 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ddfd41e-bf68-4637-8471-1fba19b5059c")
-	)
-	(wire
-		(pts
 			(xy 121.92 147.32) (xy 171.45 147.32)
 		)
 		(stroke
@@ -27750,16 +27730,6 @@
 			(type default)
 		)
 		(uuid "84b96267-71c6-4fa9-b786-c96aa935256e")
-	)
-	(wire
-		(pts
-			(xy 219.71 138.43) (xy 231.14 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84d77c6b-4062-4dae-a34b-1cbed18aa3d6")
 	)
 	(wire
 		(pts
@@ -27910,16 +27880,6 @@
 			(type default)
 		)
 		(uuid "8c44d17e-e628-4853-b4d3-134611205f8b")
-	)
-	(wire
-		(pts
-			(xy 219.71 140.97) (xy 231.14 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f08d39f-0f1b-4411-bc27-7b92ba4e1fcf")
 	)
 	(wire
 		(pts
@@ -28183,6 +28143,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 140.97) (xy 231.14 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e7f7ce-778f-4809-bf25-47bc84bc24aa")
+	)
+	(wire
+		(pts
 			(xy 27.94 62.23) (xy 36.83 62.23)
 		)
 		(stroke
@@ -28420,6 +28390,16 @@
 			(type default)
 		)
 		(uuid "b83ce62d-84d1-4d2e-8c60-dd04994eed24")
+	)
+	(wire
+		(pts
+			(xy 219.71 138.43) (xy 231.14 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b51b02-5026-48d9-ac56-136016a1a3d3")
 	)
 	(wire
 		(pts
@@ -28783,6 +28763,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 148.59) (xy 231.14 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbcebe22-72b0-47c1-a4a6-2f2e229b29e1")
+	)
+	(wire
+		(pts
 			(xy 105.41 187.96) (xy 107.95 187.96)
 		)
 		(stroke
@@ -28800,6 +28790,16 @@
 			(type default)
 		)
 		(uuid "dc8009b0-7a63-4f2c-a95e-83d9f918dbd0")
+	)
+	(wire
+		(pts
+			(xy 219.71 143.51) (xy 231.14 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dccbe62a-6e38-4376-b354-c793e752c933")
 	)
 	(wire
 		(pts
@@ -29247,7 +29247,7 @@
 	)
 	(hierarchical_label "USB1_P1_P"
 		(shape bidirectional)
-		(at 26.67 129.54 180)
+		(at 26.67 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -29439,7 +29439,7 @@
 	)
 	(hierarchical_label "USB1_P2_P"
 		(shape bidirectional)
-		(at 26.67 134.62 180)
+		(at 26.67 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -29847,7 +29847,7 @@
 	)
 	(hierarchical_label "USB1_P2_N"
 		(shape bidirectional)
-		(at 26.67 137.16 180)
+		(at 26.67 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -30027,7 +30027,7 @@
 	)
 	(hierarchical_label "USB1_P1_N"
 		(shape bidirectional)
-		(at 26.67 132.08 180)
+		(at 26.67 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -38367,7 +38367,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_Flash:W25Q128JVS")
+		(lib_id "flashchip:flashchip_for_p4")
 		(at 209.55 143.51 0)
 		(mirror y)
 		(unit 1)
@@ -38403,7 +38403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Winbond-Elec-W25Q128JVSIQ_C113767.pdf"
+		(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
 			(at 209.55 143.51 0)
 			(effects
 				(font
@@ -38412,7 +38412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+		(property "Description" "32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
 			(at 209.55 143.51 0)
 			(effects
 				(font
