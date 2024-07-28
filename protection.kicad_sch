@@ -894,7 +894,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 43.18) (xy 74.93 50.8)
+			(xy 74.93 27.94) (xy 74.93 50.8)
 		)
 		(stroke
 			(width 0)
@@ -911,16 +911,6 @@
 			(type default)
 		)
 		(uuid "1d62f0e6-e6b7-4edb-ab53-46795d454104")
-	)
-	(wire
-		(pts
-			(xy 74.93 27.94) (xy 74.93 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d7fb9db-7ce6-4dfc-b891-1f7b5081636a")
 	)
 	(wire
 		(pts
@@ -1874,76 +1864,6 @@
 			(project ""
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/3d60835a-4261-467a-b239-9fb76f6e13a1/ff07b197-d1d2-4b00-87d3-a97f534a0288"
 					(reference "D86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 74.93 38.1 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3f88b1f-8aec-42d9-863f-21a88f13ba9d")
-		(property "Reference" "JP4"
-			(at 76.2 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 76.2 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 74.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 74.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bf1b12f-6817-4c20-9dee-9fa8077f1bb6")
-		)
-		(pin "2"
-			(uuid "b8dca570-420b-43a4-b4cd-8c07a2a7d3f2")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183/3d60835a-4261-467a-b239-9fb76f6e13a1/ff07b197-d1d2-4b00-87d3-a97f534a0288"
-					(reference "JP4")
 					(unit 1)
 				)
 			)
