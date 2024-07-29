@@ -962,24 +962,15 @@
 		)
 		(uuid "f484e628-f505-4f05-bfdc-4197b39775c2")
 	)
-	(text_box "The protection for the software programmable LDO outputs of the ESP32P4. \nWe want to limit the LDO voltages to U_nom +0.3V. If that occurs, the ESP32P4 ~{RESET} signal\nwill become low.\n\nThis circuit uses a LM339 quad comparator with a reference voltage of 1.0 V. The circuit uses a\nthreshold at +0.2V above nominal. They are configured as an inverting comparator with hysteresis.\nThe LM339 has open collector outputs, so we can combine them.\n"
+	(text "Not protected at the moment, if protection is needed, a Zener will not work.\nThe current capacity of the rail is too high, and zener diodes don't come at ~1V"
 		(exclude_from_sim no)
-		(at 31.115 168.275 0)
-		(size 100.33 15.24)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
+		(at 141.478 39.116 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
 		)
-		(uuid "4dff6a42-9f5b-4d35-a1e6-cb46f3fad605")
+		(uuid "4abda3e6-138a-4b45-976d-134c699df5f7")
 	)
 	(text "Normal: 2.5v\nLimit:  2.7v\n"
 		(exclude_from_sim no)
@@ -1573,15 +1564,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" ""
-			(at 30.48 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "ff0fb56b-86d8-49b3-999c-8d86fe87aa22")
 		)
@@ -1847,6 +1829,15 @@
 		)
 		(property "Description" "2.65V~2.75V 550mW 2.7V Zener Diode"
 			(at 53.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C550976"
+			(at 53.34 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
