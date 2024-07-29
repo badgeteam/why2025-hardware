@@ -788,6 +788,10 @@
     [
       "f71ac64f-0729-4b77-85b6-53947ac74ff8",
       "Display"
+    ],
+    [
+      "14d9c0ee-00ab-4a1b-b059-e8045c71d6ae",
+      "Sensors"
     ]
   ],
   "text_variables": {}

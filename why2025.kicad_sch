@@ -7701,16 +7701,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 97.79) (xy 187.96 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17c17ee6-1a76-40e6-ae6f-2621b12190c9")
-	)
-	(wire
-		(pts
 			(xy 245.11 95.25) (xy 245.11 92.71)
 		)
 		(stroke
@@ -8478,16 +8468,6 @@
 			(type default)
 		)
 		(uuid "6144b31b-70c3-4055-9577-8447dfb11b49")
-	)
-	(wire
-		(pts
-			(xy 80.01 110.49) (xy 82.55 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61d62b06-ba2e-4ee8-b833-eb0b39086beb")
 	)
 	(wire
 		(pts
@@ -9308,6 +9288,16 @@
 			(type default)
 		)
 		(uuid "c2456561-4b60-4d7f-8fc7-8a7b90774320")
+	)
+	(wire
+		(pts
+			(xy 100.33 102.87) (xy 139.7 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c27fb1d5-dc76-4e1f-afa3-ed28ba15b926")
 	)
 	(wire
 		(pts
@@ -11322,28 +11312,6 @@
 			)
 		)
 	)
-	(global_label "~{RESET}"
-		(shape output)
-		(at 80.01 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "d4680dd0-5b05-4008-a208-f07701ecca80")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.026 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "E3"
 		(shape bidirectional)
 		(at 226.06 133.35 0)
@@ -11670,28 +11638,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{RESET}"
-		(shape input)
-		(at 185.42 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "f55e7253-ab37-4256-b6fa-f31a784c1c59")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.436 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17638,6 +17584,45 @@
 		)
 	)
 	(sheet
+		(at 58.42 124.46)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "14d9c0ee-00ab-4a1b-b059-e8045c71d6ae")
+		(property "Sheetname" "Sensors"
+			(at 58.42 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 58.42 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 139.7 57.15)
 		(size 26.67 54.61)
 		(fields_autoplaced yes)
@@ -17818,6 +17803,16 @@
 			)
 			(uuid "f74aabf6-1a67-4ccd-92eb-c16d3f3d49d3")
 		)
+		(pin "PG" input
+			(at 139.7 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ced9c96d-7cbf-4eef-baeb-a8be4a1fcec3")
+		)
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
@@ -17908,12 +17903,12 @@
 			(uuid "1b3da3e9-0ea0-45e7-9e01-52b6dec452a7")
 		)
 		(pin "PG" output
-			(at 82.55 110.49 180)
+			(at 100.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "3d8c645c-bc9f-4b2e-b033-4eb865b0a939")
 		)

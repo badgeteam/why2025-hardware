@@ -1,0 +1,215 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "BHI360" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -15.24 33.782 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "BHI360" (id 1) (at -15.24 -35.56 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "BHI360:XDCR_BHI360" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Bosch" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "VFLGA-20 Bosch" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/BHI360/Bosch/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "1.0" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/BHI360/Bosch/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "BHI360" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\nMultiple Function Sensor Development Tools Multiple Function Sensor Development Tools BHI360 Evaluation Shuttle Board\n" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Bosch Sensortec" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "BHI360_0_0"
+      (rectangle (start -15.24 -33.02) (end 15.24 33.02)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional line (at -20.32 10.16 0) (length 5.08)
+        (name "HSDO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -20.32 0) (length 5.08)
+        (name "ASDX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -22.86 0) (length 5.08)
+        (name "ASCX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 15.24 0) (length 5.08)
+        (name "HIRQ"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 25.4 180.0) (length 5.08)
+        (name "VDDIO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -30.48 180.0) (length 5.08)
+        (name "GNDIO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -27.94 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 27.94 180.0) (length 5.08)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 30.48 180.0) (length 5.08)
+        (name "VREG"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 -12.7 0) (length 5.08)
+        (name "OCSB"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -15.24 0) (length 5.08)
+        (name "OSDO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 12.7 0) (length 5.08)
+        (name "HCSB"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 5.08 0) (length 5.08)
+        (name "HSCX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 7.62 0) (length 5.08)
+        (name "HSDX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -7.62 0) (length 5.08)
+        (name "M3SCL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 0.0 0) (length 5.08)
+        (name "JTSG_DIO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 20.32 0) (length 5.08)
+        (name "~{RESET}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -5.08 0) (length 5.08)
+        (name "M3SDA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -20.32 -27.94 0) (length 5.08)
+        (name "RESV1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -20.32 -30.48 0) (length 5.08)
+        (name "RESV2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

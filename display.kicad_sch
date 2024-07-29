@@ -1352,7 +1352,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 106.68) (xy 133.35 109.22)
+			(xy 133.35 106.68) (xy 133.35 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1392,7 +1392,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 106.68) (xy 153.67 109.22)
+			(xy 153.67 106.68) (xy 153.67 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2110,7 +2110,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 109.22 0)
+		(at 133.35 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2119,7 +2119,7 @@
 		(fields_autoplaced yes)
 		(uuid "cabebb75-338b-4e45-9d42-15827c5c6f34")
 		(property "Reference" "#PWR0190"
-			(at 133.35 115.57 0)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2128,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 114.3 0)
+			(at 133.35 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,7 +2136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 109.22 0)
+			(at 133.35 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 109.22 0)
+			(at 133.35 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2154,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 109.22 0)
+			(at 133.35 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +2242,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 109.22 0)
+		(at 153.67 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2251,7 +2251,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6b95de0-0459-458c-9315-b21a17bd6e7b")
 		(property "Reference" "#PWR0191"
-			(at 153.67 115.57 0)
+			(at 153.67 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +2260,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 114.3 0)
+			(at 153.67 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 109.22 0)
+			(at 153.67 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,7 +2277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 109.22 0)
+			(at 153.67 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,7 +2286,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 109.22 0)
+			(at 153.67 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
