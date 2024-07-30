@@ -29125,6 +29125,28 @@
 		)
 		(uuid "ea212886-0aba-4318-b5be-07af86e14b53")
 	)
+	(global_label "EN_DCDC"
+		(shape input)
+		(at 227.33 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4e2d0a2-3d7b-4b33-92e4-bbc4fbbb2620")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.33 22.7777 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "C6_D0"
 		(shape bidirectional)
 		(at 27.94 74.93 180)
