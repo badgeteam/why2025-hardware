@@ -7891,6 +7891,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 132.08) (xy 58.42 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28cf5794-718e-4361-81e5-6da209138558")
+	)
+	(wire
+		(pts
 			(xy 52.07 45.72) (xy 54.61 45.72)
 		)
 		(stroke
@@ -8228,6 +8238,16 @@
 			(type default)
 		)
 		(uuid "48bffc09-0495-4495-aa44-b53ad976e1bc")
+	)
+	(wire
+		(pts
+			(xy 54.61 129.54) (xy 58.42 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a83377c-395a-46b0-880d-61719e908127")
 	)
 	(wire
 		(pts
@@ -10114,6 +10134,28 @@
 	)
 	(global_label "INT_SDA"
 		(shape bidirectional)
+		(at 54.61 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "17a67a05-a636-4681-ab4b-a3333a34a1dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.3822 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INT_SDA"
+		(shape bidirectional)
 		(at 125.73 118.11 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10653,6 +10695,28 @@
 		(uuid "68d4a1f8-f6a8-4f1b-98da-9c135ac49888")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 117.4396 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INT_SCL"
+		(shape output)
+		(at 54.61 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "6b976d63-d790-46da-a6d2-6c5844296b8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.3196 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18481,6 +18545,26 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "SCL" input
+			(at 58.42 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42e3bdc1-158f-402b-8941-4ada4e70e680")
+		)
+		(pin "SDA" bidirectional
+			(at 58.42 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "046376ec-126e-4b39-bc3a-48da6fc69e21")
 		)
 		(instances
 			(project "why2025"
