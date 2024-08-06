@@ -4623,6 +4623,12 @@
 		(uuid "3aaa0026-6856-46d0-a36a-b72b750f64a9")
 	)
 	(junction
+		(at 111.76 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4aa5fb18-260c-4a3c-96cf-7e12f8eb03ed")
+	)
+	(junction
 		(at 130.81 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4717,12 +4723,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ee0119f-0efe-4654-a4db-c9f8633aa63a")
-	)
-	(junction
-		(at 85.09 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9eefdb54-1d86-4ef2-8594-df1f52ceb181")
 	)
 	(junction
 		(at 246.38 147.32)
@@ -5056,7 +5056,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 31.75) (xy 85.09 31.75)
+			(xy 118.11 31.75) (xy 111.76 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6486,7 +6486,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 31.75) (xy 85.09 31.75)
+			(xy 82.55 31.75) (xy 111.76 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6614,6 +6614,17 @@
 			(justify left)
 		)
 		(uuid "f476b2d9-eb0e-4adb-98ab-28548442a630")
+	)
+	(label "b2l"
+		(at 83.82 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2eb827cb-6e4c-4717-9328-2a640872f4ea")
 	)
 	(hierarchical_label "~{INT}"
 		(shape output)
@@ -8392,7 +8403,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 85.09 31.75 180)
+		(at 111.76 31.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8401,7 +8412,7 @@
 		(fields_autoplaced yes)
 		(uuid "40d63337-2320-460d-aab4-e2c2c4503667")
 		(property "Reference" "#FLG05"
-			(at 85.09 33.655 0)
+			(at 111.76 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,7 +8421,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 85.09 36.83 0)
+			(at 111.76 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,7 +8430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 31.75 0)
+			(at 111.76 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +8439,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 31.75 0)
+			(at 111.76 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +8448,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 31.75 0)
+			(at 111.76 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
