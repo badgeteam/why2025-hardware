@@ -2917,143 +2917,6 @@
 				)
 			)
 		)
-		(symbol "mch2021-rescue:Polyfuse_Small-Device"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Polyfuse_Small-Device"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Polyfuse_Small-Device_0_1"
-				(rectangle
-					(start -0.508 1.27)
-					(end 0.508 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Polyfuse_Small-Device_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_names
@@ -4773,6 +4636,12 @@
 		(uuid "b1e2a914-806d-4ff7-ad60-64f9d62cbce6")
 	)
 	(junction
+		(at 128.27 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3aec5f8-1a46-4946-b7fe-8c3f87280875")
+	)
+	(junction
 		(at 72.39 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4849,12 +4718,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ece2444e-56ab-46ba-a5ac-18075fe6a03a")
-	)
-	(junction
-		(at 128.27 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef9de29f-baff-4ca1-b43a-c7c168fea8a0")
 	)
 	(junction
 		(at 97.79 36.83)
@@ -5133,6 +4996,16 @@
 			(type default)
 		)
 		(uuid "1bdaad09-2933-4cf0-bc96-045c948993c1")
+	)
+	(wire
+		(pts
+			(xy 115.57 49.53) (xy 128.27 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da4f3e7-01d3-4fb8-b937-8afa388561d1")
 	)
 	(wire
 		(pts
@@ -5906,16 +5779,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 49.53) (xy 128.27 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93d05bc6-b06b-47ad-a46f-f542f4c37b14")
-	)
-	(wire
-		(pts
 			(xy 171.45 41.91) (xy 171.45 54.61)
 		)
 		(stroke
@@ -5953,16 +5816,6 @@
 			(type default)
 		)
 		(uuid "9ae7e362-112a-49fd-a9b1-dfeb6b77e319")
-	)
-	(wire
-		(pts
-			(xy 115.57 49.53) (xy 120.65 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9da27851-5701-44b4-aa70-24769ffb41d4")
 	)
 	(wire
 		(pts
@@ -6938,83 +6791,6 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/1b21cacd-3ed4-4137-bf19-1f15d3ffa268"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mch2021-rescue:Polyfuse_Small-Device")
-		(at 123.19 49.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0cb9a8d3-f3d4-4883-9d34-3c3b9f3c8028")
-		(property "Reference" "F2"
-			(at 123.19 47.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2A"
-			(at 123.19 51.816 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
-			(at 118.11 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_TECHFUSE-SL0805200_C70158.pdf"
-			(at 123.19 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SL0805200"
-			(at 123.19 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C70158"
-			(at 123.19 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a7255f7-ad0c-403c-adb2-d49be51f0927")
-		)
-		(pin "2"
-			(uuid "8dfb79a5-45ad-4775-ab0e-95b5d8fa1a6b")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183/1b21cacd-3ed4-4137-bf19-1f15d3ffa268"
-					(reference "F2")
 					(unit 1)
 				)
 			)
