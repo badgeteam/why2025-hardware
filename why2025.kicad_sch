@@ -9729,6 +9729,16 @@
 		)
 		(uuid "0cb45da7-22f4-447d-8e4f-6150b83e3950")
 	)
+	(text "Add P4 & C6 UARTs here?"
+		(exclude_from_sim no)
+		(at 280.162 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b43c226-7124-4e9d-948f-864b46d3224b")
+	)
 	(text "SAO"
 		(exclude_from_sim no)
 		(at 91.948 173.99 90)
