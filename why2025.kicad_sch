@@ -9914,22 +9914,22 @@
 	)
 	(global_label "E7"
 		(shape bidirectional)
-		(at 252.73 140.97 180)
+		(at 265.43 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0762438e-af4c-45e3-8aab-9b7505f8c9da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.5663 140.97 0)
+			(at 270.5937 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10310,7 +10310,7 @@
 	)
 	(global_label "E12"
 		(shape bidirectional)
-		(at 252.73 156.21 180)
+		(at 252.73 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10320,7 +10320,7 @@
 		)
 		(uuid "3ae1b591-ec5b-4c38-b478-e91a7d7b0648")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.5987 156.21 0)
+			(at 246.5987 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10662,7 +10662,7 @@
 	)
 	(global_label "E8"
 		(shape bidirectional)
-		(at 252.73 143.51 180)
+		(at 252.73 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10672,7 +10672,7 @@
 		)
 		(uuid "7a049ae5-e15b-409c-af83-0a459a2c6dbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.5663 143.51 0)
+			(at 247.5663 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11388,7 +11388,7 @@
 	)
 	(global_label "E11"
 		(shape bidirectional)
-		(at 252.73 148.59 180)
+		(at 252.73 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11398,7 +11398,7 @@
 		)
 		(uuid "db698d4a-9c2f-436c-91f1-46f3c72e50c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.5987 148.59 0)
+			(at 246.5987 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11476,22 +11476,22 @@
 	)
 	(global_label "E9"
 		(shape bidirectional)
-		(at 265.43 140.97 0)
+		(at 252.73 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "dff1239f-51e6-4fa1-b09e-5fc2a6534c40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.5937 140.97 0)
+			(at 247.5663 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
