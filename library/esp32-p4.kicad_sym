@@ -1919,14 +1919,14 @@
 			(pin power_in line
 				(at -8.89 -3.81 0)
 				(length 2.54)
-				(name "VDD_HP_1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "55"
+				(number "54"
 					(effects
 						(font
 							(size 1.27 1.27)
