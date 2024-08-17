@@ -1333,6 +1333,12 @@
 		(uuid "3a9ebefc-f0e0-4e88-be61-6157c47510ce")
 	)
 	(junction
+		(at 73.66 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51d38da9-9f55-4543-8562-302cf7bf21b7")
+	)
+	(junction
 		(at 85.09 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1343,6 +1349,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5c9cb1e-f81d-424f-87d1-19de70a23269")
+	)
+	(junction
+		(at 73.66 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c064bac5-2066-4510-afdc-3a73792ff437")
 	)
 	(junction
 		(at 85.09 73.66)
@@ -1380,6 +1392,26 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 81.28) (xy 85.09 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb1dd97-b598-455f-9587-c040bcc94902")
+	)
+	(wire
+		(pts
+			(xy 62.23 81.28) (xy 73.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e37ea8f-7420-4eb8-b8bc-500e731217d8")
+	)
+	(wire
+		(pts
 			(xy 151.13 91.44) (xy 153.67 91.44)
 		)
 		(stroke
@@ -1397,6 +1429,16 @@
 			(type default)
 		)
 		(uuid "3a3943f8-530d-4850-9c28-744f32ff5487")
+	)
+	(wire
+		(pts
+			(xy 62.23 73.66) (xy 73.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f89d09b-4f06-4871-9441-3465861e2298")
 	)
 	(wire
 		(pts
@@ -1557,6 +1599,16 @@
 			(type default)
 		)
 		(uuid "8585b4e2-5f25-4d60-b131-3dc6b7ac9168")
+	)
+	(wire
+		(pts
+			(xy 73.66 73.66) (xy 85.09 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8741c02e-12af-48aa-b075-cdbdcf3f8ad2")
 	)
 	(wire
 		(pts
@@ -1933,6 +1985,164 @@
 			(justify right)
 		)
 		(uuid "a52caf15-083a-4243-8b75-3e5ab5c1c7a6")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 73.66 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04197ef3-c56b-4250-9dd7-eec81aef3c0b")
+		(property "Reference" "C46"
+			(at 77.47 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 77.47 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 74.6252 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "666193c4-1cce-4b06-87f2-2740f50fc0fa")
+		)
+		(pin "1"
+			(uuid "616cc1ea-5f61-49d5-8fb4-7b14e063fb7e")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/f71ac64f-0729-4b77-85b6-53947ac74ff8"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15383297-a301-4976-9530-8069c52c87d5")
+		(property "Reference" "C26"
+			(at 66.04 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 66.04 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 63.1952 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e76e9e8f-2203-47c0-9f56-5d184bbb19ae")
+		)
+		(pin "1"
+			(uuid "242367d4-4294-4907-8fc3-c3abdf87bdfa")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/f71ac64f-0729-4b77-85b6-53947ac74ff8"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -2800,7 +3010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304282030_HRS-Hirose-DF37NB-24DS-0-4V-51_C3036280.pdf"
 			(at 143.51 92.71 0)
 			(effects
 				(font
