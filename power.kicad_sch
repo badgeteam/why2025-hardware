@@ -14451,7 +14451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:IND-SMD_L6.0-W6.0"
+		(property "Footprint" "library:IND-SMD_L6.0-W6.0"
 			(at 200.66 104.14 0)
 			(effects
 				(font

@@ -1121,7 +1121,7 @@
 		(uuid "40c4eaf6-907f-4638-8f8d-d4094149911c")
 	)
 	(no_connect
-		(at 170.18 96.52)
+		(at 154.94 96.52)
 		(uuid "27797aee-2510-471f-b32a-f45faccad1e5")
 	)
 	(wire
@@ -1136,7 +1136,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 109.22) (xy 147.32 104.14)
+			(xy 128.27 109.22) (xy 128.27 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1153,16 +1153,6 @@
 			(type default)
 		)
 		(uuid "26468bab-ee0f-4195-966d-76245640ece9")
-	)
-	(wire
-		(pts
-			(xy 128.27 83.82) (xy 128.27 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d367ff5-9256-40b8-a58f-f0e703a5fb35")
 	)
 	(wire
 		(pts
@@ -1236,16 +1226,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 96.52) (xy 139.7 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a13a044-0d07-4fb5-b045-8eed661a21c9")
-	)
-	(wire
-		(pts
 			(xy 63.5 146.05) (xy 62.23 146.05)
 		)
 		(stroke
@@ -1276,7 +1256,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 83.82) (xy 162.56 88.9)
+			(xy 147.32 83.82) (xy 147.32 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1316,7 +1296,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 83.82) (xy 147.32 88.9)
+			(xy 128.27 83.82) (xy 128.27 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1356,7 +1336,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 109.22) (xy 162.56 104.14)
+			(xy 139.7 96.52) (xy 135.89 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b95039-b483-4b9a-b19e-b1e7734fa416")
+	)
+	(wire
+		(pts
+			(xy 147.32 109.22) (xy 147.32 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1373,16 +1363,6 @@
 			(type default)
 		)
 		(uuid "daa2518d-ccb9-44be-90e8-c2c6a4257399")
-	)
-	(wire
-		(pts
-			(xy 128.27 109.22) (xy 128.27 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcd19679-0977-4179-8db3-1d053a9e7e13")
 	)
 	(wire
 		(pts
@@ -1612,7 +1592,7 @@
 	)
 	(symbol
 		(lib_id "custom-power:VLED")
-		(at 147.32 83.82 0)
+		(at 128.27 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1620,7 +1600,7 @@
 		(dnp no)
 		(uuid "0d989f52-1f0c-455f-99ba-3ecbf1a07373")
 		(property "Reference" "#PWR0127"
-			(at 147.32 87.63 0)
+			(at 128.27 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +1609,7 @@
 			)
 		)
 		(property "Value" "VLED"
-			(at 147.32 80.01 0)
+			(at 128.27 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 83.82 0)
+			(at 128.27 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,7 +1626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 83.82 0)
+			(at 128.27 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1655,7 +1635,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VLED\""
-			(at 147.32 85.598 0)
+			(at 128.27 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +1805,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 109.22 0)
+		(at 147.32 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1834,7 +1814,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b4a8ac1-5fb3-4f26-b087-21d442481eca")
 		(property "Reference" "#PWR0281"
-			(at 162.56 115.57 0)
+			(at 147.32 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,7 +1823,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 114.3 0)
+			(at 147.32 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +1831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 109.22 0)
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +1840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 109.22 0)
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1849,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 109.22 0)
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2133,7 @@
 	)
 	(symbol
 		(lib_id "button_matrix:SK6805-EC20")
-		(at 147.32 96.52 0)
+		(at 128.27 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2161,7 +2141,7 @@
 		(dnp no)
 		(uuid "55938760-fd0c-4206-afe8-e843f15e7bb0")
 		(property "Reference" "U22"
-			(at 142.748 90.424 0)
+			(at 123.698 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,7 +2149,7 @@
 			)
 		)
 		(property "Value" "SK6805"
-			(at 152.654 103.124 0)
+			(at 133.604 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2157,7 @@
 			)
 		)
 		(property "Footprint" "library:SK6805-EC20"
-			(at 147.32 96.52 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2166,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6805-EC20_C2890036.pdf"
-			(at 147.32 96.52 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2175,7 @@
 			)
 		)
 		(property "Description" "SK6805-EC2020"
-			(at 147.32 96.52 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,7 +2184,7 @@
 			)
 		)
 		(property "LCSC" "C2890036"
-			(at 147.32 96.52 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2215,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 109.22 0)
+		(at 128.27 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2244,7 +2224,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f7eca21-0c60-4b20-a17e-65d60c77a428")
 		(property "Reference" "#PWR0237"
-			(at 147.32 115.57 0)
+			(at 128.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,7 +2233,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 114.3 0)
+			(at 128.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,7 +2241,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 109.22 0)
+			(at 128.27 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +2250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 109.22 0)
+			(at 128.27 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +2259,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 109.22 0)
+			(at 128.27 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2600,7 +2580,7 @@
 	)
 	(symbol
 		(lib_id "custom-power:VLED")
-		(at 162.56 83.82 0)
+		(at 147.32 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2608,7 +2588,7 @@
 		(dnp no)
 		(uuid "97f28dc0-46d8-4c3d-b015-8e01e184a686")
 		(property "Reference" "#PWR0280"
-			(at 162.56 87.63 0)
+			(at 147.32 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,7 +2597,7 @@
 			)
 		)
 		(property "Value" "VLED"
-			(at 162.56 80.01 0)
+			(at 147.32 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +2605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 83.82 0)
+			(at 147.32 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,7 +2614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 83.82 0)
+			(at 147.32 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2623,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VLED\""
-			(at 162.56 85.598 0)
+			(at 147.32 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +2645,7 @@
 	)
 	(symbol
 		(lib_id "button_matrix:SK6805-EC20")
-		(at 128.27 96.52 0)
+		(at 147.32 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2673,7 +2653,7 @@
 		(dnp no)
 		(uuid "aa3f66e5-5fa6-488a-ae62-1bbc4291c1ea")
 		(property "Reference" "U9"
-			(at 123.698 90.424 0)
+			(at 142.748 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +2661,7 @@
 			)
 		)
 		(property "Value" "SK6805"
-			(at 133.604 103.124 0)
+			(at 152.654 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2689,7 +2669,7 @@
 			)
 		)
 		(property "Footprint" "library:SK6805-EC20"
-			(at 128.27 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,7 +2678,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6805-EC20_C2890036.pdf"
-			(at 128.27 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2707,7 +2687,7 @@
 			)
 		)
 		(property "Description" "SK6805-EC2020"
-			(at 128.27 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +2696,7 @@
 			)
 		)
 		(property "LCSC" "C2890036"
-			(at 128.27 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,154 +3218,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 128.27 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d99b4697-0446-4bf3-b73d-817e6ee20f6a")
-		(property "Reference" "#PWR0206"
-			(at 128.27 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1e0523b-0982-4cb2-b440-9ea0ae240a4e")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
-					(reference "#PWR0206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "button_matrix:SK6805-EC20")
-		(at 162.56 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd456c44-09c2-43dd-b0bf-cb98208048a3")
-		(property "Reference" "U26"
-			(at 157.988 90.424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805"
-			(at 167.894 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "library:SK6805-EC20"
-			(at 162.56 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6805-EC20_C2890036.pdf"
-			(at 162.56 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SK6805-EC2020"
-			(at 162.56 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2890036"
-			(at 162.56 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d84e807-c097-4297-b873-1a6a18009310")
-		)
-		(pin "2"
-			(uuid "07692c70-ac27-4da7-8023-8cc6e06ba503")
-		)
-		(pin "3"
-			(uuid "a9e4e5d5-663c-47e2-ac71-5071ece08742")
-		)
-		(pin "4"
-			(uuid "ed9b8a86-5246-4914-923b-0244c3be1a83")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
-					(reference "U26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mch2021-rescue:R-Device")
 		(at 85.09 156.21 0)
 		(unit 1)
@@ -3596,71 +3428,6 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
 					(reference "#PWR0239")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom-power:VLED")
-		(at 128.27 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e67631b5-616e-420b-b18e-ee5bc468df8d")
-		(property "Reference" "#PWR0124"
-			(at 128.27 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VLED"
-			(at 128.27 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VLED\""
-			(at 128.27 85.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7410638-1c86-444c-afe0-f8be3ff24908")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
-					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
