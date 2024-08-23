@@ -30,3 +30,5 @@ fp-info-cache
 *.xml
 *.csv
 #auto_saved_files#
+
+production/backups
