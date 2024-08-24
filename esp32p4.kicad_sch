@@ -11701,6 +11701,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C18208922"
+			(at 138.43 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "358c213c-d4a5-4e01-b732-d62d4cd37c24")
 		)
@@ -12749,7 +12758,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32P4-REV0"
+		(property "Value" "ESP32-P4"
 			(at 135.382 90.17 0)
 			(effects
 				(font
@@ -13353,7 +13362,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32P4-REV0"
+		(property "Value" "ESP32-P4"
 			(at 93.98 186.69 0)
 			(effects
 				(font
@@ -14173,7 +14182,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32P4-REV0"
+		(property "Value" "ESP32-P4"
 			(at 274.32 95.25 0)
 			(effects
 				(font
@@ -15181,6 +15190,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2938367"
+			(at 161.29 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bca3081b-42df-4df4-aa62-4d8da744d65d")
 		)
@@ -15697,6 +15715,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2938367"
+			(at 161.29 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "965e4c96-13b3-4963-a1e8-8286d89e2e72")
 		)
@@ -15733,7 +15760,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32P4-REV0"
+		(property "Value" "ESP32-P4"
 			(at 93.98 113.03 0)
 			(effects
 				(font
@@ -16338,7 +16365,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32P4-REV0"
+		(property "Value" "ESP32-P4"
 			(at 262.89 142.24 0)
 			(effects
 				(font
@@ -17715,7 +17742,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32P4-REV0"
+		(property "Value" "ESP32-P4"
 			(at 97.79 78.994 90)
 			(effects
 				(font
@@ -18392,7 +18419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 152.4 193.548 90)
 			(effects
 				(font
@@ -18401,7 +18428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
 			(at 152.4 191.77 0)
 			(effects
 				(font
@@ -18411,6 +18438,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 152.4 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60490"
 			(at 152.4 191.77 0)
 			(effects
 				(font
@@ -19898,7 +19934,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32P4-REV0"
+		(property "Value" "ESP32-P4"
 			(at 133.35 27.94 0)
 			(effects
 				(font
@@ -20283,7 +20319,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32P4-REV0"
+		(property "Value" "ESP32-P4"
 			(at 156.21 26.67 0)
 			(effects
 				(font
@@ -21975,7 +22011,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32P4-REV0"
+		(property "Value" "ESP32-P4"
 			(at 177.546 52.07 0)
 			(effects
 				(font
@@ -23205,7 +23241,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32P4-REV0"
+		(property "Value" "ESP32-P4"
 			(at 185.42 156.972 90)
 			(effects
 				(font
@@ -23734,7 +23770,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32P4-REV0"
+		(property "Value" "ESP32-P4"
 			(at 93.98 147.32 0)
 			(effects
 				(font
@@ -24347,7 +24383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 152.4 177.292 90)
 			(effects
 				(font
@@ -24356,7 +24392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
 			(at 152.4 179.07 0)
 			(effects
 				(font
@@ -24366,6 +24402,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 152.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60490"
 			(at 152.4 179.07 0)
 			(effects
 				(font
@@ -24472,7 +24517,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32P4-REV0"
+		(property "Value" "ESP32-P4"
 			(at 156.21 58.42 0)
 			(effects
 				(font

@@ -9775,7 +9775,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 238.76 31.7499 0)
 			(effects
 				(font
@@ -9793,7 +9793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.html"
 			(at 234.95 30.48 0)
 			(effects
 				(font
@@ -9802,7 +9802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 234.95 30.48 0)
 			(effects
 				(font
@@ -11441,7 +11441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 20.32 33.02 0)
 			(effects
 				(font
@@ -11479,20 +11479,19 @@
 		(at 177.8 34.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65132442-ee1c-46c1-911a-6c9a6b9ae057")
 		(property "Reference" "JP1"
-			(at 177.8 29.21 0)
+			(at 177.8 32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Bridged"
+		(property "Value" "~"
 			(at 177.8 31.75 0)
 			(effects
 				(font
@@ -11509,7 +11508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 177.8 34.29 0)
 			(effects
 				(font
@@ -11518,7 +11517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" ""
 			(at 177.8 34.29 0)
 			(effects
 				(font
@@ -11847,7 +11846,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 227.33 31.7499 0)
 			(effects
 				(font
@@ -11865,7 +11864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.html"
 			(at 223.52 30.48 0)
 			(effects
 				(font
@@ -11874,7 +11873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 223.52 30.48 0)
 			(effects
 				(font
@@ -13027,7 +13026,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 215.9 31.7499 0)
 			(effects
 				(font
@@ -13045,7 +13044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.html"
 			(at 212.09 30.48 0)
 			(effects
 				(font
@@ -13054,7 +13053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 212.09 30.48 0)
 			(effects
 				(font
@@ -15951,7 +15950,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 204.47 31.7499 0)
 			(effects
 				(font
@@ -15969,7 +15968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.html"
 			(at 200.66 30.48 0)
 			(effects
 				(font
@@ -15978,7 +15977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 200.66 30.48 0)
 			(effects
 				(font

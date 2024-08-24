@@ -3382,7 +3382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
 			(at 62.23 156.21 0)
 			(effects
 				(font
@@ -3391,7 +3391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic part"
+		(property "Description" ""
 			(at 62.23 156.21 0)
 			(effects
 				(font
@@ -3409,7 +3409,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 62.23 156.21 0)
 			(effects
 				(font
@@ -3727,7 +3727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
 			(at 85.09 156.21 0)
 			(effects
 				(font
@@ -3736,7 +3736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic part"
+		(property "Description" ""
 			(at 85.09 156.21 0)
 			(effects
 				(font
@@ -3754,7 +3754,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 85.09 156.21 0)
 			(effects
 				(font

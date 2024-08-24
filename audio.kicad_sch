@@ -3956,7 +3956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic part (NMOS GSD)"
+		(property "Description" ""
 			(at 154.94 118.11 0)
 			(effects
 				(font

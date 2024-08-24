@@ -5152,143 +5152,6 @@
 				)
 			)
 		)
-		(symbol "mch2021-rescue:Polyfuse_Small-Device"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Polyfuse_Small-Device"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Polyfuse_Small-Device_0_1"
-				(rectangle
-					(start -0.508 1.27)
-					(end 0.508 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Polyfuse_Small-Device_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "mch2021-rescue:R_Small-Device"
 			(pin_numbers hide)
 			(pin_names
@@ -8422,7 +8285,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 39.37) (xy 53.34 39.37)
+			(xy 41.91 39.37) (xy 60.96 39.37)
 		)
 		(stroke
 			(width 0)
@@ -9069,16 +8932,6 @@
 			(type default)
 		)
 		(uuid "94793927-c01f-44b7-8f95-6f3b87879478")
-	)
-	(wire
-		(pts
-			(xy 60.96 39.37) (xy 58.42 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94949710-c853-4f08-b4f8-1b804c64b62f")
 	)
 	(wire
 		(pts
@@ -12565,7 +12418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Stamp"
+		(property "Description" ""
 			(at 152.4 190.5 0)
 			(effects
 				(font
@@ -12836,7 +12689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Stamp"
+		(property "Description" ""
 			(at 132.08 190.5 0)
 			(effects
 				(font
@@ -13836,7 +13689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Stamp"
+		(property "Description" ""
 			(at 152.4 180.34 0)
 			(effects
 				(font
@@ -15336,83 +15189,6 @@
 		)
 	)
 	(symbol
-		(lib_id "mch2021-rescue:Polyfuse_Small-Device")
-		(at 55.88 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84c86352-3391-4dc4-add6-154eb8c2ee7d")
-		(property "Reference" "F1"
-			(at 55.88 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2A"
-			(at 55.88 41.656 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
-			(at 50.8 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_TECHFUSE-SL0805200_C70158.pdf"
-			(at 55.88 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SL0805200"
-			(at 55.88 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C70158"
-			(at 55.88 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17d4da60-0f6b-449f-b9ec-36dc49b6a97c")
-		)
-		(pin "2"
-			(uuid "39607690-bdc1-46b6-a8ec-edb210f624b5")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mch2021-rescue:GND-power")
 		(at 19.05 80.01 0)
 		(unit 1)
@@ -16538,16 +16314,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
-		(at 107.95 163.83 0)
+		(at 107.95 166.37 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b32d0948-0330-448e-8147-2e7bbeab9a73")
 		(property "Reference" "J5"
-			(at 109.22 149.86 0)
+			(at 109.22 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16555,15 +16331,15 @@
 			)
 		)
 		(property "Value" "External Add-On"
-			(at 109.22 152.4 0)
+			(at 109.22 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "library:SAMTEC-SMH-108-02-X-D"
-			(at 107.95 163.83 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Horizontal"
+			(at 107.95 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16572,7 +16348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 163.83 0)
+			(at 107.95 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16580,8 +16356,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMH-108-02-G-D"
-			(at 107.95 163.83 0)
+		(property "Description" ""
+			(at 107.95 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16590,7 +16366,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 107.95 163.83 0)
+			(at 107.95 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16990,7 +16766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Board"
+		(property "Description" ""
 			(at 132.08 180.34 0)
 			(effects
 				(font

@@ -11081,7 +11081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 24.13 177.8 0)
 			(effects
 				(font
@@ -11852,7 +11852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 36.83 162.56 0)
 			(effects
 				(font
@@ -12465,7 +12465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 36.83 177.8 0)
 			(effects
 				(font
@@ -12541,7 +12541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 24.13 170.18 0)
 			(effects
 				(font
@@ -14989,7 +14989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 24.13 154.94 0)
 			(effects
 				(font
@@ -16001,7 +16001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 36.83 154.94 0)
 			(effects
 				(font
@@ -17175,7 +17175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 36.83 170.18 0)
 			(effects
 				(font
@@ -17330,7 +17330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 24.13 162.56 0)
 			(effects
 				(font
