@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "WHY2025 badge")
-		(date "2024-08-23")
+		(date "2024-08-24")
 		(rev "Prototype 2")
 		(company "Badge.Team")
 		(comment 1 "Copyright 2024 Nicolai Electronics")
@@ -3165,7 +3165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 204.47 134.62 0)
 			(effects
 				(font
@@ -3174,7 +3174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic part"
+		(property "Description" ""
 			(at 204.47 134.62 0)
 			(effects
 				(font

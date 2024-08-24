@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "WHY2025 badge")
-		(date "2024-08-23")
+		(date "2024-08-24")
 		(rev "Prototype 2")
 		(company "Badge.Team")
 		(comment 1 "Copyright 2024 Nicolai Electronics")
@@ -3755,7 +3755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 81.28 128.27 0)
 			(effects
 				(font
@@ -3764,7 +3764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 81.28 128.27 0)
 			(effects
 				(font
@@ -3773,7 +3773,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C394158"
+		(property "LCSC" "C307331"
 			(at 81.28 128.27 0)
 			(effects
 				(font
@@ -4410,6 +4410,15 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 113.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 113.03 134.62 0)
 			(effects
 				(font
