@@ -12081,6 +12081,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Housing")
+		(at 105.41 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0aafca24-3d7c-4cca-9100-7b6ba49fe005")
+		(property "Reference" "N4"
+			(at 109.22 189.5474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Espressif"
+			(at 109.22 192.0874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "proto1_kicad:Espressif_Logo"
+			(at 106.68 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 106.68 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Stamp"
+			(at 105.41 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 105.41 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
+					(reference "N4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 186.69 0)
 		(unit 1)
@@ -13216,7 +13289,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Housing")
-		(at 107.95 189.23 0)
+		(at 106.68 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13225,7 +13298,7 @@
 		(fields_autoplaced yes)
 		(uuid "44a2bbf7-df51-471e-85f2-a8213a047fc8")
 		(property "Reference" "N3"
-			(at 111.76 188.2774 0)
+			(at 110.49 179.3874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13234,7 +13307,7 @@
 			)
 		)
 		(property "Value" "Nicolai Electronics"
-			(at 111.76 190.8174 0)
+			(at 110.49 181.9274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13243,7 +13316,7 @@
 			)
 		)
 		(property "Footprint" "library:logo_nicolai"
-			(at 109.22 187.96 0)
+			(at 107.95 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13252,7 +13325,7 @@
 			)
 		)
 		(property "Datasheet" "-"
-			(at 109.22 187.96 0)
+			(at 107.95 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13261,7 +13334,7 @@
 			)
 		)
 		(property "Description" "Stamp"
-			(at 107.95 189.23 0)
+			(at 106.68 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13270,7 +13343,7 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 107.95 189.23 0)
+			(at 106.68 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16936,7 +17009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
 			(at 74.93 73.66 0)
 			(effects
 				(font
@@ -16945,7 +17018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811151640_Yajingxin-TAXM12M4RFBCCT2T_C133337.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Crystals_Yajingxin-TXM12M0004252LBCEO00T_C284156.html"
 			(at 74.93 73.66 0)
 			(effects
 				(font
@@ -16963,7 +17036,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C133337"
+		(property "LCSC" "C284156"
 			(at 74.93 73.66 0)
 			(effects
 				(font
@@ -18160,7 +18233,7 @@
 			(uuid "a972b2c3-2369-4730-bc7f-9fdafd9754c1")
 		)
 		(pin "SPK+" output
-			(at 255.27 72.39 0)
+			(at 255.27 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18170,7 +18243,7 @@
 			(uuid "baa413c0-3627-4c70-8650-79296f75d6df")
 		)
 		(pin "SPK-" output
-			(at 255.27 74.93 0)
+			(at 255.27 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)

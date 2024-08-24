@@ -187,6 +187,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "button_matrix:SK6805-EC20"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -536,7 +672,7 @@
 				)
 			)
 		)
-		(symbol "custom-power:VOTG"
+		(symbol "custom-power:VSYS"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -553,7 +689,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VOTG"
+			(property "Value" "VSYS"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -579,7 +715,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VOTG\""
+			(property "Description" "Power symbol creates a global label with name \"VSYS\""
 				(at 0 -1.778 0)
 				(effects
 					(font
@@ -597,7 +733,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VOTG_0_1"
+			(symbol "VSYS_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -635,7 +771,7 @@
 					)
 				)
 			)
-			(symbol "VOTG_1_1"
+			(symbol "VSYS_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1115,10 +1251,22 @@
 		)
 	)
 	(junction
+		(at 85.09 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b1dc788-ebaf-4d75-9527-4137d605e656")
+	)
+	(junction
 		(at 62.23 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40c4eaf6-907f-4638-8f8d-d4094149911c")
+	)
+	(junction
+		(at 96.52 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b06206b-a7e0-4d9a-a832-6eede6fd6d31")
 	)
 	(no_connect
 		(at 154.94 96.52)
@@ -1163,6 +1311,16 @@
 			(type default)
 		)
 		(uuid "3540fe0a-42b4-4550-a872-589c09c6595d")
+	)
+	(wire
+		(pts
+			(xy 96.52 146.05) (xy 96.52 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4385b1a2-c547-4049-84c0-765a9e15c59f")
 	)
 	(wire
 		(pts
@@ -1233,6 +1391,16 @@
 			(type default)
 		)
 		(uuid "82db4629-502f-4b0f-80a9-fd1427be44e1")
+	)
+	(wire
+		(pts
+			(xy 85.09 146.05) (xy 96.52 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a36e9a5-883b-4889-bc92-ab704f7077c4")
 	)
 	(wire
 		(pts
@@ -1396,6 +1564,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 146.05) (xy 105.41 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7608a8-6284-4942-9ff9-c61898ffd860")
+	)
+	(wire
+		(pts
 			(xy 109.22 83.82) (xy 109.22 88.9)
 		)
 		(stroke
@@ -1403,6 +1581,16 @@
 			(type default)
 		)
 		(uuid "ef10c72e-ba3f-4ff5-b8aa-de855219953a")
+	)
+	(wire
+		(pts
+			(xy 105.41 146.05) (xy 105.41 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9622b7a-faef-4550-aecc-cba850d41421")
 	)
 	(wire
 		(pts
@@ -2001,6 +2189,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 96.52 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4201a2cd-62fb-4edc-b636-96142b8f4984")
+		(property "Reference" "C87"
+			(at 97.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 97.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 97.4852 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21B106KAYQNNE_C3039694.html"
+			(at 96.52 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3039694"
+			(at 96.52 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57f064b1-ee65-49bd-8c92-f15425f1e794")
+		)
+		(pin "2"
+			(uuid "f514c44b-0bb1-4643-895d-cb629ea53628")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
+					(reference "C87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 35.56 109.22 0)
 		(unit 1)
@@ -2067,16 +2333,16 @@
 		)
 	)
 	(symbol
-		(lib_id "custom-power:VOTG")
-		(at 62.23 142.24 0)
+		(lib_id "mch2021-rescue:GND-power")
+		(at 96.52 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "473c4c00-7e6a-4dd4-b4c5-d52059610659")
-		(property "Reference" "#PWR0101"
-			(at 62.23 146.05 0)
+		(uuid "4671fdae-8cef-42bb-9b29-e5dd20112cad")
+		(property "Reference" "#PWR0265"
+			(at 96.52 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,8 +2350,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VOTG"
-			(at 62.23 138.43 0)
+		(property "Value" "GND"
+			(at 96.647 164.4142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2359,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 142.24 0)
+			(at 96.52 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 142.24 0)
+			(at 96.52 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,8 +2376,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VOTG\""
-			(at 62.23 144.018 0)
+		(property "Description" ""
+			(at 96.52 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,12 +2386,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3feaded2-408c-4f30-8040-ed3167768fa9")
+			(uuid "f0c6be87-9445-471e-876a-97706ea8d367")
 		)
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
-					(reference "#PWR0101")
+					(reference "#PWR0265")
 					(unit 1)
 				)
 			)
@@ -2274,6 +2540,84 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
 					(reference "#PWR0237")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.41 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "600a97cb-fecb-4f6b-ad7b-5f83abf2c90a")
+		(property "Reference" "C88"
+			(at 106.68 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 106.68 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 106.3752 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21B106KAYQNNE_C3039694.html"
+			(at 105.41 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3039694"
+			(at 105.41 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72aea833-563e-423e-bd8a-85bac8cd02c2")
+		)
+		(pin "2"
+			(uuid "6d03a9dc-d250-40f9-a389-19198e080a1c")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -2507,6 +2851,71 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
 					(reference "U24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mch2021-rescue:GND-power")
+		(at 105.41 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "896a3b1d-60cc-43b9-b621-39bfe1b06356")
+		(property "Reference" "#PWR0270"
+			(at 105.41 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.537 164.4142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbf09e6a-2528-4ba2-bae6-9ce6f78eaabc")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
+					(reference "#PWR0270")
 					(unit 1)
 				)
 			)
@@ -3147,6 +3556,71 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
 					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom-power:VSYS")
+		(at 62.23 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5bef0c2-4866-4a8f-97fd-97cd774750ff")
+		(property "Reference" "#PWR0101"
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 62.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSYS\""
+			(at 62.23 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb5a3e64-13b9-460c-a6b8-15ed8eee82eb")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
