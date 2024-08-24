@@ -3540,6 +3540,18 @@
 		)
 		(uuid "c5bb495b-04ac-4a9a-b7fa-a66b2ef78710")
 	)
+	(hierarchical_label "RX"
+		(shape input)
+		(at 207.01 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8bc49a0-2197-437a-a774-9a8cc237c2e3")
+	)
 	(hierarchical_label "LED_ENABLE"
 		(shape output)
 		(at 207.01 62.23 0)
@@ -3563,6 +3575,18 @@
 			(justify left)
 		)
 		(uuid "e0526032-6d5f-4708-8d3b-c92012919fcd")
+	)
+	(hierarchical_label "TX"
+		(shape output)
+		(at 207.01 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8cef9d7-9862-4944-9142-cef4f8379040")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
