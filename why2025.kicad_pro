@@ -655,7 +655,7 @@
       "plot": "fabrication/gerbers",
       "pos_files": "fabrication",
       "specctra_dsn": "",
-      "step": "",
+      "step": "why2025.step",
       "svg": "./",
       "vrml": ""
     },
