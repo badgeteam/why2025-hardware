@@ -14789,6 +14789,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Housing")
+		(at 97.79 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "496b7dd3-97e3-4985-8ed4-ad2b405c5d95")
+		(property "Reference" "N6"
+			(at 101.6 179.3874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Ranzbak"
+			(at 101.6 181.9274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:goatse_01"
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 97.79 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
+					(reference "N6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 41.91 113.03 90)
 		(unit 1)
