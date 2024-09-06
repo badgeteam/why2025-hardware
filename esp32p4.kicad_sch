@@ -10568,6 +10568,16 @@
 		)
 		(uuid "ea212886-0aba-4318-b5be-07af86e14b53")
 	)
+	(text "VESPHP: 1.2v"
+		(exclude_from_sim no)
+		(at 258.826 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fff53994-d256-4130-bed5-1e234ca00e22")
+	)
 	(global_label "P4_RX"
 		(shape input)
 		(at 26.67 162.56 180)
