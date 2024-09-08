@@ -15915,7 +15915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Symbol:OSHW-Logo2_24.3x20mm_SilkScreen"
+		(property "Footprint" "Symbol:OSHW-Logo2_14.6x12mm_SilkScreen"
 			(at 161.29 179.07 0)
 			(effects
 				(font
