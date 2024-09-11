@@ -14644,7 +14644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/ESD-Protection-Devices_ElecSuper-RCLAMP0524P-ES_C5180236.html"
 			(at 58.42 160.02 0)
 			(effects
 				(font
@@ -14654,6 +14654,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 58.42 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5180236"
 			(at 58.42 160.02 0)
 			(effects
 				(font
@@ -16985,7 +16994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/ESD-Protection-Devices_ElecSuper-RCLAMP0524P-ES_C5180236.html"
 			(at 77.47 160.02 0)
 			(effects
 				(font
@@ -16995,6 +17004,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 77.47 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5180236"
 			(at 77.47 160.02 0)
 			(effects
 				(font
