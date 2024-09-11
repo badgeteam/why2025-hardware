@@ -11230,7 +11230,7 @@
 		)
 		(uuid "7c792c94-b129-477b-83f7-d4631fdf87b2")
 	)
-	(hierarchical_label "SAO_IO3"
+	(hierarchical_label "CAM_GPIO1"
 		(shape bidirectional)
 		(at 27.94 31.75 180)
 		(fields_autoplaced yes)

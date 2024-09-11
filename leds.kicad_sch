@@ -2633,15 +2633,15 @@
 		(dnp no)
 		(uuid "60adb1dd-cd78-4d91-87bc-44fb99fb7546")
 		(property "Reference" "U20"
-			(at 44.196 93.218 0)
+			(at 41.91 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "74LVC1G125"
-			(at 46.482 90.678 0)
+		(property "Value" "74LVC1G17GW,125"
+			(at 49.022 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Buffer-Driver-Transceiver_Nexperia-74LVC1G17GW-125_C426705.html"
 			(at 40.64 96.52 0)
 			(effects
 				(font
@@ -2666,7 +2666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+		(property "Description" ""
 			(at 40.64 96.52 0)
 			(effects
 				(font
@@ -2675,7 +2675,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C12519 "
+		(property "LCSC" "C426705"
 			(at 40.64 96.52 0)
 			(effects
 				(font
