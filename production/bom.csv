@@ -26,7 +26,6 @@ J6,PinSocket_2x18_P2.54mm_Vertical_SMD,1,Internal Add-On,C3975163
 J7,Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal,1,Speaker,C189700
 J8,SD_Card-micro_socket_A,1,Micro_SD_Card,C7529389
 J9,Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal,1,CAMERA,C597981
-"JP2, JP3",SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm,2,Jumper_2_Bridged,
 L1,Inductor_MSC20FC,1,2.2u,C375944
 L2,L_Wurth_WE-LQSH-4020,1,YHNR4020-2R2M,C2926400
 "L4, L6",1008,2,6.8uH,C2041474
