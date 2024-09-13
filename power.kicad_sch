@@ -10937,7 +10937,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+		(property "Footprint" "library:IND-SMD_L4.0-W4.0"
 			(at 144.78 135.89 0)
 			(effects
 				(font
@@ -10946,7 +10946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Murata-Electronics-DFE252012F-6R8M-P2_C2041474.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Ceaiya-CR40186R8M/C520306"
 			(at 144.78 135.89 0)
 			(effects
 				(font
@@ -10964,7 +10964,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2041474"
+		(property "LCSC" "C520306"
 			(at 144.78 135.89 0)
 			(effects
 				(font
@@ -12871,7 +12871,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+		(property "Footprint" "library:IND-SMD_L4.0-W4.0"
 			(at 234.95 134.62 0)
 			(effects
 				(font
@@ -12880,7 +12880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Murata-Electronics-DFE252012F-6R8M-P2_C2041474.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Ceaiya-CR40186R8M/C520306"
 			(at 234.95 134.62 0)
 			(effects
 				(font
@@ -12898,7 +12898,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2041474"
+		(property "LCSC" "C520306"
 			(at 234.95 134.62 0)
 			(effects
 				(font
