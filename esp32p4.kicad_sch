@@ -7500,6 +7500,12 @@
 		(uuid "1eee6440-5ad3-4684-8ebc-636ab2688e72")
 	)
 	(junction
+		(at 46.99 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fa65bb4-c9e1-404e-b77b-e75d7ecfbd5c")
+	)
+	(junction
 		(at 181.61 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7606,6 +7612,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d582234-2926-4902-9c36-0719f0b81859")
+	)
+	(junction
+		(at 46.99 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f5bff5a-f06f-4576-882a-e0a3d07e3e1c")
 	)
 	(junction
 		(at 135.89 161.29)
@@ -7965,6 +7977,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 120.65) (xy 66.04 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aabacc6-9037-4e2e-90d0-204662dd5474")
+	)
+	(wire
+		(pts
 			(xy 27.94 193.04) (xy 82.55 193.04)
 		)
 		(stroke
@@ -8002,6 +8024,16 @@
 			(type default)
 		)
 		(uuid "0ddc673b-a789-4f10-8c2d-ef48a895f4ee")
+	)
+	(wire
+		(pts
+			(xy 46.99 154.94) (xy 82.55 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1091820d-6ef4-488c-afb9-6ba41e04a408")
 	)
 	(wire
 		(pts
@@ -8425,6 +8457,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 128.27) (xy 46.99 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8bb4e8-bd31-4fe5-a8a3-eea377175a69")
+	)
+	(wire
+		(pts
 			(xy 120.65 21.59) (xy 120.65 24.13)
 		)
 		(stroke
@@ -8782,6 +8824,16 @@
 			(type default)
 		)
 		(uuid "5ba4d7aa-3908-466b-b54a-b4ca7460b628")
+	)
+	(wire
+		(pts
+			(xy 41.91 120.65) (xy 46.99 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c1c6996-8657-41d6-8e8d-98960ca97a89")
 	)
 	(wire
 		(pts
@@ -9555,16 +9607,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 120.65) (xy 66.04 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a295e8c4-4c20-4b32-90c7-9b2b69b2ea46")
-	)
-	(wire
-		(pts
 			(xy 236.22 86.36) (xy 260.35 86.36)
 		)
 		(stroke
@@ -9775,7 +9817,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 154.94) (xy 82.55 154.94)
+			(xy 26.67 154.94) (xy 46.99 154.94)
 		)
 		(stroke
 			(width 0)
@@ -10580,7 +10622,7 @@
 	)
 	(global_label "P4_RX"
 		(shape input)
-		(at 26.67 162.56 180)
+		(at 26.67 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10590,7 +10632,7 @@
 		)
 		(uuid "11f52f2c-8aa4-484f-9fd0-226bf8b52406")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.5408 162.56 0)
+			(at 19.5408 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10602,7 +10644,7 @@
 	)
 	(global_label "P4_TX"
 		(shape output)
-		(at 26.67 165.1 180)
+		(at 26.67 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10612,7 +10654,7 @@
 		)
 		(uuid "32a8959a-03ea-4c7a-83b3-fe5cc5f56518")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.7827 165.1 0)
+			(at 19.7827 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16198,6 +16240,83 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/3d60835a-4261-467a-b239-9fb76f6e13a1"
 					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 124.46 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69b7e494-ac60-44df-bb6b-e0f1456cf42d")
+		(property "Reference" "R82"
+			(at 50.292 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "51k"
+			(at 50.292 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 45.212 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5102TCE_C25794.html"
+			(at 46.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25794"
+			(at 46.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02cc9cf2-e7af-4d21-8868-c3dc3538aae7")
+		)
+		(pin "2"
+			(uuid "7ccbcada-85f6-4e8b-9741-63bf9891db91")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/3d60835a-4261-467a-b239-9fb76f6e13a1"
+					(reference "R82")
 					(unit 1)
 				)
 			)
