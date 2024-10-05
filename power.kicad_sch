@@ -3460,6 +3460,137 @@
 				)
 			)
 		)
+		(symbol "lcsc:SMD24PL-TP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMD24PL-TP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc:SOD-123_L2.8-W1.8-LS3.7-RD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Micro-Commercial-Components-MCC-SMD24PL-TP_C151787.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C151787"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMD24PL-TP_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -2.03) (xy -0.76 -2.03) (xy -0.76 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 2.03) (xy -1.78 2.03) (xy -1.78 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "lcsc:TPS63020DSJR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5767,6 +5898,12 @@
 		(uuid "9ee0119f-0efe-4654-a4db-c9f8633aa63a")
 	)
 	(junction
+		(at 95.25 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a28e7d77-6494-4c2b-9f92-90b3e50797bc")
+	)
+	(junction
 		(at 246.38 147.32)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -5863,7 +6000,7 @@
 		(uuid "c8d5263d-d1ce-453a-b8f5-b9d4e56ee701")
 	)
 	(junction
-		(at 59.69 31.75)
+		(at 58.42 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca4292bb-2556-4a9f-934f-cc694dc71ca4")
@@ -6095,6 +6232,16 @@
 			(type solid)
 		)
 		(uuid "0c8fc0ff-e153-4f48-b9df-44bd9bc896e2")
+	)
+	(wire
+		(pts
+			(xy 95.25 22.86) (xy 95.25 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1180fb-c1b8-416e-b2eb-65bf38f74057")
 	)
 	(wire
 		(pts
@@ -6385,6 +6532,16 @@
 			(type solid)
 		)
 		(uuid "3b881e57-bd14-46da-b8b5-d162b023d1e4")
+	)
+	(wire
+		(pts
+			(xy 95.25 31.75) (xy 111.76 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc3511a-b2c4-47ec-80f6-705315de4fa9")
 	)
 	(wire
 		(pts
@@ -6738,6 +6895,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 31.75) (xy 95.25 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603b8da2-5f58-4f5e-b1ad-ee8e31cd14ab")
+	)
+	(wire
+		(pts
 			(xy 118.11 39.37) (xy 124.46 39.37)
 		)
 		(stroke
@@ -6875,6 +7042,16 @@
 			(type default)
 		)
 		(uuid "6c618305-eb43-4e4d-8fe2-fe48848f8b39")
+	)
+	(wire
+		(pts
+			(xy 85.09 22.86) (xy 85.09 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd3283b-ec3b-4944-a89a-dac77e3178fa")
 	)
 	(wire
 		(pts
@@ -7088,6 +7265,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 31.75) (xy 62.23 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b958bf6-2855-4784-8fa2-6ccd07552449")
+	)
+	(wire
+		(pts
 			(xy 269.24 134.62) (xy 269.24 132.08)
 		)
 		(stroke
@@ -7225,16 +7412,6 @@
 			(type default)
 		)
 		(uuid "a4aa2ad6-457e-40df-bbd9-301e740e4c9a")
-	)
-	(wire
-		(pts
-			(xy 59.69 31.75) (xy 62.23 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4d8ae84-345a-4379-8cb6-c57673160f02")
 	)
 	(wire
 		(pts
@@ -7508,7 +7685,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 31.75) (xy 59.69 31.75)
+			(xy 57.15 31.75) (xy 58.42 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7778,7 +7955,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 29.21) (xy 59.69 31.75)
+			(xy 58.42 29.21) (xy 58.42 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7855,16 +8032,6 @@
 			(type solid)
 		)
 		(uuid "f1a6e12f-a19b-4e12-8c63-4b6485df0b74")
-	)
-	(wire
-		(pts
-			(xy 82.55 31.75) (xy 111.76 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4285f54-0393-4f5b-a6b8-44e12b273196")
 	)
 	(wire
 		(pts
@@ -8710,10 +8877,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "137deef8-a27b-4e67-9d1b-e7ebd16f4476")
 		(property "Reference" "U6"
-			(at 72.39 24.13 0)
+			(at 90.17 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8721,7 +8887,7 @@
 			)
 		)
 		(property "Value" "BQ25895RTW"
-			(at 72.39 26.67 0)
+			(at 72.644 27.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10073,6 +10239,83 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc:SMD24PL-TP")
+		(at 90.17 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4494e52b-e44f-4057-9d2f-3f4db58584d0")
+		(property "Reference" "D87"
+			(at 90.425 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD24PL-TP"
+			(at 90.425 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc:SOD-123_L2.8-W1.8-LS3.7-RD"
+			(at 90.17 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Micro-Commercial-Components-MCC-SMD24PL-TP_C151787.html"
+			(at 90.17 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C151787"
+			(at 90.17 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "474faa3e-d05e-43bd-ba73-c1a45ca95fe2")
+		)
+		(pin "2"
+			(uuid "51e231df-2293-4d1e-9d52-e6a23ad6ca82")
+		)
+		(instances
+			(project ""
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/1b21cacd-3ed4-4137-bf19-1f15d3ffa268"
+					(reference "D87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 92.71 85.09 0)
 		(unit 1)
@@ -10608,7 +10851,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 59.69 31.75 180)
+		(at 58.42 31.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10617,7 +10860,7 @@
 		(fields_autoplaced yes)
 		(uuid "4be1a6f3-53bc-4f6b-9304-ce3f12d3b020")
 		(property "Reference" "#FLG04"
-			(at 59.69 33.655 0)
+			(at 58.42 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10626,7 +10869,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 59.69 36.83 0)
+			(at 58.42 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10635,7 +10878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 31.75 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10644,7 +10887,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 31.75 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10653,7 +10896,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 31.75 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13382,7 +13625,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 59.69 29.21 0)
+		(at 58.42 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13390,7 +13633,7 @@
 		(dnp no)
 		(uuid "9d9ff127-037b-41e0-beee-e0e4813a4099")
 		(property "Reference" "#PWR020"
-			(at 59.69 33.02 0)
+			(at 58.42 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13399,7 +13642,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 59.69 25.4 0)
+			(at 58.42 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13407,7 +13650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 29.21 0)
+			(at 58.42 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13416,7 +13659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 29.21 0)
+			(at 58.42 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13425,7 +13668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 59.69 29.21 0)
+			(at 58.42 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
