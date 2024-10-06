@@ -3326,6 +3326,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Crystal_GND24_Small"
 			(pin_names
 				(offset 1.016) hide)
@@ -8073,6 +8209,12 @@
 		(uuid "16568f2d-362f-4ae3-91ea-7edb21e095db")
 	)
 	(junction
+		(at 111.76 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b163c46-15ec-4b1e-80ef-1e01f249535e")
+	)
+	(junction
 		(at 275.59 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8083,12 +8225,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33201fe1-417b-44dd-a29b-c27d8f704646")
-	)
-	(junction
-		(at 91.44 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "347434b1-3588-416a-8c5f-8b77110f93e8")
 	)
 	(junction
 		(at 267.97 95.25)
@@ -8155,6 +8291,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cc34a9e-1d2e-4ed3-9c84-c8ee0c29c1c0")
+	)
+	(junction
+		(at 91.44 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92a73859-a6cd-4697-a93b-64e7a4b7d689")
 	)
 	(junction
 		(at 229.87 95.25)
@@ -8240,6 +8382,12 @@
 		(color 0 0 0 0)
 		(uuid "f565b9d4-a345-4107-8e80-5d1f47229406")
 	)
+	(junction
+		(at 80.01 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f63808ae-5dc1-4af4-b738-cc458a41faef")
+	)
 	(no_connect
 		(at 265.43 92.71)
 		(uuid "2619645e-42cd-4dd9-acee-aaa4bb4eae90")
@@ -8267,6 +8415,16 @@
 	(no_connect
 		(at 41.91 67.31)
 		(uuid "b0e500fa-c5cc-433d-8388-1af15bc9b54c")
+	)
+	(wire
+		(pts
+			(xy 111.76 26.67) (xy 120.65 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011578e9-6d6d-420d-8f92-1c6ea12bef3a")
 	)
 	(wire
 		(pts
@@ -8670,6 +8828,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 31.75) (xy 80.01 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26773d1b-9e8c-4b64-b4cf-11722efee415")
+	)
+	(wire
+		(pts
 			(xy 166.37 102.87) (xy 167.64 102.87)
 		)
 		(stroke
@@ -8740,13 +8908,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 24.13) (xy 91.44 31.75)
+			(xy 91.44 26.67) (xy 111.76 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d34c762-ba11-4472-8b86-2094528c784a")
+		(uuid "2d1019ce-eaf6-4e03-9fdd-9d83e3d86902")
 	)
 	(wire
 		(pts
@@ -9210,16 +9378,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 31.75) (xy 91.44 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "597ce1ab-d713-4ab6-b6b4-69ffe6aba9f5")
-	)
-	(wire
-		(pts
 			(xy 74.93 77.47) (xy 74.93 80.01)
 		)
 		(stroke
@@ -9320,6 +9478,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 19.05) (xy 91.44 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689f6a00-9b97-4ed3-ad11-b55edf5b48ce")
+	)
+	(wire
+		(pts
 			(xy 187.96 146.05) (xy 165.1 146.05)
 		)
 		(stroke
@@ -9417,16 +9585,6 @@
 			(type default)
 		)
 		(uuid "71e8528c-cc27-4ce6-858c-f2a18bb04333")
-	)
-	(wire
-		(pts
-			(xy 91.44 31.75) (xy 91.44 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "724b460c-1af2-4932-8659-28a27cd6e347")
 	)
 	(wire
 		(pts
@@ -9930,6 +10088,26 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 26.67) (xy 111.76 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac81b48c-3782-4fc1-99c2-40dd8a31b36c")
+	)
+	(wire
+		(pts
+			(xy 80.01 31.75) (xy 80.01 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfac163-d785-4121-b344-28ab71dbff46")
+	)
+	(wire
+		(pts
 			(xy 265.43 63.5) (xy 264.16 63.5)
 		)
 		(stroke
@@ -9977,6 +10155,16 @@
 			(type default)
 		)
 		(uuid "b201e575-499a-4ce6-8c30-1af1c48a5f2e")
+	)
+	(wire
+		(pts
+			(xy 91.44 26.67) (xy 91.44 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f61f1e-369c-407a-a2f8-6d76a8659c21")
 	)
 	(wire
 		(pts
@@ -10437,6 +10625,16 @@
 			(type default)
 		)
 		(uuid "e395963f-4826-46d7-b49f-4dc11ffeca31")
+	)
+	(wire
+		(pts
+			(xy 120.65 29.21) (xy 120.65 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e500f6cd-1f9b-462f-a990-8043951154bd")
 	)
 	(wire
 		(pts
@@ -10998,7 +11196,7 @@
 	)
 	(global_label "SAO_IO1"
 		(shape bidirectional)
-		(at 82.55 157.48 0)
+		(at 82.55 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11008,7 +11206,7 @@
 		)
 		(uuid "1232dc63-3f21-49c3-b2e3-09f133bef489")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.0197 157.48 0)
+			(at 92.0197 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11856,22 +12054,22 @@
 	)
 	(global_label "SAO_SDA"
 		(shape output)
-		(at 120.65 165.1 0)
+		(at 107.95 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "80158356-4075-4f24-ad8d-a281c214a6c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.5694 165.1 0)
+			(at 99.0306 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12010,22 +12208,22 @@
 	)
 	(global_label "SAO_IO1"
 		(shape bidirectional)
-		(at 120.65 162.56 0)
+		(at 107.95 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8b7a6356-93e1-475e-addb-f2406bff8dc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.1197 162.56 0)
+			(at 98.4803 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12582,22 +12780,22 @@
 	)
 	(global_label "SAO_IO2"
 		(shape bidirectional)
-		(at 107.95 162.56 180)
+		(at 120.65 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d7eecd07-9fdb-45ed-90fa-9f2f2ae41a61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.4803 162.56 0)
+			(at 130.1197 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12714,22 +12912,22 @@
 	)
 	(global_label "SAO_SCL"
 		(shape bidirectional)
-		(at 107.95 165.1 180)
+		(at 120.65 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "deb71864-2344-4dca-91ea-aaad01b9cceb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.19 165.1 0)
+			(at 130.41 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12868,7 +13066,7 @@
 	)
 	(global_label "SAO_IO2"
 		(shape bidirectional)
-		(at 82.55 154.94 0)
+		(at 82.55 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12878,7 +13076,7 @@
 		)
 		(uuid "efcd9c77-a491-452a-8565-ffcd65ac04fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.0197 154.94 0)
+			(at 92.0197 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13295,79 +13493,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Housing")
-		(at 140.97 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0aafca24-3d7c-4cca-9100-7b6ba49fe005")
-		(property "Reference" "N4"
-			(at 144.78 189.5474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Espressif"
-			(at 144.78 192.0874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "proto1_kicad:Espressif_Logo"
-			(at 142.24 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "-"
-			(at 142.24 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "-"
-			(at 140.97 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "N4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 35.56 187.96 0)
 		(unit 1)
@@ -13566,79 +13691,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Housing")
-		(at 120.65 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13c78266-4768-4021-84fd-fcd8e183cc45")
-		(property "Reference" "N2"
-			(at 124.46 189.5474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Stamp"
-			(at 124.46 192.0874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "stamp:stamp"
-			(at 121.92 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "-"
-			(at 121.92 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "-"
-			(at 120.65 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "N2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mch2021-rescue:GND-power")
 		(at 52.07 46.99 0)
 		(unit 1)
@@ -13698,79 +13750,6 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Housing")
-		(at 158.75 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16f23df4-171c-4592-827f-bba655e5949e")
-		(property "Reference" "N8"
-			(at 162.56 189.5474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Bosch"
-			(at 162.56 192.0874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "proto1_kicad:bosch_logo"
-			(at 160.02 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "-"
-			(at 160.02 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "-"
-			(at 158.75 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "N8")
 					(unit 1)
 				)
 			)
@@ -13967,84 +13946,6 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
 					(reference "#PWR0195")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mch2021-rescue:C-Device")
-		(at 74.93 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23d115b7-32c2-4472-839e-b1920028d6aa")
-		(property "Reference" "C7"
-			(at 73.66 35.052 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 73.66 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 71.12 41.6052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
-			(at 74.93 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5199872"
-			(at 74.93 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66bc8e1a-d488-4897-9cc3-6329e3a41fb7")
-		)
-		(pin "2"
-			(uuid "300abdf2-585e-4e75-93a1-95c0692a43ed")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -14306,6 +14207,71 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mch2021-rescue:GND-power")
+		(at 71.12 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e5f4edd-2627-43df-8531-db6b94e29dff")
+		(property "Reference" "#PWR0298"
+			(at 64.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.7258 31.877 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0324d80-fa48-44e1-8830-02ee2251e844")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
+					(reference "#PWR0298")
 					(unit 1)
 				)
 			)
@@ -14574,79 +14540,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Housing")
-		(at 140.97 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44a2bbf7-df51-471e-85f2-a8213a047fc8")
-		(property "Reference" "N3"
-			(at 144.78 179.3874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Nicolai"
-			(at 144.78 181.9274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "library:logo_nicolai"
-			(at 142.24 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "-"
-			(at 142.24 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "-"
-			(at 140.97 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "N3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 120.65 152.4 270)
 		(unit 1)
@@ -14810,79 +14703,6 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
 					(reference "U31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Housing")
-		(at 97.79 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "496b7dd3-97e3-4985-8ed4-ad2b405c5d95")
-		(property "Reference" "N6"
-			(at 101.6 179.3874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Ranzbak"
-			(at 101.6 181.9274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "library:goatse_01"
-			(at 99.06 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "-"
-			(at 99.06 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "-"
-			(at 97.79 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "N6")
 					(unit 1)
 				)
 			)
@@ -15163,7 +14983,7 @@
 	)
 	(symbol
 		(lib_id "mch2021-rescue:C-Device")
-		(at 74.93 31.75 270)
+		(at 111.76 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15171,7 +14991,7 @@
 		(dnp no)
 		(uuid "5829e923-63e6-4928-803b-5f370b4a4843")
 		(property "Reference" "C8"
-			(at 73.66 26.162 90)
+			(at 106.172 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15180,7 +15000,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 73.66 28.194 90)
+			(at 108.204 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15189,7 +15009,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 71.12 32.7152 0)
+			(at 112.7252 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15198,7 +15018,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
-			(at 74.93 31.75 0)
+			(at 111.76 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15207,7 +15027,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 31.75 0)
+			(at 111.76 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15216,7 +15036,7 @@
 			)
 		)
 		(property "LCSC" "C5199872"
-			(at 74.93 31.75 0)
+			(at 111.76 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15437,7 +15257,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 91.44 24.13 0)
+		(at 91.44 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15445,7 +15265,7 @@
 		(dnp no)
 		(uuid "610adb9d-042c-4e1e-b643-8ccb9d4205cc")
 		(property "Reference" "#PWR023"
-			(at 91.44 27.94 0)
+			(at 91.44 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15454,7 +15274,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 91.44 20.32 0)
+			(at 91.44 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15462,7 +15282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 24.13 0)
+			(at 91.44 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15471,7 +15291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 24.13 0)
+			(at 91.44 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15480,7 +15300,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 91.44 24.13 0)
+			(at 91.44 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15785,7 +15605,8 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 120.65 167.64 270)
+		(at 107.95 167.64 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15793,7 +15614,7 @@
 		(dnp no)
 		(uuid "6f560d0a-a587-4fc2-bd69-f7ab55dcbb6b")
 		(property "Reference" "#PWR0128"
-			(at 116.84 167.64 0)
+			(at 111.76 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15802,7 +15623,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 126.492 167.386 90)
+			(at 102.108 167.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15810,7 +15631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 167.64 0)
+			(at 107.95 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15819,7 +15640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 167.64 0)
+			(at 107.95 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15828,7 +15649,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 120.65 167.64 0)
+			(at 107.95 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15916,7 +15737,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Housing")
-		(at 160.02 180.34 0)
+		(at 127 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15925,7 +15746,7 @@
 		(fields_autoplaced yes)
 		(uuid "76ac6a3f-e71e-42d5-a174-29bbdc3babce")
 		(property "Reference" "N5"
-			(at 163.83 179.3874 0)
+			(at 130.81 189.5474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15934,7 +15755,7 @@
 			)
 		)
 		(property "Value" "OSHW"
-			(at 163.83 181.9274 0)
+			(at 130.81 192.0874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15943,7 +15764,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:OSHW-Logo2_14.6x12mm_SilkScreen"
-			(at 161.29 179.07 0)
+			(at 128.27 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15952,7 +15773,7 @@
 			)
 		)
 		(property "Datasheet" "-"
-			(at 161.29 179.07 0)
+			(at 128.27 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15961,7 +15782,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 180.34 0)
+			(at 127 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15970,7 +15791,7 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 160.02 180.34 0)
+			(at 127 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16054,7 +15875,7 @@
 	)
 	(symbol
 		(lib_id "mch2021-rescue:GND-power")
-		(at 71.12 31.75 270)
+		(at 111.76 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16062,7 +15883,7 @@
 		(dnp no)
 		(uuid "7bf7f753-a06c-41f6-8b89-fae5c38c9b2b")
 		(property "Reference" "#PWR032"
-			(at 64.77 31.75 0)
+			(at 111.76 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16071,7 +15892,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.7258 31.877 0)
+			(at 111.887 41.2242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16079,7 +15900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 31.75 0)
+			(at 111.76 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16088,7 +15909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 31.75 0)
+			(at 111.76 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16097,7 +15918,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 31.75 0)
+			(at 111.76 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16377,6 +16198,84 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
 					(reference "U29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 74.93 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "839015dc-ed91-4d17-84e9-6cf7976d6252")
+		(property "Reference" "C90"
+			(at 76.708 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 76.962 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 78.74 30.7848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21B106KAYQNNE_C3039694.html"
+			(at 74.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3039694"
+			(at 74.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59c50e11-a06d-4d4c-9516-8b8945ea86ef")
+		)
+		(pin "2"
+			(uuid "a6625c20-552b-4c02-a57e-fe2c99622593")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -17635,6 +17534,84 @@
 		)
 	)
 	(symbol
+		(lib_id "mch2021-rescue:C-Device")
+		(at 120.65 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae5282ce-f735-4156-8750-689a0cfcb2d6")
+		(property "Reference" "C91"
+			(at 115.062 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 117.094 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 121.6152 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
+			(at 120.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5199872"
+			(at 120.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c217d10e-8499-454a-8591-b5f2806307e7")
+		)
+		(pin "2"
+			(uuid "5e36e023-4fec-4f94-b8f4-ec08e7b32205")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
+					(reference "C91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 275.59 97.79 0)
 		(unit 1)
@@ -17694,6 +17671,71 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mch2021-rescue:GND-power")
+		(at 120.65 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aed24de9-4626-4585-a52a-3cc435886f61")
+		(property "Reference" "#PWR0299"
+			(at 120.65 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.777 41.2242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "732a0e06-4a78-42af-a3ed-12ac743a89dc")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
+					(reference "#PWR0299")
 					(unit 1)
 				)
 			)
@@ -17781,7 +17823,8 @@
 	)
 	(symbol
 		(lib_id "mch2021-rescue:GND-power")
-		(at 107.95 167.64 270)
+		(at 120.65 167.64 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17789,7 +17832,7 @@
 		(dnp no)
 		(uuid "b0f4d390-2111-46f2-a13f-f8d5f429ff9a")
 		(property "Reference" "#PWR0245"
-			(at 101.6 167.64 0)
+			(at 127 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17798,7 +17841,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 103.124 167.64 90)
+			(at 125.476 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17806,7 +17849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 167.64 0)
+			(at 120.65 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17815,7 +17858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 167.64 0)
+			(at 120.65 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17824,7 +17867,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 167.64 0)
+			(at 120.65 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18314,7 +18357,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Housing")
-		(at 120.65 180.34 0)
+		(at 143.51 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -18323,7 +18366,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8e204af-cdd8-4c88-b980-2f3b53fcfdae")
 		(property "Reference" "N1"
-			(at 124.46 179.3874 0)
+			(at 147.32 189.5474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18332,7 +18375,7 @@
 			)
 		)
 		(property "Value" "Board"
-			(at 124.46 181.9274 0)
+			(at 147.32 192.0874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18341,7 +18384,7 @@
 			)
 		)
 		(property "Footprint" "proto1_kicad:why2025-mainboard"
-			(at 121.92 179.07 0)
+			(at 144.78 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18350,7 +18393,7 @@
 			)
 		)
 		(property "Datasheet" "-"
-			(at 121.92 179.07 0)
+			(at 144.78 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18359,7 +18402,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 180.34 0)
+			(at 143.51 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18368,7 +18411,7 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 120.65 180.34 0)
+			(at 143.51 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19303,7 +19346,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Housing")
-		(at 97.79 190.5 0)
+		(at 160.02 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -19312,7 +19355,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6c72f7f-b7f7-4583-80b8-b0afa23c5dfe")
 		(property "Reference" "N7"
-			(at 101.6 189.5474 0)
+			(at 163.83 189.5474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19321,7 +19364,7 @@
 			)
 		)
 		(property "Value" "Radio-logo"
-			(at 101.6 192.0874 0)
+			(at 163.83 192.0874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19330,7 +19373,7 @@
 			)
 		)
 		(property "Footprint" "radio-logo:radio-logo"
-			(at 99.06 189.23 0)
+			(at 161.29 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19339,7 +19382,7 @@
 			)
 		)
 		(property "Datasheet" "-"
-			(at 99.06 189.23 0)
+			(at 161.29 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19348,7 +19391,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 190.5 0)
+			(at 160.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19357,7 +19400,7 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 97.79 190.5 0)
+			(at 160.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20177,6 +20220,84 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 74.93 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdbbdf2f-31ec-4f14-be58-cd6eaa5791db")
+		(property "Reference" "C7"
+			(at 76.2 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 76.962 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 78.74 39.6748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21B106KAYQNNE_C3039694.html"
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3039694"
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d3f38b3-f47b-4bac-8ca9-51ae0d19047b")
+		)
+		(pin "2"
+			(uuid "f4ef37d7-83ad-486b-b26e-bd3339de984d")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
+					(reference "C7")
 					(unit 1)
 				)
 			)

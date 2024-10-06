@@ -2222,6 +2222,12 @@
 		(uuid "97b0dd9d-31df-43df-8e1a-bc1860a09af7")
 	)
 	(junction
+		(at 50.8 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a313d4fb-2b9f-45ef-a4aa-76b72b1a9e08")
+	)
+	(junction
 		(at 135.89 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2276,6 +2282,16 @@
 			(type default)
 		)
 		(uuid "00bfcda2-8cb5-4d2a-86de-abf3b039b924")
+	)
+	(wire
+		(pts
+			(xy 50.8 34.29) (xy 59.69 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022c00ae-e3da-4c6c-b6d3-c2327ce37fd2")
 	)
 	(wire
 		(pts
@@ -2339,6 +2355,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 25.4) (xy 50.8 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27fb3354-510b-4a59-a0a8-fdb52f2551ac")
+	)
+	(wire
+		(pts
 			(xy 135.89 31.75) (xy 135.89 57.15)
 		)
 		(stroke
@@ -2396,6 +2422,16 @@
 			(type default)
 		)
 		(uuid "311fa492-3698-41b8-9f43-d579360791be")
+	)
+	(wire
+		(pts
+			(xy 50.8 25.4) (xy 50.8 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f1197c-e9fc-4945-b0c0-07d946a6fd00")
 	)
 	(wire
 		(pts
@@ -2649,7 +2685,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 34.29) (xy 59.69 34.29)
+			(xy 31.75 34.29) (xy 50.8 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3076,6 +3112,38 @@
 		)
 		(uuid "975d3bdd-6d70-4a46-bb20-14a25fe84004")
 	)
+	(text "Workaround for USB\nenumeration problem"
+		(exclude_from_sim no)
+		(at 58.166 22.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c384138e-1973-453b-bee2-0587272d9ba6")
+	)
+	(label "C6_USB1_INT_P"
+		(at 116.84 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "091ac612-80ea-4613-9105-352b7b018954")
+	)
+	(label "C6_USB1_INT_N"
+		(at 116.84 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da6d3f26-0960-4dfa-b8b6-967b744819ed")
+	)
 	(global_label "LORA_SCK"
 		(shape input)
 		(at 74.93 144.78 180)
@@ -3204,6 +3272,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C6_USB1_INT_P"
+		(shape output)
+		(at 53.34 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "9e3aab20-a9d8-4b25-8818-87a2ae047300")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.3877 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4064,6 +4154,83 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:R")
+		(at 50.8 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24cf72ea-e9ba-4656-b770-a9f0555ef081")
+		(property "Reference" "R83"
+			(at 54.61 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 54.61 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 52.578 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76c537e5-5f4f-4007-965a-90cf93bf1806")
+		)
+		(pin "2"
+			(uuid "4406d92f-5b66-4021-97ae-e6b7ddf3d91e")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
+					(reference "R83")
 					(unit 1)
 				)
 			)
