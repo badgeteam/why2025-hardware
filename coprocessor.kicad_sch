@@ -5473,7 +5473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2403131350_WCH-Jiangsu-Qin-Heng-CH32V203C8T6_C3001172.pdf"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/CH32V203.pdf"
 			(at 147.32 80.01 0)
 			(effects
 				(font
