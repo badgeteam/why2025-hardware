@@ -6030,6 +6030,12 @@
 		(uuid "d8446316-87d9-47f8-afc5-997e93859b08")
 	)
 	(junction
+		(at 123.19 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d86a5659-f56f-46c5-89f2-ac381e563ce5")
+	)
+	(junction
 		(at 128.27 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6365,7 +6371,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 49.53) (xy 128.27 49.53)
+			(xy 115.57 49.53) (xy 123.19 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7232,6 +7238,16 @@
 			(type default)
 		)
 		(uuid "80a74ff6-dfe8-421c-8fef-5a9a3afad945")
+	)
+	(wire
+		(pts
+			(xy 123.19 49.53) (xy 128.27 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b5bbcd-95ad-40e2-86f4-7757c67b2e32")
 	)
 	(wire
 		(pts
@@ -12238,6 +12254,81 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/1b21cacd-3ed4-4137-bf19-1f15d3ffa268"
 					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 123.19 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7580a2ca-76f4-4e35-91dc-aa50b07908d9")
+		(property "Reference" "TP6"
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VBAT+"
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a6efb43-ca6a-474e-b96f-8a551f6289dd")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/1b21cacd-3ed4-4137-bf19-1f15d3ffa268"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
