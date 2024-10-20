@@ -10938,7 +10938,7 @@
 	)
 	(hierarchical_label "E2"
 		(shape bidirectional)
-		(at 27.94 130.81 180)
+		(at 27.94 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11190,7 +11190,7 @@
 	)
 	(hierarchical_label "SAO_IO2"
 		(shape bidirectional)
-		(at 27.94 26.67 180)
+		(at 27.94 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
