@@ -18679,7 +18679,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "2k2"
 			(at 48.26 19.05 90)
 			(effects
 				(font
@@ -18714,7 +18714,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C25879"
 			(at 48.26 19.05 0)
 			(effects
 				(font
@@ -20821,6 +20821,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b0544f08-c431-4194-bea6-fe53ceac3061")
 		(property "Reference" "R15"
 			(at 50.038 19.05 90)
@@ -20830,7 +20831,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "2k2"
 			(at 52.07 19.05 90)
 			(effects
 				(font
@@ -20865,7 +20866,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C25879"
 			(at 52.07 19.05 0)
 			(effects
 				(font
