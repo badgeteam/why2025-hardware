@@ -21013,8 +21013,8 @@
 		)
 	)
 	(sheet
-		(at 82.55 90.17)
-		(size 17.78 22.86)
+		(at 82.55 87.63)
+		(size 17.78 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -21025,7 +21025,7 @@
 		)
 		(uuid "1b21cacd-3ed4-4137-bf19-1f15d3ffa268")
 		(property "Sheetname" "Power"
-			(at 82.55 89.4584 0)
+			(at 82.55 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
