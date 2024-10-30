@@ -2569,7 +2569,7 @@
 		(uuid "04d31bf4-c4a5-430e-9301-32cdec53c19f")
 	)
 	(junction
-		(at 86.995 179.07)
+		(at 87.63 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "135ade5b-3781-44a6-aeb5-8a03fe91cd1c")
@@ -2591,6 +2591,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "346705ad-ac0d-4e92-bad1-09f320e6733a")
+	)
+	(junction
+		(at 110.49 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47429c6e-97e3-4a8f-8400-494491fd5d20")
 	)
 	(junction
 		(at 204.47 74.93)
@@ -2790,7 +2796,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.995 184.15) (xy 86.995 186.69)
+			(xy 87.63 184.15) (xy 87.63 186.69)
 		)
 		(stroke
 			(width 0)
@@ -2857,6 +2863,16 @@
 			(type default)
 		)
 		(uuid "25f51520-cb8d-4bdb-b0e5-c3333bc338ba")
+	)
+	(wire
+		(pts
+			(xy 83.82 176.53) (xy 96.52 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280006f9-aed7-4462-86a6-c821135952fe")
 	)
 	(wire
 		(pts
@@ -3000,6 +3016,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 179.07) (xy 116.84 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cecfd1c-565f-4ba5-ab0e-97f7fa7c0cb5")
+	)
+	(wire
+		(pts
 			(xy 67.31 21.59) (xy 67.31 24.13)
 		)
 		(stroke
@@ -3037,16 +3063,6 @@
 			(type default)
 		)
 		(uuid "3f9612b8-8f44-4712-84db-347e0e349e2a")
-	)
-	(wire
-		(pts
-			(xy 95.885 176.53) (xy 83.185 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42bb0015-c711-4d7a-8a88-96238026c16d")
 	)
 	(wire
 		(pts
@@ -3110,7 +3126,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.055 171.45) (xy 59.055 176.53)
+			(xy 59.69 171.45) (xy 59.69 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3170,7 +3186,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.315 171.45) (xy 107.315 176.53)
+			(xy 107.95 171.45) (xy 107.95 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3200,7 +3216,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.995 184.15) (xy 83.185 184.15)
+			(xy 87.63 184.15) (xy 83.82 184.15)
 		)
 		(stroke
 			(width 0)
@@ -3350,7 +3366,7 @@
 	)
 	(wire
 		(pts
-			(xy 65.405 184.15) (xy 59.055 184.15)
+			(xy 59.69 181.61) (xy 66.04 181.61)
 		)
 		(stroke
 			(width 0)
@@ -3490,7 +3506,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.505 179.07) (xy 86.995 179.07)
+			(xy 87.63 179.07) (xy 110.49 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3520,13 +3536,23 @@
 	)
 	(wire
 		(pts
-			(xy 65.405 179.07) (xy 59.055 179.07)
+			(xy 66.04 179.07) (xy 59.69 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99229615-d84b-471c-bf68-85863ae94ef8")
+	)
+	(wire
+		(pts
+			(xy 53.34 184.15) (xy 66.04 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99fd2ab9-506e-4a04-8287-806ae4189c7d")
 	)
 	(wire
 		(pts
@@ -3590,7 +3616,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.995 179.07) (xy 86.995 181.61)
+			(xy 87.63 179.07) (xy 87.63 181.61)
 		)
 		(stroke
 			(width 0)
@@ -3670,7 +3696,7 @@
 	)
 	(wire
 		(pts
-			(xy 65.405 176.53) (xy 59.055 176.53)
+			(xy 66.04 176.53) (xy 59.69 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3690,7 +3716,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.505 176.53) (xy 107.315 176.53)
+			(xy 104.14 176.53) (xy 107.95 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3710,7 +3736,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.055 179.07) (xy 59.055 184.15)
+			(xy 59.69 179.07) (xy 59.69 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4010,7 +4036,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.995 179.07) (xy 83.185 179.07)
+			(xy 87.63 179.07) (xy 83.82 179.07)
 		)
 		(stroke
 			(width 0)
@@ -4030,7 +4056,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.995 181.61) (xy 83.185 181.61)
+			(xy 87.63 181.61) (xy 83.82 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4057,16 +4083,6 @@
 			(type default)
 		)
 		(uuid "effd8075-dd76-445e-98fd-4601f9cea001")
-	)
-	(wire
-		(pts
-			(xy 65.405 181.61) (xy 42.545 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1436685-501f-4833-9a36-3af771431ac8")
 	)
 	(wire
 		(pts
@@ -4140,7 +4156,7 @@
 	)
 	(text "Power on latch circuit\nTo keep the power signal low until the 3v3 comes up"
 		(exclude_from_sim no)
-		(at 72.644 160.02 0)
+		(at 72.39 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4159,7 +4175,7 @@
 		(uuid "dc7f1a4e-cd96-4638-99bf-511b268967c1")
 	)
 	(label "RTC_SET"
-		(at 52.705 181.61 180)
+		(at 63.5 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4170,7 +4186,7 @@
 		(uuid "22ea4b87-f880-4674-ad45-b3d908f531b4")
 	)
 	(label "RTC_RESET"
-		(at 94.615 176.53 180)
+		(at 95.25 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4468,7 +4484,7 @@
 	)
 	(global_label "POWER_ON_PULSE"
 		(shape input)
-		(at 42.545 181.61 180)
+		(at 53.34 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4478,7 +4494,7 @@
 		)
 		(uuid "6d1fc0ca-50d8-45b5-8b44-f9e3adfbe210")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.5056 181.61 0)
+			(at 33.3006 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,7 +5182,7 @@
 	)
 	(hierarchical_label "POWER_ON"
 		(shape output)
-		(at 103.505 179.07 0)
+		(at 116.84 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5483,6 +5499,82 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/17d99d7a-f62d-4bb1-94fb-986230f9fa4f"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 110.49 179.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "24ed89a9-f860-4369-aa02-cafd68209eef")
+		(property "Reference" "TP8"
+			(at 111.76 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PON"
+			(at 111.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 105.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 105.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 110.49 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 110.49 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00d6cd44-269d-4c33-b663-3c953c55abef")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/17d99d7a-f62d-4bb1-94fb-986230f9fa4f"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -5831,7 +5923,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.995 186.69 0)
+		(at 87.63 186.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5840,7 +5932,7 @@
 		(dnp no)
 		(uuid "474fd5e6-e435-4abe-b9ef-64eedff8bc8d")
 		(property "Reference" "#PWR0257"
-			(at 86.995 193.04 0)
+			(at 87.63 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,7 +5941,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.995 191.77 0)
+			(at 87.63 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +5949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.995 186.69 0)
+			(at 87.63 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +5958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.995 186.69 0)
+			(at 87.63 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +5967,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.995 186.69 0)
+			(at 87.63 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5897,7 +5989,7 @@
 	)
 	(symbol
 		(lib_id "lcsc:74LVC2G02HD4-7")
-		(at 73.025 181.61 0)
+		(at 73.66 181.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5907,7 +5999,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f07e8a9-cfa1-4737-a656-c3ee4d335d94")
 		(property "Reference" "U26"
-			(at 74.295 168.91 0)
+			(at 74.93 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,7 +6007,7 @@
 			)
 		)
 		(property "Value" "74LVC2G02HD4-7"
-			(at 74.295 171.45 0)
+			(at 74.93 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,7 +6015,7 @@
 			)
 		)
 		(property "Footprint" "lcsc:X2-DFN2010-8_L2.0-W1.0-P0.50-BL"
-			(at 73.025 191.77 0)
+			(at 73.66 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,7 +6024,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Logic-Gates_Diodes-Incorporated-74LVC2G02HD4-7_C842640.html"
-			(at 73.025 181.61 0)
+			(at 73.66 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5941,7 +6033,7 @@
 			)
 		)
 		(property "Description" "Dual NOR gate"
-			(at 73.025 181.61 0)
+			(at 73.66 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5950,7 +6042,7 @@
 			)
 		)
 		(property "LCSC Part" "C842640"
-			(at 73.025 194.31 0)
+			(at 73.66 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,7 +6152,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 107.315 171.45 0)
+		(at 107.95 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6068,7 +6160,7 @@
 		(dnp no)
 		(uuid "59a138ba-5562-4026-b5b1-57a29f060986")
 		(property "Reference" "#PWR0258"
-			(at 107.315 175.26 0)
+			(at 107.95 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6077,7 +6169,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 107.315 166.37 0)
+			(at 107.95 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6177,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.315 171.45 0)
+			(at 107.95 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +6186,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.315 171.45 0)
+			(at 107.95 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6195,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 107.315 171.45 0)
+			(at 107.95 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,7 +6939,7 @@
 	)
 	(symbol
 		(lib_id "custom-power:+2.5vsb")
-		(at 59.055 171.45 0)
+		(at 59.69 171.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6857,7 +6949,7 @@
 		(fields_autoplaced yes)
 		(uuid "89c1193f-9be0-4241-ab3a-6ed96c17bfcc")
 		(property "Reference" "#PWR0256"
-			(at 59.055 175.26 0)
+			(at 59.69 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,7 +6958,7 @@
 			)
 		)
 		(property "Value" "+2.5vsb"
-			(at 59.055 166.37 0)
+			(at 59.69 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +6966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.055 171.45 0)
+			(at 59.69 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6883,7 +6975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.055 171.45 0)
+			(at 59.69 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6892,7 +6984,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+2.5vsb\""
-			(at 59.055 173.228 0)
+			(at 59.69 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8597,7 +8689,7 @@
 	)
 	(symbol
 		(lib_id "symbols:R")
-		(at 99.695 176.53 90)
+		(at 100.33 176.53 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8606,7 +8698,7 @@
 		(dnp no)
 		(uuid "f98e2e8b-12cb-44e1-82ac-d6aa6a5de730")
 		(property "Reference" "R84"
-			(at 100.965 172.72 0)
+			(at 101.6 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8614,7 +8706,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 98.425 172.72 0)
+			(at 99.06 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8622,7 +8714,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 99.695 174.752 90)
+			(at 100.33 174.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8631,7 +8723,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
-			(at 99.695 176.53 0)
+			(at 100.33 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,7 +8732,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.695 176.53 0)
+			(at 100.33 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,7 +8741,7 @@
 			)
 		)
 		(property "LCSC" "C60490"
-			(at 99.695 176.53 0)
+			(at 100.33 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
