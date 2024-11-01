@@ -8407,16 +8407,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 166.37) (xy 148.59 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34fae7a8-e871-4753-8bc8-e1df250f55af")
-	)
-	(wire
-		(pts
 			(xy 137.16 137.16) (xy 137.16 139.7)
 		)
 		(stroke
@@ -9124,6 +9114,16 @@
 			(type default)
 		)
 		(uuid "782d8395-9a84-4888-bc66-bdb55caf00b8")
+	)
+	(wire
+		(pts
+			(xy 148.59 166.37) (xy 158.75 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79fd7a6d-e98d-4e0e-a5d7-13831b098912")
 	)
 	(wire
 		(pts
@@ -10730,7 +10730,7 @@
 	)
 	(global_label "P4_RX"
 		(shape output)
-		(at 151.13 166.37 0)
+		(at 166.37 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10740,7 +10740,7 @@
 		)
 		(uuid "b6cf9a3d-893a-4f79-ba65-ff3c79749ac2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.2592 166.37 0)
+			(at 173.4992 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23267,6 +23267,81 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/3d60835a-4261-467a-b239-9fb76f6e13a1"
 					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 162.56 166.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8257d1e-4e83-4bfb-8403-611266c9226a")
+		(property "Reference" "R86"
+			(at 162.56 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "261"
+			(at 162.56 168.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 162.56 164.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2404021727_FOJAN-FRC0402F2610TS_C7467416.pdf"
+			(at 162.56 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1%"
+			(at 162.56 170.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7467416"
+			(at 162.56 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "685fc54f-c722-4cf6-874f-873871eb3df0")
+		)
+		(pin "2"
+			(uuid "ff7fd32f-ace4-4d2a-be59-6cdbd0378114")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/3d60835a-4261-467a-b239-9fb76f6e13a1"
+					(reference "R86")
 					(unit 1)
 				)
 			)
