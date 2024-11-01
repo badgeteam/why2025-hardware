@@ -1,0 +1,134 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator https://github.com/uPesy/easyeda2kicad.py)
+  (symbol "BMI270"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "BMI270"
+      (id 1)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "easyeda2kicad:LGA-14_L3.0-W2.5-P0.50-BR"
+      (id 2)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2836813"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "BMI270_0_1"
+      (rectangle
+        (start -8.89 10.16)
+        (end 8.89 -10.16)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle
+        (center -7.62 8.89)
+        (radius 0.38)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -11.43 7.62 0)
+        (length 2.54)
+        (name "SDO" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -11.43 5.08 0)
+        (length 2.54)
+        (name "ASDX" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -11.43 2.54 0)
+        (length 2.54)
+        (name "ASCX" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -11.43 -0.00 0)
+        (length 2.54)
+        (name "INT1" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -11.43 -2.54 0)
+        (length 2.54)
+        (name "VDDIO" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -11.43 -5.08 0)
+        (length 2.54)
+        (name "GNDIO" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -11.43 -7.62 0)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 -7.62 180)
+        (length 2.54)
+        (name "VDD" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 -5.08 180)
+        (length 2.54)
+        (name "INT2" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 -2.54 180)
+        (length 2.54)
+        (name "OCSB" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 -0.00 180)
+        (length 2.54)
+        (name "OSDO" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 2.54 180)
+        (length 2.54)
+        (name "CSB" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 5.08 180)
+        (length 2.54)
+        (name "SCX" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 7.62 180)
+        (length 2.54)
+        (name "SDX" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)

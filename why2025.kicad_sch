@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "WHY2025 badge")
-		(date "2024-09-12")
-		(rev "Prototype 2")
+		(date "2024-11-01")
+		(rev "Prototype 3")
 		(company "Badge.Team")
 		(comment 1 "Copyright 2024 Nicolai Electronics")
 		(comment 2 "License: CERN-OHL-P")
@@ -10921,16 +10921,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 124.46) (xy 82.55 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0a86829-d8ee-4d6c-90b5-067a954d92eb")
-	)
-	(wire
-		(pts
 			(xy 223.52 156.21) (xy 226.06 156.21)
 		)
 		(stroke
@@ -12086,28 +12076,6 @@
 		(uuid "4db0888c-1bc2-4117-bcad-e943d6b015ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 247.5663 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "E11"
-		(shape bidirectional)
-		(at 71.12 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "4df32ff4-763c-48d5-9edb-39ba8916fe5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.9887 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19154,82 +19122,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 74.93 124.46 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c31ef424-6591-4d4e-8cad-5df2391984e4")
-		(property "Reference" "R81"
-			(at 79.502 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k2"
-			(at 79.502 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 74.93 122.682 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF2201TCE_C25879.html"
-			(at 74.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25879"
-			(at 74.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82e0f6a0-f13a-42eb-9424-2030b2ea37a9")
-		)
-		(pin "2"
-			(uuid "e1e585e5-be2b-42ed-8177-1029d6ee5d50")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "R81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mch2021-rescue:GND-power")
 		(at 252.73 161.29 270)
 		(unit 1)
@@ -20945,16 +20837,6 @@
 				(justify right)
 			)
 			(uuid "046376ec-126e-4b39-bc3a-48da6fc69e21")
-		)
-		(pin "INT" output
-			(at 82.55 124.46 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a0864d3f-8536-4270-94fa-f03974370269")
 		)
 		(instances
 			(project "why2025"

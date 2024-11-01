@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "WHY2025 badge")
-		(date "2024-09-12")
-		(rev "Prototype 2")
+		(date "2024-11-01")
+		(rev "Prototype 3")
 		(company "Badge.Team")
 		(comment 1 "Copyright 2024 Nicolai Electronics")
 		(comment 2 "License: CERN-OHL-P")

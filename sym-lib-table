@@ -15,4 +15,5 @@
   (lib (name "RA-01SH")(type "KiCad")(uri "${KIPRJMOD}/library/RA-01SH.kicad_sym")(options "")(descr ""))
   (lib (name "flashchip")(type "KiCad")(uri "${KIPRJMOD}/library/flashchip.kicad_sym")(options "")(descr ""))
   (lib (name "BHI360")(type "KiCad")(uri "${KIPRJMOD}/library/BHI360.kicad_sym")(options "")(descr ""))
+  (lib (name "BMI270")(type "KiCad")(uri "${KIPRJMOD}/library/BMI270.kicad_sym")(options "")(descr ""))
 )
