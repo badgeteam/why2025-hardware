@@ -59,8 +59,8 @@
         }
       ],
       "drc_exclusions": [
-        "copper_edge_clearance|57172330|-16800360|cbaccfcf-89a6-4a5e-ba88-41948b4d04d8|380ceb76-7013-4770-8686-ddcef7a3ad78",
-        "copper_edge_clearance|57172330|-22398520|cbaccfcf-89a6-4a5e-ba88-41948b4d04d8|2f928636-6162-4ccc-8a07-937434da19a1"
+        "copper_edge_clearance|57172330|-16800360|e8db76c1-8442-458b-86b5-e2cbecaee1aa|380ceb76-7013-4770-8686-ddcef7a3ad78",
+        "copper_edge_clearance|57172330|-22398520|e8db76c1-8442-458b-86b5-e2cbecaee1aa|2f928636-6162-4ccc-8a07-937434da19a1"
       ],
       "meta": {
         "version": 2
