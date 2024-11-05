@@ -16,7 +16,7 @@ The Badge.Team mascots logo and the Nicolai Electronics logo are all rights rese
 
 ## Authors
 
-The electronics have been designed by Renze Nicolai from [Nicolai Electronics](https://nicolaielectronics.nl).
+The electronics have been designed by Renze Nicolai from [Nicolai Electronics](https://nicolaielectronics.nl) and Paul Honig.
 
 A special thanks to all who contributed by helping with the routing and by debugging the hardware design:
  - Paul Honig
