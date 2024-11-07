@@ -12,15 +12,19 @@ Need the schematic? [It's in this repository as a PDF file](schematic.pdf).
 
 This hardware design may be used under the terms of the [CERN-OHL-P](LICENSE) license.
 
-The Badge.Team mascots logo and the Nicolai Electronics logo are all rights reserved and may not be reproduced.
+All organization names, logos and trademarks such as but not limited to the Badge.Team name, logo and mascots, the WHY2025 name and logo and the Nicolai Electronics name and logo are all rights reserved for their respective owners and may not be reproduced on derrivative works.
+
+An exception to this rule is the use of the Badge.Team name and logo when accompanied by clear text indicating that the derrived device is powered by or based on a design by Badge.Team.
 
 ## Authors
 
-The electronics have been designed by Renze Nicolai from [Nicolai Electronics](https://nicolaielectronics.nl) and Paul Honig.
+The electronics have been designed by [Renze Nicolai](https://github.com/renzenicolai) from [Nicolai Electronics](https://nicolaielectronics.nl) and [Paul Honig](https://github.com/ranzbak).
 
-A special thanks to all who contributed by helping with the routing and by debugging the hardware design:
- - Paul Honig
- - Jay Visschedijk
- - Kliment Yanev
- - Wietse Boonstra
- - Jelle Haandrikman
+The WHY2025 badge frontpanel [artwork](frontpanel/neko) has been designed by [Nikolett, Ankhaneko.art](https://www.ankhaneko.art/).
+
+The ergonomic board outline has been designed by [Jay Visschedijk](https://github.com/JayVisschedijk).
+
+A special thanks to all the volunteers who contributed by helping with the routing and by debugging the hardware design:
+ - [Kliment Yanev](https://github.com/kliment)
+ - [Wietse Boonstra](https://github.com/Wietsman)
+ - [Jelle Haandrikman](https://github.com/jhaand)
