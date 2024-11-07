@@ -14,7 +14,7 @@ This hardware design may be used under the terms of the [CERN-OHL-P](LICENSE) li
 
 All organization names, logos and trademarks such as but not limited to the Badge.Team name, logo and mascots, the WHY2025 name and logo and the Nicolai Electronics name and logo are all rights reserved for their respective owners and may not be reproduced on derrivative works.
 
-An exception to this rule is the use of the Badge.Team name and logo when accompanied by clear text indicating that the derrived device is powered by or based on a design by Badge.Team.
+An exception to this rule is the use of the Badge.Team name and logo when accompanied by clear text indicating that the derrived work is powered by or based on a design by Badge.Team.
 
 ## Authors
 
