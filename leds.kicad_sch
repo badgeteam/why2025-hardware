@@ -634,7 +634,7 @@
 		)
 	)
 	(no_connect
-		(at 154.94 96.52)
+		(at 173.99 96.52)
 		(uuid "27797aee-2510-471f-b32a-f45faccad1e5")
 	)
 	(wire
@@ -649,7 +649,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 109.22) (xy 128.27 104.14)
+			(xy 147.32 109.22) (xy 147.32 104.14)
 		)
 		(stroke
 			(width 0)
@@ -689,7 +689,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 96.52) (xy 120.65 96.52)
+			(xy 135.89 96.52) (xy 139.7 96.52)
 		)
 		(stroke
 			(width 0)
@@ -719,7 +719,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 83.82) (xy 147.32 88.9)
+			(xy 166.37 83.82) (xy 166.37 88.9)
 		)
 		(stroke
 			(width 0)
@@ -759,7 +759,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 83.82) (xy 128.27 88.9)
+			(xy 147.32 83.82) (xy 147.32 88.9)
 		)
 		(stroke
 			(width 0)
@@ -779,7 +779,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 96.52) (xy 135.89 96.52)
+			(xy 116.84 96.52) (xy 120.65 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d20b0304-4006-406e-a732-cce297d949cb")
+	)
+	(wire
+		(pts
+			(xy 158.75 96.52) (xy 154.94 96.52)
 		)
 		(stroke
 			(width 0)
@@ -789,13 +799,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 109.22) (xy 147.32 104.14)
+			(xy 166.37 109.22) (xy 166.37 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d7f525bf-0992-4dd9-a34e-7d4d6cb938d2")
+	)
+	(wire
+		(pts
+			(xy 128.27 83.82) (xy 128.27 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc24256c-aac9-4f99-981c-486bffcc6827")
 	)
 	(wire
 		(pts
@@ -819,6 +839,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 109.22) (xy 128.27 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7f9758-1c60-4c25-bb22-693e26919c0e")
+	)
+	(wire
+		(pts
 			(xy 90.17 109.22) (xy 90.17 104.14)
 		)
 		(stroke
@@ -838,6 +868,72 @@
 			(justify right)
 		)
 		(uuid "62a54602-1370-4653-85bd-699e352ed16c")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2279862a-7e34-4e1f-9b5e-a24f601b5fa9")
+		(property "Reference" "#PWR0313"
+			(at 128.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09a651c4-dd2d-4d74-aaac-bb9fe7e3d24f")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
+					(reference "#PWR0313")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "custom-power:VOTG")
@@ -1117,7 +1213,7 @@
 	)
 	(symbol
 		(lib_id "custom-power:VOTG")
-		(at 147.32 83.82 0)
+		(at 166.37 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1125,7 +1221,7 @@
 		(dnp no)
 		(uuid "37dcdb3e-d3b7-4b57-9c87-466a37c9e910")
 		(property "Reference" "#PWR0270"
-			(at 147.32 87.63 0)
+			(at 166.37 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1134,7 +1230,7 @@
 			)
 		)
 		(property "Value" "VOTG"
-			(at 147.32 80.01 0)
+			(at 166.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1142,7 +1238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 83.82 0)
+			(at 166.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,7 +1247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 83.82 0)
+			(at 166.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1160,7 +1256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VOTG\""
-			(at 147.32 85.598 0)
+			(at 166.37 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,7 +1278,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 109.22 0)
+		(at 166.37 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1191,7 +1287,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b4a8ac1-5fb3-4f26-b087-21d442481eca")
 		(property "Reference" "#PWR0281"
-			(at 147.32 115.57 0)
+			(at 166.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +1296,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 114.3 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1208,7 +1304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 109.22 0)
+			(at 166.37 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1217,7 +1313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 109.22 0)
+			(at 166.37 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1322,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 109.22 0)
+			(at 166.37 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,7 +1476,7 @@
 	)
 	(symbol
 		(lib_id "custom-power:VOTG")
-		(at 128.27 83.82 0)
+		(at 147.32 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1388,7 +1484,7 @@
 		(dnp no)
 		(uuid "45c9b7d1-97a7-440a-81c0-6197dab991e0")
 		(property "Reference" "#PWR0127"
-			(at 128.27 87.63 0)
+			(at 147.32 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,7 +1493,7 @@
 			)
 		)
 		(property "Value" "VOTG"
-			(at 128.27 80.01 0)
+			(at 147.32 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +1501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 83.82 0)
+			(at 147.32 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 83.82 0)
+			(at 147.32 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1423,7 +1519,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VOTG\""
-			(at 128.27 85.598 0)
+			(at 147.32 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,7 +1541,7 @@
 	)
 	(symbol
 		(lib_id "button_matrix:SK6805-EC20")
-		(at 128.27 96.52 0)
+		(at 147.32 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1453,7 +1549,7 @@
 		(dnp no)
 		(uuid "55938760-fd0c-4206-afe8-e843f15e7bb0")
 		(property "Reference" "U22"
-			(at 123.698 90.424 0)
+			(at 142.748 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,7 +1557,7 @@
 			)
 		)
 		(property "Value" "SK6805"
-			(at 133.604 103.124 0)
+			(at 152.654 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,7 +1565,7 @@
 			)
 		)
 		(property "Footprint" "library:SK6805-EC20"
-			(at 128.27 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +1574,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6805-EC20_C2890036.pdf"
-			(at 128.27 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +1583,7 @@
 			)
 		)
 		(property "Description" "SK6805-EC2020"
-			(at 128.27 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +1592,7 @@
 			)
 		)
 		(property "LCSC" "C2890036"
-			(at 128.27 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1601,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 128.27 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,7 +1610,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 128.27 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,7 +1619,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 128.27 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,7 +1628,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 128.27 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1541,7 +1637,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 128.27 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,7 +1646,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 128.27 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,7 +1655,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 128.27 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1590,7 +1686,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 109.22 0)
+		(at 147.32 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1599,7 +1695,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f7eca21-0c60-4b20-a17e-65d60c77a428")
 		(property "Reference" "#PWR0237"
-			(at 128.27 115.57 0)
+			(at 147.32 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,7 +1704,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 114.3 0)
+			(at 147.32 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1616,7 +1712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 109.22 0)
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,7 +1721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 109.22 0)
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1634,7 +1730,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 109.22 0)
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,6 +1964,151 @@
 		)
 	)
 	(symbol
+		(lib_id "button_matrix:SK6805-EC20")
+		(at 128.27 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6eaaf072-9f54-40f0-b339-408bd94f9809")
+		(property "Reference" "U32"
+			(at 123.698 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805"
+			(at 133.604 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:SK6805-EC20"
+			(at 128.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6805-EC20_C2890036.pdf"
+			(at 128.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SK6805-EC2020"
+			(at 128.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2890036"
+			(at 128.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 128.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 128.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 128.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 128.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 128.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 128.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 128.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b46279f7-0a52-4935-9e91-b4dbc04d4269")
+		)
+		(pin "2"
+			(uuid "54674076-28b3-4c39-b07c-cba9d780018b")
+		)
+		(pin "3"
+			(uuid "ddcd6ce3-01e9-44b7-a849-d5281a1c23d1")
+		)
+		(pin "4"
+			(uuid "189e836f-568c-4114-abbe-49a7eb2a65c5")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
+					(reference "U32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 109.22 0)
 		(unit 1)
@@ -2000,7 +2241,7 @@
 	)
 	(symbol
 		(lib_id "button_matrix:SK6805-EC20")
-		(at 147.32 96.52 0)
+		(at 166.37 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2008,7 +2249,7 @@
 		(dnp no)
 		(uuid "aa3f66e5-5fa6-488a-ae62-1bbc4291c1ea")
 		(property "Reference" "U9"
-			(at 142.748 90.424 0)
+			(at 161.798 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2016,7 +2257,7 @@
 			)
 		)
 		(property "Value" "SK6805"
-			(at 152.654 103.124 0)
+			(at 171.704 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,7 +2265,7 @@
 			)
 		)
 		(property "Footprint" "library:SK6805-EC20"
-			(at 147.32 96.52 0)
+			(at 166.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,7 +2274,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6805-EC20_C2890036.pdf"
-			(at 147.32 96.52 0)
+			(at 166.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +2283,7 @@
 			)
 		)
 		(property "Description" "SK6805-EC2020"
-			(at 147.32 96.52 0)
+			(at 166.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,7 +2292,7 @@
 			)
 		)
 		(property "LCSC" "C2890036"
-			(at 147.32 96.52 0)
+			(at 166.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,7 +2301,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 147.32 96.52 0)
+			(at 166.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,7 +2310,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 147.32 96.52 0)
+			(at 166.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,7 +2319,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 147.32 96.52 0)
+			(at 166.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2328,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 147.32 96.52 0)
+			(at 166.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +2337,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 147.32 96.52 0)
+			(at 166.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +2346,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 147.32 96.52 0)
+			(at 166.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +2355,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 147.32 96.52 0)
+			(at 166.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,6 +2379,71 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom-power:VOTG")
+		(at 128.27 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad52bda0-9340-4187-be28-e8c4d659473f")
+		(property "Reference" "#PWR0312"
+			(at 128.27 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VOTG"
+			(at 128.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VOTG\""
+			(at 128.27 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6009f7e4-5fc1-4c89-8da5-0d7648bc958e")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/a94bcc61-dde4-45a2-9ca9-7801fe734cfc"
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
