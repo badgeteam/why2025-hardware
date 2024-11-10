@@ -198,6 +198,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -209,6 +210,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -468,6 +470,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "22cc313c-2960-4a71-8393-867e0834eef8")
 		(at 32.5 -61.3)
@@ -689,6 +692,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "5261b207-5fe1-4bb2-877a-7c95e7d9e711")
 		(at -30 -61.3)
@@ -910,6 +914,7 @@
 		)
 	)
 	(footprint "lcsc:HDR-TH_36P-P2.54-V-M-R2-C18-S2.54-1"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "60026ed1-d369-48f0-bcd3-3ba5bc733e24")
 		(at 3.81 -6.2)
@@ -1571,6 +1576,7 @@
 		)
 	)
 	(footprint "design:why2025-mainboard-edge-cuts-usr"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "93624c8c-df05-4a77-a747-98b5591a3c8c")
 		(at 0 0)
@@ -2808,6 +2814,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F44C7"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "0677314a-66c3-4714-9be1-af6f703f4d1b")
 		(at -7.647156 -0.785784 90)
@@ -2821,6 +2828,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2833,6 +2841,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2947,6 +2956,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2959,6 +2969,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3197,6 +3208,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F4516"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "177990da-f0e5-4520-89f7-e4580781d77f")
 		(at 12.689548 -2.461066 90)
@@ -3210,6 +3222,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3222,6 +3235,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3310,6 +3324,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F4648"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "18b4155b-d979-4f9d-b5cf-733a86dbf59b")
 		(at 17.789244 -11.957512 -90)
@@ -3323,6 +3338,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3335,6 +3351,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3465,6 +3482,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F44FC"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "1c95fa94-e4a1-46e0-aee7-21b5ded22040")
 		(at 5.063284 -2.136026 90)
@@ -3478,6 +3496,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3490,6 +3509,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3568,6 +3588,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F45AF"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "1ca2060e-0720-4acd-8f07-b6593463c7b3")
 		(at -15.2579 -12.910016 -90)
@@ -3581,6 +3602,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3593,6 +3615,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3772,6 +3795,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F44E9"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "23a04a70-8bf8-44da-aed6-fda9a705e155")
 		(at -0.020892 -2.455251 90)
@@ -3785,6 +3809,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3797,6 +3822,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3880,6 +3906,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F44F4"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "24baa245-b33e-4daa-9494-780b49ae957e")
 		(at 2.521196 -2.462682 90)
@@ -3893,6 +3920,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3905,6 +3933,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -3993,6 +4022,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F459A"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "2590e0cb-b271-4a1f-a653-79f1d64a8282")
 		(at -17.8 -12.598546 -90)
@@ -4006,6 +4036,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -4018,6 +4049,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -4208,6 +4240,7 @@
 		)
 	)
 	(footprint "kibuzzard-672DEDFD"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "276a2a82-db2e-424d-8b4a-8946e6f16bfd")
 		(at -17.8 -1.775121 90)
@@ -4342,6 +4375,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F4557"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "345bc248-9f78-4d77-9d93-9c3d973aaea7")
 		(at 22.8579 -1.453958 90)
@@ -4355,6 +4389,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -4367,6 +4402,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -4468,6 +4504,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F4522"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "3b4d211d-b863-4064-b6fd-a54b9b3cdc0f")
 		(at 15.231636 -2.453958 90)
@@ -4481,6 +4518,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -4493,6 +4531,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -4593,6 +4632,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F4544"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "4477c163-7060-46aa-95c7-b1e196d31631")
 		(at 17.773724 -0.443942 90)
@@ -4606,6 +4646,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -4618,6 +4659,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -4735,6 +4777,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F465A"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "465c2718-9e6c-4833-985b-3b6cc30d0b06")
 		(at 20.331332 -11.957512 -90)
@@ -4748,6 +4791,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -4760,6 +4804,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -4880,6 +4925,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F463A"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "50bc0009-91f0-4a87-9238-147e38313b10")
 		(at 15.247156 -10.985945 -90)
@@ -4893,6 +4939,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -4905,6 +4952,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5037,6 +5085,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F4561"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "527b1a37-d8c9-4fa5-bd00-550a7f92b8f6")
 		(at 25.4 -2.101454 90)
@@ -5050,6 +5099,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5062,6 +5112,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5159,6 +5210,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F44AA"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "66d1be88-a3a4-4bc4-9c52-13054e8496e0")
 		(at -12.731332 -1.777706 90)
@@ -5172,6 +5224,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5184,6 +5237,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5284,6 +5338,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F44B3"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "6ef75a26-5f04-4565-8cf6-e1a42abcbab5")
 		(at -10.189244 -0.8 90)
@@ -5297,6 +5352,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5309,6 +5365,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5481,6 +5538,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F452F"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "73ca62f0-ddc0-494d-a6ac-8f9e7136a718")
 		(at 20.315812 -0.44265 90)
@@ -5494,6 +5552,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5506,6 +5565,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5658,6 +5718,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F45D8"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "86967e20-4c03-4f6b-96ec-80e9ac874d3b")
 		(at -7.631636 -11.635703 -90)
@@ -5671,6 +5732,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5683,6 +5745,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5812,6 +5875,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F45E8"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "8817fab1-3e73-4498-b544-a3c480c61dc7")
 		(at -5.089548 -9.935864 -90)
@@ -5825,6 +5889,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5837,6 +5902,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5906,6 +5972,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F467D"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "92327506-f283-4232-a88a-5d4e20b4020e")
 		(at 25.4 -11.61567 -90)
@@ -5919,6 +5986,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5931,6 +5999,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6045,6 +6114,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F4600"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "94dccafd-6caa-49fe-a25b-44afb2330cba")
 		(at 2.536716 -11.615024 -90)
@@ -6058,6 +6128,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6070,6 +6141,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6163,6 +6235,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F460D"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "9e776cae-d807-4dd9-8bf2-cd19b92beeac")
 		(at 5.078804 -9.931987 -90)
@@ -6176,6 +6249,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6188,6 +6262,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6258,6 +6333,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F45EE"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "a6399881-fc0d-4f40-8631-124e29305100")
 		(at -2.54746 -9.939418 -90)
@@ -6271,6 +6347,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6283,6 +6360,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6359,6 +6437,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F45F5"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "a7540716-3c0f-4d37-af14-518e001a9a1b")
 		(at -0.005372 -9.93231 -90)
@@ -6372,6 +6451,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6384,6 +6464,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6459,6 +6540,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F4510"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "a7d4080f-ee83-43dd-95b8-ba323f15cf2b")
 		(at 10.14746 -2.129887 90)
@@ -6472,6 +6554,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6484,6 +6567,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6578,6 +6662,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F466D"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "a9188bde-1094-4427-80f3-74718607dd14")
 		(at 22.865666 -11.635703 -90)
@@ -6591,6 +6676,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6603,6 +6689,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6744,6 +6831,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F461C"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "ac474c9f-63ff-4a13-a0fc-0a8854bdd2d1")
 		(at 7.620892 -12.263812 -90)
@@ -6757,6 +6845,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6769,6 +6858,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6928,7 +7018,7 @@
 			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "27f3b145-f229-4496-ae32-39132e0f096f")
+			(uuid "1036f2a1-1e27-4999-919f-16211fef0457")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6941,7 +7031,7 @@
 			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "1053148b-a526-47db-9483-0b315b1a99a4")
+			(uuid "afb9ab7c-2d6d-4b08-8bb5-58ba205d619c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7004,7 +7094,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "61a878d1-279d-46fc-9183-fc1517deb0f2")
+			(uuid "2fd7b1b9-e20d-4494-86cb-7ae7eae76e3e")
 		)
 		(fp_poly
 			(pts
@@ -7022,7 +7112,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "54b86b54-e764-4aff-ba67-a43a556f605f")
+			(uuid "073532b2-45e0-44dd-a83f-3f652f938773")
 		)
 		(fp_poly
 			(pts
@@ -7041,7 +7131,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "8d81d6b0-09be-431f-b333-9736bc842a16")
+			(uuid "8aa4c906-19d4-406c-b44d-55c1949f63cf")
 		)
 		(fp_poly
 			(pts
@@ -7061,7 +7151,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "44235103-65c1-478f-9ff2-792e01d3e128")
+			(uuid "1067d635-1410-40d4-bc33-c289a4a9a9d5")
 		)
 		(fp_poly
 			(pts
@@ -7083,7 +7173,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "c58795fe-a3d7-4e49-a45b-d025c869b04c")
+			(uuid "aa9558ff-682e-4112-aa25-0e6768dab42d")
 		)
 		(fp_poly
 			(pts
@@ -7104,7 +7194,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "20ce8885-0088-4885-96a6-facef6b23251")
+			(uuid "8dedb991-af81-41d2-afb4-fa0d4c5a7934")
 		)
 		(fp_poly
 			(pts
@@ -7126,7 +7216,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "08fdc21f-67c4-414f-86c1-52bdae1e8e97")
+			(uuid "a3e5ff53-9970-486a-a027-42e176e14f42")
 		)
 		(fp_poly
 			(pts
@@ -7151,7 +7241,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "2761298e-02da-4699-b035-26aa55e25abe")
+			(uuid "92982004-8b39-4238-a5bf-41306303ca2f")
 		)
 		(fp_poly
 			(pts
@@ -7209,10 +7299,11 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "9e377a77-bea7-41cc-ac70-2b550b959d8e")
+			(uuid "c630551e-7a16-4002-86a3-469921adc871")
 		)
 	)
 	(footprint "kibuzzard-672DEE22"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "b141ba06-b3e6-40fd-b698-27343da7ecea")
 		(at -15.265666 -1.448789 90)
@@ -7371,6 +7462,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F45CE"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "b8bfab9e-987a-48f6-afb7-bb726113cbc1")
 		(at -10.173724 -10.947496 -90)
@@ -7384,6 +7476,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7396,6 +7489,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7497,6 +7591,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F44E2"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "bdd33c00-2938-4169-b884-aa85dd83a01c")
 		(at -2.56298 -2.459128 90)
@@ -7510,6 +7605,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7522,6 +7618,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7596,6 +7693,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F4627"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "c6b1a649-a0fd-4dff-9851-7fc05229c4a9")
 		(at 10.16298 -12.252181 -90)
@@ -7609,6 +7707,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7621,6 +7720,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7760,6 +7860,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F4631"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "cfdd1beb-1815-4175-80f2-2f95fb0aad0d")
 		(at 12.705068 -10.985945 -90)
@@ -7773,6 +7874,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7785,6 +7887,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7899,6 +8002,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F45BC"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "d6219509-23db-40a9-b1ef-d7c31bb98141")
 		(at -12.715812 -10.3 -90)
@@ -7912,6 +8016,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7924,6 +8029,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -8021,6 +8127,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F4509"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "ee2fb60b-6b3e-45da-a2b2-fb128f3ff184")
 		(at 7.605372 -2.142488 90)
@@ -8034,6 +8141,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -8046,6 +8154,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -8118,6 +8227,7 @@
 		)
 	)
 	(footprint "kibuzzard-672F44D7"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "fa8a4732-4150-4e90-80c8-1def4f3b0157")
 		(at -5.105068 -2.452989 90)
@@ -8131,6 +8241,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -8143,6 +8254,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -8236,6 +8348,7 @@
 	(gr_line
 		(start -38 -65)
 		(end 38 -65)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -8245,7 +8358,8 @@
 	)
 	(gr_line
 		(start 38 -1)
-		(end 34 3)
+		(end 32 5)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -8256,6 +8370,7 @@
 	(gr_line
 		(start -38 -38)
 		(end -38 -1)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -8266,6 +8381,7 @@
 	(gr_line
 		(start 43 -61)
 		(end 43 -43)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -8276,6 +8392,7 @@
 	(gr_line
 		(start 38 -38)
 		(end 38 -1)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -8286,6 +8403,7 @@
 	(gr_line
 		(start -43 -43)
 		(end -38 -38)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -8296,6 +8414,7 @@
 	(gr_line
 		(start -43 -61)
 		(end -43 -43)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -8306,6 +8425,7 @@
 	(gr_line
 		(start 43 -61)
 		(end 38 -65)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -8316,6 +8436,7 @@
 	(gr_line
 		(start 43 -43)
 		(end 38 -38)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -8324,8 +8445,9 @@
 		(uuid "c2bf4840-2a3a-49c9-a016-62e33a74d19f")
 	)
 	(gr_line
-		(start 34 3)
-		(end -34 3)
+		(start 32 5)
+		(end -32 5)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -8336,6 +8458,7 @@
 	(gr_line
 		(start -43 -61)
 		(end -38 -65)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -8345,7 +8468,8 @@
 	)
 	(gr_line
 		(start -38 -1)
-		(end -34 3)
+		(end -32 5)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -8665,6 +8789,7 @@
 	(zone
 		(net 0)
 		(net_name "")
+		(locked yes)
 		(layers "F.Cu" "In1.Cu" "In2.Cu" "B.Cu")
 		(uuid "5060f21e-b469-4036-9f83-a046a8d111f6")
 		(hatch edge 0.5)
@@ -8694,6 +8819,7 @@
 	(zone
 		(net 1)
 		(net_name "GND")
+		(locked yes)
 		(layers "F.Cu" "In2.Cu" "B.Cu")
 		(uuid "9dc696f9-e5ab-483e-8d33-be6f3d3c1372")
 		(hatch edge 0.5)
@@ -8710,7 +8836,7 @@
 		)
 		(polygon
 			(pts
-				(xy 64 -75.1) (xy 64 8.7) (xy 64 8.7) (xy -48.1 8.7) (xy -48.1 8.7) (xy -48.1 -75.1) (xy -48.1 -75.1)
+				(xy 64 -75.1) (xy 64 8.7) (xy -48.1 8.7) (xy -48.1 -75.1)
 			)
 		)
 		(filled_polygon
@@ -9013,9 +9139,9 @@
 				(xy 37.847976 -64.479815) (xy 37.858399 -64.472328) (xy 42.452962 -60.796677) (xy 42.493014 -60.739426)
 				(xy 42.4995 -60.699849) (xy 42.4995 -43.258676) (xy 42.479815 -43.191637) (xy 42.463181 -43.170995)
 				(xy 37.692686 -38.4005) (xy 37.5995 -38.307314) (xy 37.566554 -38.25025) (xy 37.533608 -38.193187)
-				(xy 37.4995 -38.065891) (xy 37.4995 -1.258675) (xy 37.479815 -1.191636) (xy 37.463181 -1.170994)
-				(xy 33.829005 2.463181) (xy 33.767682 2.496666) (xy 33.741324 2.4995) (xy -33.741325 2.4995) (xy -33.808364 2.479815)
-				(xy -33.829006 2.463181) (xy -37.463181 -1.170994) (xy -37.496666 -1.232317) (xy -37.4995 -1.258675)
+				(xy 37.4995 -38.065891) (xy 37.4995 -1.258676) (xy 37.479815 -1.191637) (xy 37.463181 -1.170995)
+				(xy 31.829005 4.463181) (xy 31.767682 4.496666) (xy 31.741324 4.4995) (xy -31.741324 4.4995) (xy -31.808363 4.479815)
+				(xy -31.829005 4.463181) (xy -37.463181 -1.170995) (xy -37.496666 -1.232318) (xy -37.4995 -1.258676)
 				(xy -37.4995 -7.470006) (xy -19.1853 -7.470006) (xy -19.1853 -7.469993) (xy -19.166135 -7.238702)
 				(xy -19.166133 -7.238691) (xy -19.109157 -7.013699) (xy -19.015924 -6.801151) (xy -18.888983 -6.606852)
 				(xy -18.88898 -6.606849) (xy -18.888979 -6.606847) (xy -18.794197 -6.503886) (xy -18.763275 -6.441232)
@@ -9637,9 +9763,9 @@
 				(xy 37.847976 -64.479815) (xy 37.858399 -64.472328) (xy 42.452962 -60.796677) (xy 42.493014 -60.739426)
 				(xy 42.4995 -60.699849) (xy 42.4995 -43.258676) (xy 42.479815 -43.191637) (xy 42.463181 -43.170995)
 				(xy 37.692686 -38.4005) (xy 37.5995 -38.307314) (xy 37.566554 -38.25025) (xy 37.533608 -38.193187)
-				(xy 37.4995 -38.065891) (xy 37.4995 -1.258675) (xy 37.479815 -1.191636) (xy 37.463181 -1.170994)
-				(xy 33.829005 2.463181) (xy 33.767682 2.496666) (xy 33.741324 2.4995) (xy -33.741325 2.4995) (xy -33.808364 2.479815)
-				(xy -33.829006 2.463181) (xy -37.463181 -1.170994) (xy -37.496666 -1.232317) (xy -37.4995 -1.258675)
+				(xy 37.4995 -38.065891) (xy 37.4995 -1.258676) (xy 37.479815 -1.191637) (xy 37.463181 -1.170995)
+				(xy 31.829005 4.463181) (xy 31.767682 4.496666) (xy 31.741324 4.4995) (xy -31.741324 4.4995) (xy -31.808363 4.479815)
+				(xy -31.829005 4.463181) (xy -37.463181 -1.170995) (xy -37.496666 -1.232318) (xy -37.4995 -1.258676)
 				(xy -37.4995 -7.470006) (xy -19.1853 -7.470006) (xy -19.1853 -7.469993) (xy -19.166135 -7.238702)
 				(xy -19.166133 -7.238691) (xy -19.109157 -7.013699) (xy -19.015924 -6.801151) (xy -18.888983 -6.606852)
 				(xy -18.88898 -6.606849) (xy -18.888979 -6.606847) (xy -18.794197 -6.503886) (xy -18.763275 -6.441232)
@@ -10261,9 +10387,9 @@
 				(xy 37.847976 -64.479815) (xy 37.858399 -64.472328) (xy 42.452962 -60.796677) (xy 42.493014 -60.739426)
 				(xy 42.4995 -60.699849) (xy 42.4995 -43.258676) (xy 42.479815 -43.191637) (xy 42.463181 -43.170995)
 				(xy 37.692686 -38.4005) (xy 37.5995 -38.307314) (xy 37.566554 -38.25025) (xy 37.533608 -38.193187)
-				(xy 37.4995 -38.065891) (xy 37.4995 -1.258675) (xy 37.479815 -1.191636) (xy 37.463181 -1.170994)
-				(xy 33.829005 2.463181) (xy 33.767682 2.496666) (xy 33.741324 2.4995) (xy -33.741325 2.4995) (xy -33.808364 2.479815)
-				(xy -33.829006 2.463181) (xy -37.463181 -1.170994) (xy -37.496666 -1.232317) (xy -37.4995 -1.258675)
+				(xy 37.4995 -38.065891) (xy 37.4995 -1.258676) (xy 37.479815 -1.191637) (xy 37.463181 -1.170995)
+				(xy 31.829005 4.463181) (xy 31.767682 4.496666) (xy 31.741324 4.4995) (xy -31.741324 4.4995) (xy -31.808363 4.479815)
+				(xy -31.829005 4.463181) (xy -37.463181 -1.170995) (xy -37.496666 -1.232318) (xy -37.4995 -1.258676)
 				(xy -37.4995 -7.470006) (xy -19.1853 -7.470006) (xy -19.1853 -7.469993) (xy -19.166135 -7.238702)
 				(xy -19.166133 -7.238691) (xy -19.109157 -7.013699) (xy -19.015924 -6.801151) (xy -18.888983 -6.606852)
 				(xy -18.88898 -6.606849) (xy -18.888979 -6.606847) (xy -18.794197 -6.503886) (xy -18.763275 -6.441232)
@@ -10589,6 +10715,7 @@
 	(zone
 		(net 18)
 		(net_name "+3.3V")
+		(locked yes)
 		(layer "In1.Cu")
 		(uuid "2c594fde-e57e-4f31-9769-5f3b0bf32001")
 		(hatch edge 0.5)
@@ -10906,10 +11033,10 @@
 				(xy 37.780937 -64.4995) (xy 37.847976 -64.479815) (xy 37.858399 -64.472328) (xy 42.452962 -60.796677)
 				(xy 42.493014 -60.739426) (xy 42.4995 -60.699849) (xy 42.4995 -43.258676) (xy 42.479815 -43.191637)
 				(xy 42.463181 -43.170995) (xy 37.692686 -38.4005) (xy 37.5995 -38.307314) (xy 37.566554 -38.25025)
-				(xy 37.533608 -38.193187) (xy 37.4995 -38.065891) (xy 37.4995 -1.258675) (xy 37.479815 -1.191636)
-				(xy 37.463181 -1.170994) (xy 33.829005 2.463181) (xy 33.767682 2.496666) (xy 33.741324 2.4995) (xy -33.741325 2.4995)
-				(xy -33.808364 2.479815) (xy -33.829006 2.463181) (xy -37.463181 -1.170994) (xy -37.496666 -1.232317)
-				(xy -37.4995 -1.258675) (xy -37.4995 -7.470006) (xy -19.1853 -7.470006) (xy -19.1853 -7.469993)
+				(xy 37.533608 -38.193187) (xy 37.4995 -38.065891) (xy 37.4995 -1.258676) (xy 37.479815 -1.191637)
+				(xy 37.463181 -1.170995) (xy 31.829005 4.463181) (xy 31.767682 4.496666) (xy 31.741324 4.4995) (xy -31.741324 4.4995)
+				(xy -31.808363 4.479815) (xy -31.829005 4.463181) (xy -37.463181 -1.170995) (xy -37.496666 -1.232318)
+				(xy -37.4995 -1.258676) (xy -37.4995 -7.470006) (xy -19.1853 -7.470006) (xy -19.1853 -7.469993)
 				(xy -19.166135 -7.238702) (xy -19.166133 -7.238691) (xy -19.109157 -7.013699) (xy -19.015924 -6.801151)
 				(xy -18.888983 -6.606852) (xy -18.888981 -6.60685) (xy -18.888979 -6.606847) (xy -18.794197 -6.503886)
 				(xy -18.763275 -6.441232) (xy -18.771135 -6.371806) (xy -18.815283 -6.317651) (xy -18.842094 -6.303722)
