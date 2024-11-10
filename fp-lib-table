@@ -7,4 +7,5 @@
   (lib (name "stamp")(type "KiCad")(uri "${KIPRJMOD}/design/stamp")(options "")(descr ""))
   (lib (name "lcsc")(type "KiCad")(uri "${KIPRJMOD}/library/lcsc.pretty")(options "")(descr ""))
   (lib (name "radio-logo")(type "KiCad")(uri "${KIPRJMOD}/library/radio-logo.pretty")(options "")(descr ""))
+  (lib (name "harwin")(type "KiCad")(uri "${KIPRJMOD}/library/harwin.pretty")(options "")(descr ""))
 )
