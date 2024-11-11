@@ -11493,8 +11493,8 @@
 			)
 		)
 	)
-	(global_label "E1"
-		(shape bidirectional)
+	(global_label "BOOT"
+		(shape input)
 		(at 226.06 128.27 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11505,7 +11505,7 @@
 		)
 		(uuid "0e27bf70-db79-49aa-8cbd-2d7e08b2e436")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.2237 128.27 0)
+			(at 232.3668 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11759,22 +11759,22 @@
 	)
 	(global_label "E2"
 		(shape bidirectional)
-		(at 252.73 133.35 180)
+		(at 265.43 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "28aec0d4-2875-4a6e-9d20-de6b97d5b5ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.5663 133.35 0)
+			(at 270.5937 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12085,8 +12085,8 @@
 			)
 		)
 	)
-	(global_label "E1"
-		(shape bidirectional)
+	(global_label "BOOT"
+		(shape output)
 		(at 62.23 132.08 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12097,7 +12097,7 @@
 		)
 		(uuid "58090c7a-772e-49dc-81a2-8c58a1ad1c7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.3937 132.08 0)
+			(at 68.5368 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12257,28 +12257,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "E1"
-		(shape bidirectional)
-		(at 265.43 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "6c7a73a7-0937-4db6-8ea3-4cb5678df492")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.5937 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -14868,6 +14846,71 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mch2021-rescue:GND-power")
+		(at 252.73 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3920f09f-d540-4412-8685-b76b7d048154")
+		(property "Reference" "#PWR0314"
+			(at 246.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.904 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "734cffb9-38ed-4336-93d9-b441d03a192f")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -18979,7 +19022,7 @@
 	)
 	(symbol
 		(lib_id "custom-power:VSDCARD")
-		(at 252.73 125.73 90)
+		(at 252.73 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18987,7 +19030,7 @@
 		(dnp no)
 		(uuid "a3361234-6d38-43d7-9427-4f0e4ad1c9b2")
 		(property "Reference" "#PWR0197"
-			(at 256.54 125.73 0)
+			(at 256.54 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18996,7 +19039,7 @@
 			)
 		)
 		(property "Value" "VSDCARD"
-			(at 249.682 125.73 90)
+			(at 249.936 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19005,7 +19048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 125.73 0)
+			(at 252.73 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19014,7 +19057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 125.73 0)
+			(at 252.73 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19023,7 +19066,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSDCARD\""
-			(at 254.508 125.73 0)
+			(at 254.508 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
