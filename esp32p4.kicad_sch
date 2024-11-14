@@ -11762,15 +11762,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 138.43 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 138.43 176.53 0)
 			(effects
@@ -11789,34 +11780,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 138.43 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 138.43 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 138.43 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 138.43 176.53 0)
 			(effects
 				(font
@@ -12058,15 +12022,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 260.35 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 260.35 41.91 0)
 			(effects
@@ -12085,34 +12040,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 260.35 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 260.35 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 260.35 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 260.35 41.91 0)
 			(effects
 				(font
@@ -12332,24 +12260,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" ""
-			(at 250.19 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 250.19 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 250.19 154.94 0)
 			(effects
@@ -12368,34 +12278,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 250.19 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 250.19 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 250.19 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 250.19 154.94 0)
 			(effects
 				(font
@@ -12483,15 +12366,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 113.03 166.37 0)
 			(effects
@@ -12510,34 +12384,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 113.03 166.37 0)
 			(effects
 				(font
@@ -12621,15 +12468,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 257.81 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 257.81 118.11 0)
 			(effects
@@ -12648,34 +12486,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 257.81 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 257.81 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 257.81 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 257.81 118.11 0)
 			(effects
 				(font
@@ -13024,15 +12835,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 110.49 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 110.49 59.69 0)
 			(effects
@@ -13051,34 +12853,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 110.49 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 110.49 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 110.49 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 110.49 59.69 0)
 			(effects
 				(font
@@ -13233,15 +13008,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 105.41 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 105.41 132.08 0)
 			(effects
@@ -13260,34 +13026,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 105.41 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 105.41 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 105.41 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 105.41 132.08 0)
 			(effects
 				(font
@@ -13678,15 +13417,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 43.18 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 43.18 100.33 0)
 			(effects
@@ -13705,34 +13435,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 43.18 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 43.18 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 43.18 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 43.18 100.33 0)
 			(effects
 				(font
@@ -13818,15 +13521,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 116.84 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 116.84 59.69 0)
 			(effects
@@ -13845,34 +13539,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 116.84 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 116.84 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 116.84 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 116.84 59.69 0)
 			(effects
 				(font
@@ -14026,15 +13693,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 91.44 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 91.44 158.75 0)
 			(effects
@@ -14053,34 +13711,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 91.44 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 91.44 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 91.44 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 91.44 158.75 0)
 			(effects
 				(font
@@ -14602,15 +14233,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 55.88 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 55.88 19.05 0)
 			(effects
@@ -14629,34 +14251,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 55.88 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 55.88 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 55.88 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 55.88 19.05 0)
 			(effects
 				(font
@@ -14742,15 +14337,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 120.65 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 120.65 35.56 0)
 			(effects
@@ -14769,34 +14355,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 120.65 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 120.65 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 120.65 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 120.65 35.56 0)
 			(effects
 				(font
@@ -14889,15 +14448,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 132.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 132.08 43.18 0)
 			(effects
@@ -14916,34 +14466,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 132.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 132.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 132.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 132.08 43.18 0)
 			(effects
 				(font
@@ -15097,15 +14620,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 270.51 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 270.51 93.98 0)
 			(effects
@@ -15124,34 +14638,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 270.51 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 270.51 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 270.51 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 270.51 93.98 0)
 			(effects
 				(font
@@ -15611,15 +15098,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 241.3 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 241.3 25.4 0)
 			(effects
@@ -15638,34 +15116,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 241.3 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 241.3 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 241.3 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 241.3 25.4 0)
 			(effects
 				(font
@@ -15891,15 +15342,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 246.38 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 246.38 151.13 0)
 			(effects
@@ -15918,34 +15360,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 246.38 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 246.38 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 246.38 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 246.38 151.13 0)
 			(effects
 				(font
@@ -16032,15 +15447,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 147.32 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 147.32 146.05 0)
 			(effects
@@ -16059,34 +15465,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 147.32 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 147.32 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 147.32 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 147.32 146.05 0)
 			(effects
 				(font
@@ -16239,15 +15618,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 85.09 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 85.09 15.24 0)
 			(effects
@@ -16266,34 +15636,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 85.09 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 85.09 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 85.09 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 85.09 15.24 0)
 			(effects
 				(font
@@ -16383,15 +15726,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 161.29 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 161.29 179.07 0)
 			(effects
@@ -16410,34 +15744,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 161.29 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 161.29 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 161.29 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 161.29 179.07 0)
 			(effects
 				(font
@@ -16592,15 +15899,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 129.54 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 129.54 59.69 0)
 			(effects
@@ -16619,34 +15917,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 129.54 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 129.54 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 129.54 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 129.54 59.69 0)
 			(effects
 				(font
@@ -16798,15 +16069,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 142.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 142.24 43.18 0)
 			(effects
@@ -16825,34 +16087,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 142.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 142.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 142.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 142.24 43.18 0)
 			(effects
 				(font
@@ -16937,15 +16172,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 40.64 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 40.64 19.05 0)
 			(effects
@@ -16964,34 +16190,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 40.64 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 40.64 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 40.64 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 40.64 19.05 0)
 			(effects
 				(font
@@ -17078,15 +16277,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 137.16 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 137.16 146.05 0)
 			(effects
@@ -17105,34 +16295,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 137.16 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 137.16 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 137.16 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 137.16 146.05 0)
 			(effects
 				(font
@@ -17223,15 +16386,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 161.29 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 161.29 191.77 0)
 			(effects
@@ -17250,34 +16404,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 161.29 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 161.29 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 161.29 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 161.29 191.77 0)
 			(effects
 				(font
@@ -17368,15 +16495,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 91.44 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 91.44 87.63 0)
 			(effects
@@ -17395,34 +16513,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 91.44 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 91.44 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 91.44 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 91.44 87.63 0)
 			(effects
 				(font
@@ -17880,15 +16971,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 48.26 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 48.26 100.33 0)
 			(effects
@@ -17907,34 +16989,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 48.26 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 48.26 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 48.26 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 48.26 100.33 0)
 			(effects
 				(font
@@ -18021,15 +17076,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 44.45 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 44.45 187.96 0)
 			(effects
@@ -18048,34 +17094,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 44.45 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 44.45 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 44.45 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 44.45 187.96 0)
 			(effects
 				(font
@@ -18160,15 +17179,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 260.35 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 260.35 29.21 0)
 			(effects
@@ -18187,34 +17197,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 260.35 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 260.35 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 260.35 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 260.35 29.21 0)
 			(effects
 				(font
@@ -18302,15 +17285,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 259.08 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 259.08 140.97 0)
 			(effects
@@ -18329,34 +17303,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 259.08 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 259.08 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 259.08 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 259.08 140.97 0)
 			(effects
 				(font
@@ -18749,15 +17696,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 116.84 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 116.84 146.05 0)
 			(effects
@@ -18776,34 +17714,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 116.84 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 116.84 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 116.84 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 116.84 146.05 0)
 			(effects
 				(font
@@ -18890,15 +17801,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 154.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 154.94 95.25 0)
 			(effects
@@ -18917,34 +17819,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 154.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 154.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 154.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 154.94 95.25 0)
 			(effects
 				(font
@@ -19425,15 +18300,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 73.66 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 73.66 96.52 0)
 			(effects
@@ -19452,34 +18318,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 73.66 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 73.66 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 73.66 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 73.66 96.52 0)
 			(effects
 				(font
@@ -19566,15 +18405,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 106.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 106.68 43.18 0)
 			(effects
@@ -19593,34 +18423,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 106.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 106.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 106.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 106.68 43.18 0)
 			(effects
 				(font
@@ -19837,15 +18640,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 166.37 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 166.37 146.05 0)
 			(effects
@@ -19864,34 +18658,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 166.37 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 166.37 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 166.37 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 166.37 146.05 0)
 			(effects
 				(font
@@ -19978,15 +18745,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 236.22 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 236.22 154.94 0)
 			(effects
@@ -20005,34 +18763,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 236.22 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 236.22 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 236.22 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 236.22 154.94 0)
 			(effects
 				(font
@@ -20119,15 +18850,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 91.44 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 91.44 48.26 0)
 			(effects
@@ -20146,34 +18868,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 91.44 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 91.44 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 91.44 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 91.44 48.26 0)
 			(effects
 				(font
@@ -20696,15 +19391,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 231.14 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 231.14 41.91 0)
 			(effects
@@ -20723,34 +19409,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 231.14 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 231.14 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 231.14 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 231.14 41.91 0)
 			(effects
 				(font
@@ -20837,15 +19496,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 274.32 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 274.32 35.56 0)
 			(effects
@@ -20864,34 +19514,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 274.32 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 274.32 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 274.32 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 274.32 35.56 0)
 			(effects
 				(font
@@ -20976,15 +19599,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 152.4 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 152.4 191.77 0)
 			(effects
@@ -21003,34 +19617,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 152.4 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 152.4 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 152.4 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 152.4 191.77 0)
 			(effects
 				(font
@@ -21180,15 +19767,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 48.26 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 48.26 19.05 0)
 			(effects
@@ -21207,34 +19785,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 48.26 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 48.26 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 48.26 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 48.26 19.05 0)
 			(effects
 				(font
@@ -21321,15 +19872,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 29.21 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 29.21 187.96 0)
 			(effects
@@ -21348,34 +19890,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 29.21 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 29.21 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 29.21 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 29.21 187.96 0)
 			(effects
 				(font
@@ -21526,15 +20041,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 252.73 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 252.73 22.86 0)
 			(effects
@@ -21553,34 +20059,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 252.73 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 252.73 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 252.73 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 252.73 22.86 0)
 			(effects
 				(font
@@ -21799,15 +20278,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 226.06 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 226.06 154.94 0)
 			(effects
@@ -21826,34 +20296,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 226.06 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 226.06 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 226.06 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 226.06 154.94 0)
 			(effects
 				(font
@@ -21939,15 +20382,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 142.24 59.69 0)
 			(effects
@@ -21966,34 +20400,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 142.24 59.69 0)
 			(effects
 				(font
@@ -22212,15 +20619,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 74.93 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 74.93 144.78 0)
 			(effects
@@ -22239,34 +20637,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 74.93 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 74.93 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 74.93 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 74.93 144.78 0)
 			(effects
 				(font
@@ -22353,15 +20724,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 266.7 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 266.7 29.21 0)
 			(effects
@@ -22380,34 +20742,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 266.7 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 266.7 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 266.7 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 266.7 29.21 0)
 			(effects
 				(font
@@ -22693,15 +21028,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 130.81 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 130.81 161.29 0)
 			(effects
@@ -22720,34 +21046,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 130.81 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 130.81 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 130.81 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 130.81 161.29 0)
 			(effects
 				(font
@@ -22833,15 +21132,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 123.19 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 123.19 59.69 0)
 			(effects
@@ -22860,34 +21150,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 123.19 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 123.19 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 123.19 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 123.19 59.69 0)
 			(effects
 				(font
@@ -22974,15 +21237,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 156.21 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 156.21 146.05 0)
 			(effects
@@ -23001,34 +21255,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 156.21 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 156.21 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 156.21 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 156.21 146.05 0)
 			(effects
 				(font
@@ -23115,15 +21342,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 73.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 73.66 78.74 0)
 			(effects
@@ -23142,34 +21360,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 73.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 73.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 73.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 73.66 78.74 0)
 			(effects
 				(font
@@ -23257,15 +21448,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 38.1 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 38.1 180.34 0)
 			(effects
@@ -23284,34 +21466,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 38.1 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 38.1 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 38.1 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 38.1 180.34 0)
 			(effects
 				(font
@@ -23705,15 +21860,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 60.96 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 60.96 179.07 0)
 			(effects
@@ -23732,34 +21878,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 60.96 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 60.96 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 60.96 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 60.96 179.07 0)
 			(effects
 				(font
@@ -24151,15 +22270,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 52.07 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 52.07 19.05 0)
 			(effects
@@ -24178,34 +22288,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 52.07 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 52.07 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 52.07 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 52.07 19.05 0)
 			(effects
 				(font
@@ -24292,15 +22375,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 222.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 222.25 55.88 0)
 			(effects
@@ -24319,34 +22393,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 222.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 222.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 222.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 222.25 55.88 0)
 			(effects
 				(font
@@ -24500,15 +22547,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 209.55 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 209.55 143.51 0)
 			(effects
@@ -24527,34 +22565,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 209.55 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 209.55 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 209.55 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 209.55 143.51 0)
 			(effects
 				(font
@@ -24657,15 +22668,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 38.1 100.33 0)
 			(effects
@@ -24684,34 +22686,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 38.1 100.33 0)
 			(effects
 				(font
@@ -24992,15 +22967,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 36.83 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 36.83 19.05 0)
 			(effects
@@ -25019,34 +22985,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 36.83 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 36.83 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 36.83 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 36.83 19.05 0)
 			(effects
 				(font
@@ -25199,15 +23138,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 201.93 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 201.93 55.88 0)
 			(effects
@@ -25226,34 +23156,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 201.93 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 201.93 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 201.93 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 201.93 55.88 0)
 			(effects
 				(font
@@ -25407,15 +23310,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 107.95 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 107.95 168.91 0)
 			(effects
@@ -25434,34 +23328,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 107.95 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 107.95 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 107.95 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 107.95 168.91 0)
 			(effects
 				(font
@@ -25543,15 +23410,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 106.68 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 106.68 22.86 0)
 			(effects
@@ -25570,34 +23428,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 106.68 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 106.68 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 106.68 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 106.68 22.86 0)
 			(effects
 				(font
@@ -25883,15 +23714,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 176.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 176.53 146.05 0)
 			(effects
@@ -25910,34 +23732,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 176.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 176.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 176.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 176.53 146.05 0)
 			(effects
 				(font
@@ -26027,15 +23822,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 170.18 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 170.18 40.64 0)
 			(effects
@@ -26054,34 +23840,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 170.18 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 170.18 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 170.18 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 170.18 40.64 0)
 			(effects
 				(font
@@ -26540,15 +24299,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 247.65 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 247.65 118.11 0)
 			(effects
@@ -26567,34 +24317,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 247.65 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 247.65 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 247.65 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 247.65 118.11 0)
 			(effects
 				(font
@@ -26874,15 +24597,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 238.76 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 238.76 118.11 0)
 			(effects
@@ -26901,34 +24615,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 238.76 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 238.76 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 238.76 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 238.76 118.11 0)
 			(effects
 				(font
@@ -27081,15 +24768,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 148.59 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 148.59 95.25 0)
 			(effects
@@ -27108,34 +24786,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 148.59 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 148.59 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 148.59 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 148.59 95.25 0)
 			(effects
 				(font
@@ -27222,15 +24873,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 191.77 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 191.77 55.88 0)
 			(effects
@@ -27249,34 +24891,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 191.77 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 191.77 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 191.77 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 191.77 55.88 0)
 			(effects
 				(font
@@ -27491,6 +25106,15 @@
 				(hide yes)
 			)
 		)
+		(property "Category" ""
+			(at 162.56 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "685fc54f-c722-4cf6-874f-873871eb3df0")
 		)
@@ -27569,15 +25193,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 146.05 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 146.05 161.29 0)
 			(effects
@@ -27596,34 +25211,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 146.05 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 146.05 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 146.05 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 146.05 161.29 0)
 			(effects
 				(font
@@ -27711,15 +25299,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 165.1 76.2 0)
 			(effects
@@ -27738,34 +25317,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 165.1 76.2 0)
 			(effects
 				(font
@@ -28158,15 +25710,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 127 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 127 146.05 0)
 			(effects
@@ -28185,34 +25728,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 127 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 127 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 127 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 127 146.05 0)
 			(effects
 				(font
@@ -28366,15 +25882,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 91.44 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 91.44 121.92 0)
 			(effects
@@ -28393,34 +25900,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 91.44 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 91.44 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 91.44 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 91.44 121.92 0)
 			(effects
 				(font
@@ -28812,15 +26292,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 135.89 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 135.89 59.69 0)
 			(effects
@@ -28839,34 +26310,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 135.89 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 135.89 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 135.89 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 135.89 59.69 0)
 			(effects
 				(font
@@ -28953,15 +26397,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 212.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 212.09 55.88 0)
 			(effects
@@ -28980,34 +26415,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 212.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 212.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 212.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 212.09 55.88 0)
 			(effects
 				(font
@@ -29158,15 +26566,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 152.4 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 152.4 179.07 0)
 			(effects
@@ -29185,34 +26584,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 152.4 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 152.4 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 152.4 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 152.4 179.07 0)
 			(effects
 				(font
@@ -29365,15 +26737,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 152.4 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 152.4 33.02 0)
 			(effects
@@ -29392,34 +26755,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 152.4 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 152.4 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 152.4 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 152.4 33.02 0)
 			(effects
 				(font

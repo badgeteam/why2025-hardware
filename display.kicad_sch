@@ -1285,12 +1285,6 @@
 		(uuid "02abe95c-cea8-4095-9bb5-84f2f87af29e")
 	)
 	(junction
-		(at 171.45 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06bf22f8-537d-4837-9858-8d1436c28577")
-	)
-	(junction
 		(at 133.35 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1325,6 +1319,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32bab5bc-afa1-42c2-b85d-60b340dda677")
+	)
+	(junction
+		(at 171.45 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37f1e092-2135-4096-8c0e-0763a0a916ab")
 	)
 	(junction
 		(at 153.67 93.98)
@@ -1409,6 +1409,16 @@
 			(type default)
 		)
 		(uuid "0e37ea8f-7420-4eb8-b8bc-500e731217d8")
+	)
+	(wire
+		(pts
+			(xy 171.45 99.06) (xy 171.45 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1428c364-b62e-4f28-833f-c1e1e4d7c7d6")
 	)
 	(wire
 		(pts
@@ -1602,6 +1612,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 88.9) (xy 179.07 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d91d5c-dcc4-4e7f-a58b-035c8f67803c")
+	)
+	(wire
+		(pts
 			(xy 73.66 73.66) (xy 85.09 73.66)
 		)
 		(stroke
@@ -1679,26 +1699,6 @@
 			(type default)
 		)
 		(uuid "a1ad8728-9084-4219-a422-80503b8eb763")
-	)
-	(wire
-		(pts
-			(xy 171.45 88.9) (xy 171.45 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6ee3b59-3022-4004-b7d8-5c53ffad7604")
-	)
-	(wire
-		(pts
-			(xy 171.45 88.9) (xy 179.07 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa91bce6-caa8-4527-89a1-2e42b50e4a2b")
 	)
 	(wire
 		(pts
@@ -1792,16 +1792,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 73.66) (xy 171.45 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7391867-917e-4306-b18f-affd2bdf9f1c")
-	)
-	(wire
-		(pts
 			(xy 151.13 86.36) (xy 162.56 86.36)
 		)
 		(stroke
@@ -1879,6 +1869,16 @@
 			(type default)
 		)
 		(uuid "eb96ed69-6168-44ec-ad51-6422c01b7e5d")
+	)
+	(wire
+		(pts
+			(xy 171.45 88.9) (xy 171.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60b072b-e4af-4f56-b2e1-e5b092ef268a")
 	)
 	(text "!! The Footprint is numbered criss cross, in the display datasheet it's not.\n\nIn the display datasheet:\nstart, top left 1 down to 12 \nthen, right bottom up 13 to 24.\n\nSo some mapping needs to be done here, if another footprint is inserted here."
 		(exclude_from_sim no)
@@ -2050,15 +2050,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 73.66 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 73.66 77.47 0)
 			(effects
@@ -2077,34 +2068,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 73.66 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 73.66 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 73.66 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 73.66 77.47 0)
 			(effects
 				(font
@@ -2192,15 +2156,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 62.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 62.23 77.47 0)
 			(effects
@@ -2219,34 +2174,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 62.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 62.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 62.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 62.23 77.47 0)
 			(effects
 				(font
@@ -2400,15 +2328,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 85.09 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 85.09 77.47 0)
 			(effects
@@ -2427,34 +2346,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 85.09 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 85.09 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 85.09 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 85.09 77.47 0)
 			(effects
 				(font
@@ -2546,33 +2438,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 171.45 80.01 0)
-		(mirror x)
+		(lib_id "power:GND")
+		(at 171.45 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "add18518-6b3c-4b42-97e7-6ebe3a013bba")
-		(property "Reference" "R98"
-			(at 175.768 78.994 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 175.768 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 169.672 80.01 90)
+		(fields_autoplaced yes)
+		(uuid "9428ebbe-0231-4e3d-8a34-d86322d1bf7f")
+		(property "Reference" "#PWR0208"
+			(at 171.45 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,8 +2456,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
-			(at 171.45 80.01 0)
+		(property "Value" "GND"
+			(at 171.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2483,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 80.01 0)
+			(at 171.45 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,8 +2491,45 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60490"
-			(at 171.45 80.01 0)
+		(pin "1"
+			(uuid "0662497e-37a0-40fe-b098-edeaa87cf763")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/f71ac64f-0729-4b77-85b6-53947ac74ff8"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 171.45 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "add18518-6b3c-4b42-97e7-6ebe3a013bba")
+		(property "Reference" "R98"
+			(at 174.752 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 175.26 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 169.672 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,8 +2537,8 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 171.45 80.01 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
+			(at 171.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,8 +2546,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 171.45 80.01 0)
+		(property "Description" ""
+			(at 171.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,8 +2555,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 171.45 80.01 0)
+		(property "LCSC" "C25741"
+			(at 171.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,35 +2564,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 171.45 80.01 0)
+		(property "Category" ""
+			(at 171.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,15 +2784,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 96.52 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 96.52 77.47 0)
 			(effects
@@ -2908,34 +2802,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 96.52 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 96.52 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 96.52 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 96.52 77.47 0)
 			(effects
 				(font
@@ -3158,72 +3025,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 171.45 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc069db9-84fe-48cc-ba74-a73043088fa9")
-		(property "Reference" "#PWR0208"
-			(at 171.45 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 171.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 171.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98c73ff4-52db-4385-a8fa-9908b5553dcf")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183/f71ac64f-0729-4b77-85b6-53947ac74ff8"
-					(reference "#PWR0208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 153.67 111.76 0)
 		(unit 1)
@@ -3343,25 +3144,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C3036280"
-			(at 143.51 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C3036280"
-			(at 143.51 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
 			(at 143.51 92.71 0)
 			(effects
 				(font
@@ -3388,34 +3171,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 143.51 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 143.51 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 143.51 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 143.51 92.71 0)
 			(effects
 				(font
@@ -3639,15 +3395,6 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 162.56 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 162.56 80.01 0)
 			(effects
@@ -3666,34 +3413,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 162.56 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 162.56 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 162.56 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
+		(property "Category" ""
 			(at 162.56 80.01 0)
 			(effects
 				(font
