@@ -5748,110 +5748,6 @@
 	)
 	(symbol
 		(lib_id "symbols:R")
-		(at 128.27 27.94 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "804643f1-77de-4bd4-915c-83390e7bc6a2")
-		(property "Reference" "R16"
-			(at 132.08 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 132.08 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 130.048 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
-			(at 128.27 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 128.27 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 128.27 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 128.27 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 128.27 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9976540-28a9-4008-8ce8-9563fa1873df")
-		)
-		(pin "2"
-			(uuid "36b12c1e-a827-4e4d-972d-be60a0227b4d")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:R")
 		(at 151.13 27.94 0)
 		(mirror y)
 		(unit 1)
@@ -6671,6 +6567,110 @@
 			(project ""
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:R")
+		(at 128.27 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce961906-8274-45d9-8071-e3ee3f80f18c")
+		(property "Reference" "R16"
+			(at 132.08 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "51k"
+			(at 132.08 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 130.048 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5102TCE_C25794.html"
+			(at 128.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25794"
+			(at 128.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 128.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 128.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" ""
+			(at 128.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62c93015-4aab-42ee-b059-3b5de057a70e")
+		)
+		(pin "2"
+			(uuid "745eb813-d596-43e2-87d5-9e805392963e")
+		)
+		(instances
+			(project "why2025"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
+					(reference "R16")
 					(unit 1)
 				)
 			)

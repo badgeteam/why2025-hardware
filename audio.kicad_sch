@@ -2608,6 +2608,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 83.82) (xy 182.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20bdda40-9f54-4c18-a0da-8335941425ca")
+	)
+	(wire
+		(pts
 			(xy 240.03 60.96) (xy 240.03 58.42)
 		)
 		(stroke
@@ -3085,16 +3095,6 @@
 			(type default)
 		)
 		(uuid "9c707b30-ba6a-42e6-869f-7bbbccc7cec8")
-	)
-	(wire
-		(pts
-			(xy 116.84 83.82) (xy 182.88 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a842d391-1023-457c-a283-fe8b6a6d580d")
 	)
 	(wire
 		(pts
@@ -4771,24 +4771,24 @@
 	)
 	(symbol
 		(lib_id "symbols:R")
-		(at 113.03 83.82 270)
+		(at 105.41 83.82 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4b487610-a13e-4a08-b7f6-8c9d1362696a")
-		(property "Reference" "R79"
-			(at 113.03 81.788 90)
+		(uuid "3ee43bab-3219-4cf7-8046-a8268543a8f9")
+		(property "Reference" "R87"
+			(at 105.41 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5k1"
-			(at 113.03 86.106 90)
+		(property "Value" "10k"
+			(at 105.41 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,7 +4796,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 113.03 85.598 90)
+			(at 105.41 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,8 +4804,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
-			(at 113.03 83.82 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
+			(at 105.41 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4814,7 +4814,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 83.82 0)
+			(at 105.41 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,8 +4822,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25905"
-			(at 113.03 83.82 0)
+		(property "LCSC" "C60490"
+			(at 105.41 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +4832,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 113.03 83.82 0)
+			(at 105.41 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +4841,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 113.03 83.82 0)
+			(at 105.41 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,7 +4850,7 @@
 			)
 		)
 		(property "Category" ""
-			(at 113.03 83.82 0)
+			(at 105.41 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4859,15 +4859,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "92b2d5f5-e3e9-4305-ab03-0145535b126f")
+			(uuid "6d0d0a50-bf43-4333-9141-5a590e9da53f")
 		)
 		(pin "2"
-			(uuid "b779e6fe-141e-4d63-a726-e7debd1db95a")
+			(uuid "99ff3faa-41f0-4a46-bb19-0b71ad79a917")
 		)
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/26e0a3c5-321c-4e16-844f-a29ed28cc9bc"
-					(reference "R79")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -6935,110 +6935,6 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/26e0a3c5-321c-4e16-844f-a29ed28cc9bc"
 					(reference "TP24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:R")
-		(at 105.41 83.82 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a32e1c60-17d5-47f6-87a5-494090bd4852")
-		(property "Reference" "R77"
-			(at 105.41 81.788 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5k1"
-			(at 105.41 86.106 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 105.41 85.598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
-			(at 105.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25905"
-			(at 105.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 105.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 105.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 105.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8727a25-c295-4551-aae8-fcd3b6b80b95")
-		)
-		(pin "2"
-			(uuid "ab6971ff-4610-4320-b9ef-2eb2dd715184")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183/26e0a3c5-321c-4e16-844f-a29ed28cc9bc"
-					(reference "R77")
 					(unit 1)
 				)
 			)
