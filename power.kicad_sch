@@ -17544,7 +17544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_LIZ-Elec-CR0402FF1803G_C100276.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Fojan-FRC0402F1803TS/C2909325"
 			(at 166.37 72.39 0)
 			(effects
 				(font
@@ -17562,7 +17562,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C100276"
+		(property "LCSC" "C2909325"
 			(at 166.37 72.39 0)
 			(effects
 				(font
